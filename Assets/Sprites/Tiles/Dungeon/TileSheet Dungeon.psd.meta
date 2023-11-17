@@ -1,0 +1,1065 @@
+fileFormatVersion: 2
+guid: 6b8db1b94758cf74d81a44631372640d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4730231978109452588
+    second: TileSheet Dungeon 1_0
+  - first:
+      213: 2717325289741586353
+    second: TileSheet Dungeon 1_1
+  - first:
+      213: -8316626022211766059
+    second: TileSheet Dungeon 1_2
+  - first:
+      213: -5741865284453794600
+    second: TileSheet Dungeon 1_3
+  - first:
+      213: -2004701691743932730
+    second: TileSheet Dungeon 1_4
+  - first:
+      213: -346060176953518079
+    second: TileSheet Dungeon 1_5
+  - first:
+      213: 3817038217167731454
+    second: TileSheet Dungeon 1_6
+  - first:
+      213: 7428357412718317000
+    second: TileSheet Dungeon 1_7
+  - first:
+      213: -5244872045944723940
+    second: TileSheet Dungeon 1_8
+  - first:
+      213: 2171171671426029771
+    second: TileSheet Dungeon 1_9
+  - first:
+      213: -5984704340927344128
+    second: TileSheet Dungeon 1_10
+  - first:
+      213: 2796490018450120147
+    second: TileSheet Dungeon 1_11
+  - first:
+      213: -1192468654286912869
+    second: TileSheet Dungeon 1_12
+  - first:
+      213: 4890799540225289386
+    second: TileSheet Dungeon 1_13
+  - first:
+      213: 1730718640173676375
+    second: TileSheet Dungeon 1_14
+  - first:
+      213: -1896708802721216168
+    second: TileSheet Dungeon 1_15
+  - first:
+      213: -7431423281983872878
+    second: TileSheet Dungeon 1_16
+  - first:
+      213: 9123273716685795474
+    second: TileSheet Dungeon 1_17
+  - first:
+      213: 1996989916006959290
+    second: TileSheet Dungeon 1_18
+  - first:
+      213: 2887972375683158031
+    second: TileSheet Dungeon 1_19
+  - first:
+      213: -4691856288411488709
+    second: TileSheet Dungeon 1_20
+  - first:
+      213: 4080216030236585623
+    second: TileSheet Dungeon 1_21
+  - first:
+      213: 5521779454130246628
+    second: TileSheet Dungeon 1_22
+  - first:
+      213: -8913506929942642707
+    second: TileSheet Dungeon 1_23
+  - first:
+      213: -7467101790576921801
+    second: TileSheet Dungeon 1_24
+  - first:
+      213: 2514299591124445959
+    second: TileSheet Dungeon 1_25
+  - first:
+      213: -3706087028921906210
+    second: TileSheet Dungeon 1_26
+  - first:
+      213: 4389876095566477501
+    second: TileSheet Dungeon 1_27
+  - first:
+      213: -6459487135622552698
+    second: TileSheet Dungeon 1_28
+  - first:
+      213: -5700393182514296096
+    second: TileSheet Dungeon 1_29
+  - first:
+      213: 1231284376905323887
+    second: TileSheet Dungeon 1_30
+  - first:
+      213: -7455320178786469323
+    second: TileSheet Dungeon 1_31
+  - first:
+      213: -7048255461750798075
+    second: TileSheet Dungeon 1_32
+  - first:
+      213: 8565826963456459918
+    second: TileSheet Dungeon 1_33
+  - first:
+      213: -2361910340795051126
+    second: TileSheet Dungeon 1_34
+  - first:
+      213: 3406097599165408318
+    second: TileSheet Dungeon 1_35
+  - first:
+      213: -2818697513289392163
+    second: TileSheet Dungeon 1_36
+  - first:
+      213: -6439557587970903083
+    second: TileSheet Dungeon 1_37
+  - first:
+      213: -1840731151582269385
+    second: TileSheet Dungeon 1_38
+  - first:
+      213: -8654002726848299333
+    second: TileSheet Dungeon 1_39
+  - first:
+      213: 6612762800636309768
+    second: TileSheet Dungeon 1_40
+  - first:
+      213: 4876840884980727997
+    second: TileSheet Dungeon 1_41
+  - first:
+      213: -897899152644980990
+    second: TileSheet Dungeon 1_42
+  - first:
+      213: 4285797935312029549
+    second: TileSheet Dungeon 1_43
+  - first:
+      213: 2488568621160568229
+    second: TileSheet Dungeon 1_44
+  - first:
+      213: 8924225246541080168
+    second: TileSheet Dungeon 1_45
+  - first:
+      213: -5662090853038929136
+    second: TileSheet Dungeon 1_46
+  - first:
+      213: -5819037132770073205
+    second: TileSheet Dungeon 1_47
+  - first:
+      213: -4994150394641814905
+    second: TileSheet Dungeon 1_48
+  - first:
+      213: 2659187610948045494
+    second: TileSheet Dungeon 1_49
+  - first:
+      213: -6917072747773343327
+    second: TileSheet Dungeon 1_50
+  - first:
+      213: -5724870357344016846
+    second: TileSheet Dungeon 1_51
+  - first:
+      213: 8858899956970182737
+    second: TileSheet Dungeon 1_52
+  - first:
+      213: 369819530584924497
+    second: TileSheet Dungeon 1_53
+  - first:
+      213: -1095167542586685494
+    second: TileSheet Dungeon 1_54
+  - first:
+      213: 506503864352890727
+    second: TileSheet Dungeon 1_55
+  - first:
+      213: -7427506454500561644
+    second: TileSheet Dungeon 1_56
+  - first:
+      213: 2351445358739072134
+    second: TileSheet Dungeon 1_57
+  - first:
+      213: 6446624528083636130
+    second: TileSheet Dungeon 1_58
+  - first:
+      213: 1925176497688662
+    second: TileSheet Dungeon 1_59
+  - first:
+      213: -2103922071439547078
+    second: TileSheet Dungeon 1_60
+  - first:
+      213: -1402060552042051515
+    second: TileSheet Dungeon 1_61
+  - first:
+      213: -3848337687096357827
+    second: TileSheet Dungeon 1_62
+  - first:
+      213: -7876007964006891756
+    second: TileSheet Dungeon 1_63
+  - first:
+      213: 1880953661281425220
+    second: TileSheet Dungeon 1_64
+  - first:
+      213: 465255652004335805
+    second: TileSheet Dungeon 1_65
+  - first:
+      213: -9196189856474917584
+    second: TileSheet Dungeon 1_66
+  - first:
+      213: 2608823308143193761
+    second: TileSheet Dungeon 1_67
+  - first:
+      213: -409906216087654784
+    second: TileSheet Dungeon 1_68
+  - first:
+      213: 1944269777899117785
+    second: TileSheet Dungeon 1_69
+  - first:
+      213: 5542924513194305067
+    second: TileSheet Dungeon 1_70
+  - first:
+      213: -2741443142178680262
+    second: TileSheet Dungeon 1_71
+  - first:
+      213: -9215984742757058204
+    second: TileSheet Dungeon 1_72
+  - first:
+      213: -2330893378009465265
+    second: TileSheet Dungeon 1_73
+  - first:
+      213: 7214071888063698238
+    second: TileSheet Dungeon 1_74
+  - first:
+      213: -6376945218188885486
+    second: TileSheet Dungeon 1_75
+  - first:
+      213: 7348225973543625381
+    second: TileSheet Dungeon 1_76
+  - first:
+      213: 2901262035429377039
+    second: TileSheet Dungeon 1_77
+  - first:
+      213: 1367397354506170285
+    second: TileSheet Dungeon 1_78
+  - first:
+      213: -5687542480578657965
+    second: TileSheet Dungeon 1_79
+  - first:
+      213: 2894956333976700740
+    second: TileSheet Dungeon 1_80
+  - first:
+      213: -8557927353659532158
+    second: TileSheet Dungeon 1_81
+  - first:
+      213: 6964961725314015545
+    second: TileSheet Dungeon 1_82
+  - first:
+      213: -3058078795033122536
+    second: TileSheet Dungeon 1_83
+  - first:
+      213: -2521073730183629637
+    second: TileSheet Dungeon 1_84
+  - first:
+      213: -2903660067477287178
+    second: TileSheet Dungeon 1_85
+  - first:
+      213: 6093034035299133364
+    second: TileSheet Dungeon 1_86
+  - first:
+      213: 3056080711304640641
+    second: TileSheet Dungeon 1_87
+  - first:
+      213: -6222151583881682809
+    second: TileSheet Dungeon 1_88
+  - first:
+      213: -4999168168787309246
+    second: TileSheet Dungeon 1_89
+  - first:
+      213: 6329753753370381870
+    second: TileSheet Dungeon 1_90
+  - first:
+      213: -4474217365636466902
+    second: TileSheet Dungeon 1_91
+  - first:
+      213: 1172345962724518666
+    second: TileSheet Dungeon 1_92
+  - first:
+      213: 3747837548759633309
+    second: TileSheet Dungeon 1_93
+  - first:
+      213: 8412741517396632069
+    second: TileSheet Dungeon 1_94
+  - first:
+      213: 4133192395022118582
+    second: TileSheet Dungeon 1_95
+  - first:
+      213: -1926900215243378544
+    second: TileSheet Dungeon 1_96
+  - first:
+      213: -1605841081273911603
+    second: TileSheet Dungeon 1_97
+  - first:
+      213: -2211001765238895452
+    second: TileSheet Dungeon 1_98
+  - first:
+      213: 1537352341784427096
+    second: TileSheet Dungeon 1_99
+  - first:
+      213: 3671392060138687239
+    second: TileSheet Dungeon 1_100
+  - first:
+      213: -3776458493303045104
+    second: TileSheet Dungeon 1_101
+  - first:
+      213: -2745695584091149059
+    second: TileSheet Dungeon 1_102
+  - first:
+      213: -3429084680076700233
+    second: TileSheet Dungeon 1_103
+  - first:
+      213: 7009794532226054017
+    second: TileSheet Dungeon 1_104
+  - first:
+      213: 3710176801015573236
+    second: TileSheet Dungeon 1_105
+  - first:
+      213: -34327069719145514
+    second: TileSheet Dungeon 1_106
+  - first:
+      213: 3762123771837905396
+    second: TileSheet Dungeon 1_107
+  - first:
+      213: -1431606301345337847
+    second: TileSheet Dungeon 1_108
+  - first:
+      213: -809889148593638958
+    second: TileSheet Dungeon 1_109
+  - first:
+      213: -8876389845974311956
+    second: TileSheet Dungeon 1_110
+  - first:
+      213: -4400727657655985063
+    second: TileSheet Dungeon 1_111
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2148681ce825a140800000000000000
+      internalID: 4730231978109452588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d83c4832b8659c80800000000000000
+      internalID: -8316626022211766059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce6af6ce6edd24e0800000000000000
+      internalID: -2004701691743932730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa7f54f808d8f430800000000000000
+      internalID: 3817038217167731454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16a619a9a87637b0800000000000000
+      internalID: -5244872045944723940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_10
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00299493c1f02fca0800000000000000
+      internalID: -5984704340927344128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_12
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92c07fa310837fe0800000000000000
+      internalID: -1192468654286912869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f2b9fe6fb40810800000000000000
+      internalID: 1730718640173676375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_16
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290a8cdf5e74ed890800000000000000
+      internalID: -7431423281983872878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_18
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8c1a38fbbb6bb10800000000000000
+      internalID: 1996989916006959290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_20
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eec00709d23eeb0800000000000000
+      internalID: -4691856288411488709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3db7b682d41ac40800000000000000
+      internalID: 5521779454130246628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_24
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733bafedb768f5890800000000000000
+      internalID: -7467101790576921801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_26
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb4d6e9b75519cc0800000000000000
+      internalID: -3706087028921906210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 500
+        height: 250
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683230a8caa4b56a0800000000000000
+      internalID: -6459487135622552698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 500
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea4d2c3a9224e0b0800000000000000
+      internalID: -5700393182514296096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_30
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 500
+        height: 250
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f651eeefd96661110800000000000000
+      internalID: 1231284376905323887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 750
+        width: 500
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a71a02cc1698890800000000000000
+      internalID: -7455320178786469323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 250
+        height: 500
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509032430019f2e90800000000000000
+      internalID: -7048255461750798075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_33
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 500
+        width: 250
+        height: 500
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8409445d3eefd670800000000000000
+      internalID: 8565826963456459918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_34
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 500
+        width: 250
+        height: 500
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83d6991f0fc83fd0800000000000000
+      internalID: -2361910340795051126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_35
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 500
+        width: 250
+        height: 500
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34a09c58b3e44f20800000000000000
+      internalID: 3406097599165408318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_36
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfdb17bb89f1e8d0800000000000000
+      internalID: -2818697513289392163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_38
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73071fe25c86476e0800000000000000
+      internalID: -1840731151582269385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_40
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80138d33bb045cb50800000000000000
+      internalID: 6612762800636309768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fb87a5a750a83f0800000000000000
+      internalID: -897899152644980990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet Dungeon 1_44
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a59577d9fb298220800000000000000
+      internalID: 2488568621160568229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TileSheet Dungeon 1_35: 3406097599165408318
+      TileSheet Dungeon 1_38: -1840731151582269385
+      TileSheet Dungeon 1_29: -5700393182514296096
+      TileSheet Dungeon 1_30: 1231284376905323887
+      TileSheet Dungeon 1_36: -2818697513289392163
+      TileSheet Dungeon 1_4: -2004701691743932730
+      TileSheet Dungeon 1_26: -3706087028921906210
+      TileSheet Dungeon 1_31: -7455320178786469323
+      TileSheet Dungeon 1_14: 1730718640173676375
+      TileSheet Dungeon 1_6: 3817038217167731454
+      TileSheet Dungeon 1_12: -1192468654286912869
+      TileSheet Dungeon 1_33: 8565826963456459918
+      TileSheet Dungeon 1_22: 5521779454130246628
+      TileSheet Dungeon 1_44: 2488568621160568229
+      TileSheet Dungeon 1_2: -8316626022211766059
+      TileSheet Dungeon 1_0: 4730231978109452588
+      TileSheet Dungeon 1_10: -5984704340927344128
+      TileSheet Dungeon 1_18: 1996989916006959290
+      TileSheet Dungeon 1_16: -7431423281983872878
+      TileSheet Dungeon 1_24: -7467101790576921801
+      TileSheet Dungeon 1_8: -5244872045944723940
+      TileSheet Dungeon 1_40: 6612762800636309768
+      TileSheet Dungeon 1_20: -4691856288411488709
+      TileSheet Dungeon 1_42: -897899152644980990
+      TileSheet Dungeon 1_28: -6459487135622552698
+      TileSheet Dungeon 1_32: -7048255461750798075
+      TileSheet Dungeon 1_34: -2361910340795051126
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

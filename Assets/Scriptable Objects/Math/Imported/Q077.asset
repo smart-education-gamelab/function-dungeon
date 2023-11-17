@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q077
+  m_EditorClassIdentifier: 
+  id: Q077
+  question: "Mik\xE4 taulukko vastaa v\xE4henev\xE4\xE4 lineaarista funktiota, joka
+    leikkaa y-akselin kohdassa -4?"
+  image: {fileID: 21300000, guid: fd15b456b1bbba844b5c1f0f6ee85c71, type: 3}
+  correct: Taulukko D
+  wrong1: Taulukko A
+  wrong2: Taulukko B
+  wrong3: Taulukko C
+  section: 2.5
+  variation: 
+  learningGoal: G2
+  feedback: Taulukko D on oikea, koska x = 0 taulukossa D, kuin y = -4.
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

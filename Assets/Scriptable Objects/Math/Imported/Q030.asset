@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q030
+  m_EditorClassIdentifier: 
+  id: Q030
+  question: "Mill\xE4 n\xE4ist\xE4 funktioista ovat kuvaaja, jonka kulmakerroin on
+    pienempi tai yht\xE4 suuri kuin 1?"
+  image: {fileID: 21300000, guid: 4eebfc4f15284db4b8dd49d9e8350408, type: 3}
+  correct: Funktioilla 1, 2 ja 4
+  wrong1: Funktioilla 1, 3 ja 4
+  wrong2: Funktioilla 1, 2 ja 3
+  wrong3: Funktioilla 2, 3 ja 4
+  section: 2.7
+  variation: 31
+  learningGoal: G3
+  feedback: Funktiot 1, 2 ja 4 ovat oikeita vaihtoehtoja.
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

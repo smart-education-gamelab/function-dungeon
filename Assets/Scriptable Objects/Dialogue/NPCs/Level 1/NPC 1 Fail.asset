@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258c1598b01db4498fc138c3571dd87, type: 3}
+  m_Name: NPC 1 Fail
+  m_EditorClassIdentifier: 
+  content:
+  - sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    sentences: "Eik\xF6 t\xE4m\xE4 maljakko n\xE4ytt\xE4isikin paljon paremmalta,
+      jos siin\xE4 olisi kukkia?"
+  - sprite: {fileID: 0}
+    sentences: "N\xE4ytt\xE4\xE4 silt\xE4, \u200B\u200Bett\xE4 voimme l\xF6yt\xE4\xE4
+      kukan t\xE4st\xE4 taulukosta puuttuvissa koordinaateissa. L\xF6yd\xE4tk\xF6
+      sen?"

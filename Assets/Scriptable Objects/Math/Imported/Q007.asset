@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q007
+  m_EditorClassIdentifier: 
+  id: Q007
+  question: "Mik\xE4 arvo sopii vihre\xE4\xE4n alueeseen?"
+  image: {fileID: 21300000, guid: 971338901c3dffc4e9c1288479555268, type: 3}
+  correct: 16
+  wrong1: 14
+  wrong2: 18
+  wrong3: "Mik\xE4\xE4n n\xE4ist\xE4"
+  section: 1.1
+  variation: 5
+  learningGoal: G1
+  feedback: "Arvo 16 on oikea. Muutosnopeus on vakio ja yht\xE4 suuri kuin 3 (y-arvojen
+    -2 ja -11: n v\xE4linen ero jaettuna vastaavan x-arvojen 1 ja -4 v\xE4lill\xE4).
+    X-arvojen 5 ja -1: n v\xE4linen ero on 6 ja koska nopeus on 3, tied\xE4t, ett\xE4
+    niit\xE4 vastaavien y-arvojen v\xE4lisen eron on oltava 3-kertainen niiden ero
+    (3x6 = 18). Y-arvon laskemiseksi kohdassa x = 5 lis\xE4\xE4t 18 y-arvoon kohdassa
+    x = -1. N\xE4in saadaan -2+18 = 16."
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

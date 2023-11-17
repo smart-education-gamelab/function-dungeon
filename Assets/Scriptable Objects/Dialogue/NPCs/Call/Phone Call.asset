@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258c1598b01db4498fc138c3571dd87, type: 3}
+  m_Name: Phone Call
+  m_EditorClassIdentifier: 
+  content:
+  - sprite: {fileID: 21300000, guid: 55be3041a63620b4e9fdd9934f46dcff, type: 3}
+    sentences: "Hei! Katsotaanpa, voinko auttaa sinua t\xE4ss\xE4..."
+  - sprite: {fileID: 0}
+    sentences: "Vaikuttaa silt\xE4, \u200B\u200Bett\xE4 \"[WRONG1]\" ja \"[WRONG2]\"
+      ovat v\xE4\xE4rin. Toivon, ett\xE4 t\xE4m\xE4 auttaa sinua l\xF6yt\xE4m\xE4\xE4n
+      oikean vastauksen!"

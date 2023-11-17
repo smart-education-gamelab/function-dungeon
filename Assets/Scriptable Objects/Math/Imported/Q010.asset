@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q010
+  m_EditorClassIdentifier: 
+  id: Q010
+  question: "Kun katsotaan taulukkoa, mik\xE4 on sit\xE4 vastaava kaava?"
+  image: {fileID: 21300000, guid: dfbf006e6dfc6c741b6807f046efcf44, type: 3}
+  correct: y = 6x
+  wrong1: y = -6x
+  wrong2: y = 6
+  wrong3: y = 6x+1
+  section: 2.3
+  variation: 8
+  learningGoal: G2
+  feedback: "y = 6x on oikea. Muutosnopeus on vakio ja yht\xE4 suuri kuin 6 (y-arvojen
+    30 ja 12 v\xE4linen ero jaettuna vastaavien x-arvojen 5 ja 3 v\xE4lisell\xE4
+    erolla)."
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0
