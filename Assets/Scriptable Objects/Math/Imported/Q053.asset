@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q053
+  m_EditorClassIdentifier: 
+  id: Q053
+  image: {fileID: 21300000, guid: 4cc7fa545d13f48419aac942b2e7cf31, type: 3}
+  text:
+  - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+    question: Welke van deze lijnen heeft een helling van -5?
+    correct: c
+    wrong1: a
+    wrong2: b
+    wrong3: d
+    feedback: grafiek (c) is correct omdat het teken van de helling negatief is (afnemende
+      grafiek) en groter is (de grafiek is steiler)
+  - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+    question: Which of these lines has slope -5?
+    correct: c
+    wrong1: a
+    wrong2: b
+    wrong3: d
+    feedback: 'graph (c) is correct because the sign of slope is negative (decreasing
+      graph) and greater magnitude (the graph is more steep) '
+  section: 1.3
+  variation: 23
+  learningGoal: G1
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

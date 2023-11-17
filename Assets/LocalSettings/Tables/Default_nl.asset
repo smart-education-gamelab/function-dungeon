@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_nl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: nl
+  m_SharedData: {fileID: 11400000, guid: 073bf3d286edcdf4e81273b945f74c72, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 20699836416
+    m_Localized: Loop romd met de WASD of pijltjestoetsen. Druk op spatiebalk om
+      verder te gaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59513925632
+    m_Localized: Sommige voorwerpen beginnen te sprankelen als ik er dichtbij kom.
+      Met die voorwerpen kun je iets doen door op de spatiebalk te drukken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93965938688
+    m_Localized: Na het helpen van een vriend, kan ik ze bellen om te helpen met
+      moeilijke vragen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107622592512
+    m_Localized: "Soms zullen personages zoals ik je vragen om objecten die verborgen
+      zijn in de kerkers te vinden en terug te brengen. Kun je het object vinden
+      op de ontbrekende co\xF6rdinaat?\r\nJe kunt je eigen co\xF6rdinaten zien in
+      de rechterbovenhoek. Je hoeft alleen maar naar de juiste plek te lopen en op
+      SPATIE te drukken."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129575579648
+    m_Localized: Goed bezig met het vinden van het item! Als je de volgende keer
+      vastzit met een moeilijke vraag, bel me dan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27233927196672
+    m_Localized: Oh! Het lijkt erop dat iemand hier wat aantekeningen over het probleem
+      heeft achtergelaten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27334938619904
+    m_Localized: Wacht even... Er is een vraag!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27438248521728
+    m_Localized: Hallo! Laten we eens kijken of ik je kan helpen...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27532767162368
+    m_Localized: Het lijkt erop dat "[WRONG1]" en "[WRONG2]" niet kloppen. Ik hoop
+      dat dit je helpt om het juiste antwoord te vinden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27599288823808
+    m_Localized: Vind je ook niet dat deze vaas er veel beter uit zou zien met wat
+      bloemen erin?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27791266312192
+    m_Localized: "Het lijkt erop dat we misschien bloemen kunnen vinden op de ontbrekende
+      co\xF6rdinaat van deze tafel. Kun je het vinden?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27815765241856
+    m_Localized: Je hebt het gevonden! Dank je wel! Het ziet er nu veel beter uit.
+      Als je ooit hulp nodig hebt, bel me dan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27870240862208
+    m_Localized: Als ik maar wat krijt had, kon ik op dit schoolbord schrijven. Kun
+      je wat voor me vinden?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27891560509440
+    m_Localized: Heel erg bedankt! Bel me vooral wanneer je hulp nodig hebt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77147507945472
+    m_Localized: 'Bewegen: WASD of Pijltjestoetsen
+
+      Interactie: SPATIE'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77278860963840
+    m_Localized: 'Kies een level:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77306996355072
+    m_Localized: Level 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77330195050496
+    m_Localized: Level 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77340924080128
+    m_Localized: Uitleg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80267633913856
+    m_Localized: Genereer een level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701939655274496
+    m_Localized: PAUZE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703583293960192
+    m_Localized: Hoofdmenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703622049329152
+    m_Localized: Terug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703695130882048
+    m_Localized: Herstart
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

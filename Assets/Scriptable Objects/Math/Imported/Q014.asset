@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q014
+  m_EditorClassIdentifier: 
+  id: Q014
+  image: {fileID: 21300000, guid: 6b23b5d95831b4f4594e18b0c855ae08, type: 3}
+  text:
+  - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+    question: Er zijn vier rechte lijnen getekend. Welke grafiek hoort bij de formule
+      y=2-0,75x?
+    correct: Lijn C
+    wrong1: Lijn B
+    wrong2: Lijn A
+    wrong3: Lijn D
+    feedback: Lijn C is correct omdat het y-snijpunt 2 is en de helling -0,75
+  - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+    question: "Drawn are four straight lines. Which graph corresponds to the formula
+      y= 2\u22120"
+    correct: 75x
+    wrong1: Line C
+    wrong2: 'Line B   '
+    wrong3: Line A
+    feedback: Q013_image1
+  section: 2.4
+  variation: 10
+  learningGoal: G2
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

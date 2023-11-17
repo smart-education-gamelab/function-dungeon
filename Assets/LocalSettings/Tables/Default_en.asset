@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 073bf3d286edcdf4e81273b945f74c72, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 2323505870387544066
+  m_TableData:
+  - m_Id: 20699836416
+    m_Localized: "Move around with the WASD or Arrow keys. Press Space to continue.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59513925632
+    m_Localized: "Some objects will start sparkling when I get close to them. Those
+      objects can be interacted with using the space bar.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93965938688
+    m_Localized: "After helping a friend out, I can give them a call to help out
+      with difficult questions.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107622592512
+    m_Localized: 'Sometimes characters like me will ask you to find and return objects
+      hidden in the dungeons. Can you find the object hidden on the missing coordinate?
+
+      You
+      can see your own coordinates in the top right corner. All you have to do is
+      walk to the right place and press SPACE.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129575579648
+    m_Localized: "Good job on finding the item! Next time you're stuck on a difficult
+      question, give me a call!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27233927196672
+    m_Localized: 'Oh! Looks like someone left some notes about the problem here!
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27334938619904
+    m_Localized: 'Wait a second... There is a question!
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27438248521728
+    m_Localized: 'Hello! Let''s see if I can help you out with this...
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27532767162368
+    m_Localized: 'It seems "[WRONG1]" and "[WRONG2]" are incorrect. I hope this helps
+      you find the right answer!
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27599288823808
+    m_Localized: 'Don''t you think this vase would look a lot better with some flowers
+      in it?
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27791266312192
+    m_Localized: 'It looks like we might be able to find flowers on the missing coordinate
+      of this table. Can you find it?
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27815765241856
+    m_Localized: 'You found it! Thank you! It does look a lot better like this. If
+      you ever need some help give me a call!
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27870240862208
+    m_Localized: 'If only I had some chalk I could write on this blackboard. Can
+      you find some for me?
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27891560509440
+    m_Localized: 'Thank you so much! Call me whenever you need some help!
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77147507945472
+    m_Localized: 'Move: WASD or Arrow Keys
+
+      Interact: SPACE'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77278860963840
+    m_Localized: 'Choose a level:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77340924080128
+    m_Localized: How to play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77330195050496
+    m_Localized: Level 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77306996355072
+    m_Localized: Level 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80267633913856
+    m_Localized: Generate a level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701939655274496
+    m_Localized: PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703583293960192
+    m_Localized: Main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703622049329152
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703695130882048
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 2323505870387544066
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 3a70ce09024200003c70ce0902420000

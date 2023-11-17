@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q078
+  m_EditorClassIdentifier: 
+  id: Q078
+  image: {fileID: 21300000, guid: 3f72d2d9e90a86c449b12cc7ddb946a6, type: 3}
+  text:
+  - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+    question: '"""Gezien de tabel. Welke leerling heeft gelijk?"""""""'
+    correct: 'Marloes: deze lineaire functie heeft helling -2.'
+    wrong1: 'Paul: deze lineaire functie gaat door (10,-10).'
+    wrong2: 'Ines: deze lineaire functie heeft y-snijpunt 4.'
+    wrong3: Geen van de studenten heeft gelijk.
+    feedback: Marloes heeft gelijk want het verschil tussen de y-waarden (bijvoorbeeld
+      4-8=-4) gedeeld door het verschil tussen de overeenkomstige x-waarden is -2.
+  - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+    question: '"Given the table. Which student is right?"'
+    correct: 'Marloes: this linear function has slope -2.'
+    wrong1: 'Paul: this linear function passes through (10;-10).'
+    wrong2: 'Ines: this linear function has y-intercept 4.'
+    wrong3: None of the students is right.
+    feedback: Marloes is right because  the difference between the y-values (for
+      example 4-8=-4) divided by the difference between the correspondent x-values
+      is -2.
+  section: 2.5
+  variation: 
+  learningGoal: G2
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0
