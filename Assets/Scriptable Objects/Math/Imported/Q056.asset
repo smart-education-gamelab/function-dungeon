@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q056
+  m_EditorClassIdentifier: 
+  id: Q056
+  question: The figure shows the first three W-patterns. Each pattern has a number.
+    Which number has a W-pattern with 21 dots?
+  image: {fileID: 21300000, guid: 16bf9fd304de3e84e95174916c6fc398, type: 3}
+  correct: 5
+  wrong1: 4
+  wrong2: 6
+  wrong3: There is no W-pattern with 21 dots
+  section: 1.1
+  variation: 24
+  learningGoal: G1
+  feedback: "It must be 5. The constant rate of change is 4 (you add always 4 dots
+    to each new pattern). Pattern 1 has 5 dots, pattern 2 has 9 dots,\u2026and pattern
+    5 has 21 dots."
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

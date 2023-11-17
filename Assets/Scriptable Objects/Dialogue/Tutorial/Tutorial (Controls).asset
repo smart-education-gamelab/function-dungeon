@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258c1598b01db4498fc138c3571dd87, type: 3}
+  m_Name: Tutorial (Controls)
+  m_EditorClassIdentifier: 
+  content:
+  - sprite: {fileID: -5031785546700673285, guid: df671191f15ba6642a84735e5d6b34df,
+      type: 3}
+    sentences: Move around with the WASD or Arrow keys. Press Space to continue.
+  - sprite: {fileID: -5031785546700673285, guid: df671191f15ba6642a84735e5d6b34df,
+      type: 3}
+    sentences: Some objects will start sparkling when I get close to them. Those
+      objects can be interacted with using the space bar.
