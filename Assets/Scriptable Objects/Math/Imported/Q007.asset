@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q007
+  m_EditorClassIdentifier: 
+  id: Q007
+  question: Koji broj treba pisati u zelenom polju?
+  image: {fileID: 21300000, guid: 971338901c3dffc4e9c1288479555268, type: 3}
+  correct: 16
+  wrong1: 14
+  wrong2: 18
+  wrong3: Niti jedan od navedenih
+  section: 1.1
+  variation: 5
+  learningGoal: G1
+  feedback: "Vrijednost 16 je to\u010Dna. Nagib pravca iznosi 3 (razlika izme\u0111u
+    y -vrijednosti -2 i -11 podijeljena s razlikom izme\u0111u odgovaraju\u0107ih
+    x -vrijednosti -1 i -4). Razlika izme\u0111u x-vrijednosti 5 i -1 je 6 te zbog
+    nagiba 3, razlika izme\u0111u odgovarju\u0107ih y-vrijednosti mora biti 3 puta
+    ve\u0107a od te razlike (3x6 = 18). Da bi izra\u010Dunali y-vrijednost za x =
+    5, dodamo 18 u y-vrijednost za x = -1. To je -2+18 = 16."
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

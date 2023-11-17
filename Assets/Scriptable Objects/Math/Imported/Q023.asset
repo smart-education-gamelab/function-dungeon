@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q023
+  m_EditorClassIdentifier: 
+  id: Q023
+  question: 'Koji su pravci paralelni? A: y = 2x + 3. B: y = 2x -5. C: y = -2x +
+    3'
+  image: {fileID: 0}
+  correct: A i B
+  wrong1: B i C
+  wrong2: A i C
+  wrong3: A i B i C
+  section: 3.1
+  variation: 16
+  learningGoal: G4
+  feedback: A i B imaju jednak nagib 2.
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

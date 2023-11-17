@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q026
+  m_EditorClassIdentifier: 
+  id: Q026
+  question: Koji graf funkcije je najstrmiji?
+  image: {fileID: 21300000, guid: eb3dab6c9066c68448469fa65e80d280, type: 3}
+  correct: Fukcija 1
+  wrong1: Funkcija 2
+  wrong2: Funkcija 3
+  wrong3: Funkcija 4
+  section: 2.7
+  variation: 30
+  learningGoal: G3
+  feedback: "Funkcija 1 je to\u010Dna jer nagib ima najve\u0107u vrijednost."
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

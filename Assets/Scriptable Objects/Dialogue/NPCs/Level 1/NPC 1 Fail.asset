@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258c1598b01db4498fc138c3571dd87, type: 3}
+  m_Name: NPC 1 Fail
+  m_EditorClassIdentifier: 
+  content:
+  - sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    sentences: "Mislite li da bi ova vaza izgledala puno bolje s nekim cvije\u0107em
+      u njoj?"
+  - sprite: {fileID: 0}
+    sentences: "Izgleda da bi mogli prona\u0107i cvije\u0107e na koordinati koja
+      nedostaje u ovoj tablici. Mo\u017Eete li ga prona\u0107i?"

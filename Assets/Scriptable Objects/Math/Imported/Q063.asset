@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q063
+  m_EditorClassIdentifier: 
+  id: Q063
+  question: Pogledajte put od A do H. Koliko iznosi nagib pravca GH?
+  image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
+  correct: 1/3
+  wrong1: 3
+  wrong2: 4
+  wrong3: 0,5
+  section: 1.4
+  variation: 27
+  learningGoal: G1
+  feedback: "1/3 je to\u010Dan odgovor, jer razlika izme\u0111u y-vrijednosti podijeljenih
+    s razlikom izme\u0111u odgovaraju\u0107ih x-vrijednosti iznosi 1/3."
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0
