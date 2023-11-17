@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q073
+  m_EditorClassIdentifier: 
+  id: Q073
+  question: "\u03A0\u03BF\u03B9\u03BF\u03C2 \u03B1\u03C0\u03CC \u03C4\u03BF\u03C5\u03C2
+    \u03C0\u03AF\u03BD\u03B1\u03BA\u03B5\u03C2 \u03B1\u03BD\u03C4\u03B9\u03C3\u03C4\u03BF\u03B9\u03C7\u03B5\u03AF
+    \u03C3\u03C4\u03BF \u03B3\u03C1\u03AC\u03C6\u03B7\u03BC\u03B1?"
+  image: {fileID: 21300000, guid: 878258bcc178552409e76537a4bf0fea, type: 3}
+  correct: "\u03A0\u03AF\u03BD\u03B1\u03BA\u03B1\u03C2 B"
+  wrong1: "\u03A0\u03AF\u03BD\u03B1\u03BA\u03B1\u03C2 A"
+  wrong2: "\u03A0\u03AF\u03BD\u03B1\u03BA\u03B1\u03C2 C"
+  wrong3: "\u03C0\u03AF\u03BD\u03B1\u03BA\u03B1\u03C2 D"
+  section: 2.1
+  variation: 
+  learningGoal: G2
+  feedback: "\u03BF \u03C0\u03AF\u03BD\u03B1\u03BA\u03B1\u03C2 d \u03B5\u03AF\u03BD\u03B1\u03B9
+    \u03C3\u03C9\u03C3\u03C4\u03CC\u03C2"
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

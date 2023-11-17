@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258c1598b01db4498fc138c3571dd87, type: 3}
+  m_Name: Feedback
+  m_EditorClassIdentifier: 
+  content:
+  - sprite: {fileID: -5031785546700673285, guid: df671191f15ba6642a84735e5d6b34df,
+      type: 3}
+    sentences: "\u03A9\u03C9\u03C9\u03C9! \u03A6\u03B1\u03AF\u03BD\u03B5\u03C4\u03B1\u03B9
+      \u03C0\u03C9\u03C2 \u03BA\u03AC\u03C0\u03BF\u03B9\u03BF\u03C2 \u03AC\u03C6\u03B7\u03C3\u03B5
+      \u03BC\u03B5\u03C1\u03B9\u03BA\u03AD\u03C2 \u03C3\u03B7\u03BC\u03B5\u03B9\u03CE\u03C3\u03B5\u03B9\u03C2
+      \u03B3\u03B9\u03B1 \u03C4\u03BF \u03C0\u03C1\u03CC\u03B2\u03BB\u03B7\u03BC\u03B1
+      \u03B5\u03B4\u03CE!"

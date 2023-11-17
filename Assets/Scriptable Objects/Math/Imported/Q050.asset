@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q050
+  m_EditorClassIdentifier: 
+  id: Q050
+  question: "\u03A7\u03C1\u03B7\u03C3\u03B9\u03BC\u03BF\u03C0\u03BF\u03B9\u03CE\u03BD\u03C4\u03B1\u03C2
+    \u03C4\u03BF \u03B4\u03B5\u03B4\u03BF\u03BC\u03AD\u03BD\u03BF \u03C3\u03B7\u03BC\u03B5\u03AF\u03BF,
+    \u03C0\u03BF\u03B9\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B7 \u03B5\u03BE\u03AF\u03C3\u03C9\u03C3\u03B7
+    \u03B1\u03C5\u03C4\u03AE\u03C2 \u03C4\u03B7\u03C2 \u03B5\u03C5\u03B8\u03B5\u03AF\u03B1\u03C2?"
+  image: {fileID: 21300000, guid: e889367f00eb01941aece871ae2b8a27, type: 3}
+  correct: y - 2 = 3(x - 1)
+  wrong1: "y = 3x \u2013 1"
+  wrong2: y - 2 = 1/3(x - 1)
+  wrong3: y - 1 = 3(x - 2)
+  section: 3.3
+  variation: 20
+  learningGoal: G4
+  feedback: "y - 2 = 3(x - 1) \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C3\u03C9\u03C3\u03C4\u03CC"
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0
