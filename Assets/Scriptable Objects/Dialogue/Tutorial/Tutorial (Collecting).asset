@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258c1598b01db4498fc138c3571dd87, type: 3}
+  m_Name: Tutorial (Collecting)
+  m_EditorClassIdentifier: 
+  content:
+  - sprite: {fileID: -1072785490643722561, guid: 2b3f6777b882e994fa36c4f5416aa471,
+      type: 3}
+    sentences: "Soms zullen karakters zoals ik je vragen om objecten te zoeken die
+      zijn verborgen in de kerkers. Kun jij het object vinden dat is verborgen op
+      de ontbrekende coordinaat? \nJe kunt je eigen coordinaten zien in de hoek rechtsboven.
+      Het enige dat je moet doen is naar de juiste plek toe lopen en op de Spatiebalk
+      drukken."

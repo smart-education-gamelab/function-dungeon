@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q046
+  m_EditorClassIdentifier: 
+  id: Q046
+  question: "Wat is de x-co\xF6rdinaat van het snijpunt van de lijnen 2x+5y=21 en
+    x+y=3?"
+  image: {fileID: 0}
+  correct: -2
+  wrong1: -5
+  wrong2: 2
+  wrong3: 5
+  section: 3.4
+  variation: 21
+  learningGoal: G4
+  feedback: Optie -2 is juist
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0
