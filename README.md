@@ -24,11 +24,11 @@ Expanding the game's reach and functionality, there are a number of specialized 
 
 The current official version distributed via GAMMA includes multiple language options:
 
-- [English](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-english)
-- [Dutch](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-dutch)
-- [Greek](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-greek)
-- [Croatian](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-croatian)
-- [Finnish](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-finnish)
+- [English](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-english) ([play](https://play.unity.com/mg/other/function-dungeon-english))
+- [Dutch](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-dutch) ([play](https://play.unity.com/mg/other/function-dungeon-nl-1))
+- [Greek](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-greek) ([play](https://play.unity.com/mg/other/function-dungeon-greek))
+- [Croatian](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-croatian) ([play](https://play.unity.com/mg/other/function-dungeon-cr))
+- [Finnish](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-finnish) ([play](https://play.unity.com/mg/other/function-dungeon-finnish))
 
 ### Original Version
 
