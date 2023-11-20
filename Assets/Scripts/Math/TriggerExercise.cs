@@ -52,6 +52,7 @@ public class TriggerExercise : MonoBehaviour {
         List<int> usable = new List<int>();
 
         foreach (Question question in Globals.MathManager.questionList.questions) {
+            if(!question.enabled) continue;
             if (Constants.learningGoalLevels[question.learningGoalLevel] == transform.parent.GetComponent<SetExercise>().section) {
                 usedUsable.Add(Globals.MathManager.questionList.questions.IndexOf(question));
                 if (!question.used) {

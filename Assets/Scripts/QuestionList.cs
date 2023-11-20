@@ -35,6 +35,7 @@ public enum QuestionType {
 public class Question : ICloneable {
     public string internalName = ""; //This variable is only here so we don't encounter a very strange bug in the editor window. If this string isn't here, the name field of this question will keep losing focus.
     public string name = "";
+    public bool enabled = true;
     public QuestionType type = QuestionType.MULTIPLECHOICE;
     public Sprite image;
 

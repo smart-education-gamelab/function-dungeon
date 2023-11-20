@@ -71,6 +71,7 @@ public class QuestionEditorWindow : EditorWindow {
     //Draws an element in the reorderable list, including search filtering.
     private void DrawElement(Rect rect, SerializedProperty elementProperty, GUIContent guiLabel, bool selected, bool focused) {
         SerializedProperty labelProperty = elementProperty.FindPropertyRelative("name");
+        SerializedProperty enabledProperty = elementProperty.FindPropertyRelative("enabled");
         SerializedProperty learningGoalLevelProperty = elementProperty.FindPropertyRelative("learningGoalLevel");
 
         string label = labelProperty.stringValue;
@@ -82,11 +83,14 @@ public class QuestionEditorWindow : EditorWindow {
         }
 
         void drawLabel() {
+            Color color = GUI.contentColor;
+            if (!enabledProperty.boolValue) GUI.contentColor = Color.gray;
             float indexWidth = GUI.skin.label.CalcSize(new GUIContent(learningGoal)).x;
             Rect labelRect = new Rect(rect.x, rect.y, rect.width - indexWidth, rect.height);
             Rect indexRect = new Rect(rect.xMax - indexWidth, rect.y, indexWidth, rect.height);
-            GUI.Label(labelRect, label);
+             GUI.Label(labelRect, label);
             GUI.Label(indexRect, learningGoal);
+            GUI.contentColor = color;
         }
 
         if (string.IsNullOrEmpty(searchString)) {
@@ -158,6 +162,7 @@ public class QuestionEditorWindow : EditorWindow {
         }
 
         SerializedProperty nameProperty = selectedQuestion.FindPropertyRelative("name");
+        SerializedProperty enabledProperty = selectedQuestion.FindPropertyRelative("enabled");
         SerializedProperty learningGoalLevelProperty = selectedQuestion.FindPropertyRelative("learningGoalLevel");
         SerializedProperty questionTypeProperty = selectedQuestion.FindPropertyRelative("type");
 
@@ -165,6 +170,7 @@ public class QuestionEditorWindow : EditorWindow {
 
         EditorGUI.BeginDisabledGroup(selectedQuestion == null);
         Utils.DeselectOnFocusTextField(nameProperty, new GUIContent("Name:"));
+        EditorGUILayout.PropertyField(enabledProperty);
         GUILayout.BeginHorizontal();
         GUILayout.Label("Question type", GUILayout.Width(EditorGUIUtility.labelWidth - 2));
         if (EditorGUILayout.DropdownButton(new GUIContent(questionTypeProperty.enumNames[questionTypeProperty.enumValueIndex]), FocusType.Passive)) {
