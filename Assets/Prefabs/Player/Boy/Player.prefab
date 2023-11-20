@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 5062833020386036559}
   - component: {fileID: 970527342524977438}
   - component: {fileID: 473058778159809965}
+  - component: {fileID: 3057434775865158123}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -149,6 +150,19 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &3057434775865158123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3999724117868302262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49ea1c91752447241afdf4a43d374335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultOrthoSize: 3.5
 --- !u!1 &5716244444172739070
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,15 +358,14 @@ MonoBehaviour:
   speedY: 5
   directionX: 0
   directionY: 0
+  anim: {fileID: 0}
+  itemHoldPosition: {fileID: 2752439187085119878}
+  carriableSearchRadius: 0.5
+  currentHeldItem: {fileID: 0}
   allowHorizontalInput: 0
   allowVerticalInput: 0
   allowSpaceInput: 0
-  falling: 0
-  cam: {fileID: 5062833020386036559}
-  carriableSearchRadius: 0.5
-  currentHeldItem: {fileID: 0}
-  itemHoldPosition: {fileID: 2752439187085119878}
-  dialogueState: 0
+  state: 0
 --- !u!114 &4452406119833728767
 MonoBehaviour:
   m_ObjectHideFlags: 0

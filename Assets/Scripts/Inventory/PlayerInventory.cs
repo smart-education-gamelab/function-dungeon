@@ -5,7 +5,6 @@ public class PlayerInventory : Inventory
 {
     [Header("UI")]
     private Items[] items_;
-    [SerializeField] private Inventory_UI[] UI;
 
     private void Start()
     {
@@ -18,12 +17,12 @@ public class PlayerInventory : Inventory
         {
             if (items[i] != null)
             {
-                UI[i].slots.SetActive(true);
-                UI[i].icon.sprite = items[i].item_sprite;
+                Globals.InventoryUI[i].slots.SetActive(true);
+                Globals.InventoryUI[i].icon.sprite = items[i].item_sprite;
             }
             else
             {
-                UI[i].slots.SetActive(false);
+                Globals.InventoryUI[i].slots.SetActive(false);
             }
         }
     }

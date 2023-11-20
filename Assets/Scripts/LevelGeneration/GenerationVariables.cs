@@ -12,6 +12,12 @@ public class LearningGoalSectionDefinition : ICloneable {
     [JsonProperty("+")]
     public int max;
 
+    public LearningGoalSectionDefinition() { }
+    public LearningGoalSectionDefinition(int min, int max) {
+        this.min = min;
+        this.max = max;
+    }
+
     public object Clone() {
         return MemberwiseClone();
     }

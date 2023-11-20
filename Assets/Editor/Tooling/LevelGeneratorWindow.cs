@@ -28,7 +28,10 @@ public class LevelGeneratorWindow : EditorWindow {
     private void OnEnable() {
         questionList = AssetDatabase.LoadAssetAtPath<QuestionList>(Constants.questionListPath);
         CreateReorderableList();
+        variables.learningGoalSections.Add(new LearningGoalSectionDefinition(0, Constants.learningGoalLevels.Count - 1));
         UnityEditor.SceneManagement.EditorSceneManager.activeSceneChanged += OnSceneChanged;
+        InvalidateGenerationString();
+        UpdateSelectedLearningGoalSections();
     }
 
     private void OnDestroy() {
@@ -86,6 +89,7 @@ public class LevelGeneratorWindow : EditorWindow {
         if (EditorGUI.EndChangeCheck()) {
             CheckEnoughExercises();
             InvalidateGenerationString();
+            UpdateSelectedLearningGoalSections();
         }
         EditorGUILayout.LabelField("Selected learning goal sections: " + learningGoalSectionsStr);
 

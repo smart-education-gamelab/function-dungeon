@@ -15,6 +15,7 @@ public class Globals : MonoBehaviour {
     private EndScreenUI endScreenUI;
     private DialogueManager dialogueManager;
     private MathManager mathManager;
+    public Inventory_UI[] inventoryUI;
 
     [Header("Resources")]
     public Sprite handIcon;
@@ -29,6 +30,7 @@ public class Globals : MonoBehaviour {
     public static MathManager MathManager => _Instance.mathManager;
     public static DialogueManager DialogueManager => _Instance.dialogueManager;
     public static CameraController CameraController => _Instance.cameraController;
+    public static Inventory_UI[] InventoryUI => _Instance.inventoryUI;
 
     public static Sprite HandIcon => _Instance.handIcon;
     public static GameObject HolePrefab => _Instance.holePrefab;

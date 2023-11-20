@@ -199,7 +199,7 @@ public class LevelGenerator : MonoBehaviour {
 
     private void Restart(string reason) {
         generationAttempts++;
-        Debug.LogError("Level Generation failed because: " + reason);
+        Debug.LogWarning("Level Generation failed because: " + reason);
 #if UNITY_EDITOR
         if (generationAttempts > 10) {
             Debug.LogError("Level Generation attemts exceeded 10. Failed to generate level.");
