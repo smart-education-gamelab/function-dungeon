@@ -15,6 +15,7 @@ MonoBehaviour:
   questions:
   - internalName: 
     name: FunctionPuzzle
+    enabled: 1
     type: 1
     image: {fileID: 0}
     text:
@@ -42,6 +43,7 @@ MonoBehaviour:
       type: 3}
   - internalName: 
     name: Q001
+    enabled: 1
     type: 0
     image: {fileID: 0}
     text:
@@ -67,6 +69,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q002
+    enabled: 1
     type: 0
     image: {fileID: 0}
     text:
@@ -92,6 +95,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q003
+    enabled: 1
     type: 0
     image: {fileID: 0}
     text:
@@ -117,6 +121,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q004
+    enabled: 1
     type: 0
     image: {fileID: 0}
     text:
@@ -141,36 +146,8 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 0}
   - internalName: 
-    name: Q006
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke van de volgende formules komen overeen met een afnemende lineaire
-        functie?
-      correct: y = -9x + 1
-      wrong1: y = 9x - 1
-      wrong2: y = 9x +1
-      wrong3: y = 9x
-      feedback: y = -9x + 1 is juist omdat het teken van de helling (getal voor de
-        x) negatief is
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which of the following formulas matches with a decreasing linear
-        function?
-      correct: y = -9x + 1
-      wrong1: y = 9x - 1
-      wrong2: y = 9x +1
-      wrong3: y = 9x
-      feedback: y = -9x + 1 is correct because the sign of the slope (number before
-        the x) is negative
-    section: 1.3
-    variation: 4
-    learningGoalLevel: 2
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
     name: Q007
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 971338901c3dffc4e9c1288479555268, type: 3}
     text:
@@ -207,38 +184,8 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 0}
   - internalName: 
-    name: Q008
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Een tank van 60 gallon is aanvankelijk vol met water en wordt afgevoerd
-        met een constante snelheid van 9 gallon per minuut. Schrijf een formule die
-        het aantal liters water in de tank modelleert na x minuten.
-      correct: y=9x+60
-      wrong1: y=(1/9)x+60
-      wrong2: y=-9x+60
-      wrong3: Geen een
-      feedback: y=9x+60 is juist omdat de veranderingssnelheid 9 is en het y-snijpunt
-        60 (bij x=0 minuten was er y=60 gallon water).
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: A 60-gallon tank is initially full of water and being drained at
-        a constant rate of 9 gallons per minute. Write a formula that models the
-        number of gallons of water in the tank after x minutes.
-      correct: y=9x+60
-      wrong1: y=(1/9)x+60
-      wrong2: y=-9x+60
-      wrong3: None of them
-      feedback: y=9x+60 is correct because the rate of change is 9 and the y-intercept
-        is 60 (at x=0 minutes there was y=60 gallon water).
-    section: 3.5
-    variation: 6
-    learningGoalLevel: 16
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
     name: Q009
+    enabled: 1
     type: 0
     image: {fileID: 0}
     text:
@@ -265,258 +212,8 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 0}
   - internalName: 
-    name: Q010
-    type: 0
-    image: {fileID: 21300000, guid: dfbf006e6dfc6c741b6807f046efcf44, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Bekijk het tabel. Wat is de bijbehorende formule?
-      correct: y=6x
-      wrong1: y=-6x
-      wrong2: y=6
-      wrong3: y=6x+1
-      feedback: y=6x is juist. De veranderingssnelheid is constant en gelijk aan
-        6 (verschil tussen de y-waarden 30 en 12 gedeeld door het verschil tussen
-        de overeenkomstige x-waarden 5 en 3).
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Given the table. Which is the corresponding formula?
-      correct: y=6x
-      wrong1: y=-6x
-      wrong2: y=6
-      wrong3: y=6x+1
-      feedback: 'y=6x is correct. The rate of change is constante and equal to 6
-        (diference between the y-values 30 and 12 divided by the difference between
-        the correspondent x-values 5 and 3). '
-    section: 2.3
-    variation: 8
-    learningGoalLevel: 6
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q011
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Een goed groeit gelijkmatig (lineair). Om 12:00 is er 10 kg, om 20:00
-        is er 34 kg. Wat is de hoeveelheid om 16:00?
-      correct: 22kg
-      wrong1: 30kg
-      wrong2: 14kg
-      wrong3: 18 kg
-      feedback: 22kg is juist
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: A good grows evenly (linear). At 12 o'clock there is 10 kg
-      correct: ' at 20 o''clock there is 34 kg. What is the quantity at 16 o''clock? '
-      wrong1: 22kg
-      wrong2: 30kg
-      wrong3: 14kg
-      feedback: 
-    section: 3.5
-    variation: 32
-    learningGoalLevel: 16
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q012
-    type: 0
-    image: {fileID: 21300000, guid: 2309065906305e14e86b0bf9e341e4f7, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Wat is de vergelijking van deze lijn?
-      correct: y=3
-      wrong1: x=3
-      wrong2: x=3y
-      wrong3: y=3x
-      feedback: y=3 is juist. Voor elke x-waarde is de corresponderende y-waarde
-        3. Met andere woorden, de veranderingssnelheid is constant en gelijk aan
-        nul en het y-snijpunt is 3.
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: What is the equation of this line?
-      correct: y=3
-      wrong1: x=3
-      wrong2: x=3y
-      wrong3: y=3x
-      feedback: y=3 is correct. For each x-value the correspondent y-value is 3.
-        In other words the rate of change is constante and equal to zero and the
-        y-intercept is 3.
-    section: 3.3
-    variation: 9
-    learningGoalLevel: 14
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q013
-    type: 0
-    image: {fileID: 21300000, guid: 6b23b5d95831b4f4594e18b0c855ae08, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Er zijn vier rechte lijnen getekend. Welke formule hoort bij lijn
-        D?
-      correct: y= - 0,75x-4
-      wrong1: y= 4 - 0,75x
-      wrong2: y= (4/3)x-4
-      wrong3: y= (4/3)x+4
-      feedback: y= - 0,75x-4 is juist omdat het y-snijpunt -4 is en de helling -0,75
-        is
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: 'Drawn are four straight lines. Which formula corresponds to line
-        D?  '
-      correct: y= - 0
-      wrong1: 75x-4
-      wrong2: y= 4 - 0
-      wrong3: 75x
-      feedback: G2
-    section: 2.4
-    variation: 10
-    learningGoalLevel: 7
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q014
-    type: 0
-    image: {fileID: 21300000, guid: 6b23b5d95831b4f4594e18b0c855ae08, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Er zijn vier rechte lijnen getekend. Welke grafiek hoort bij de formule
-        y=2-0,75x?
-      correct: Lijn C
-      wrong1: Lijn B
-      wrong2: Lijn A
-      wrong3: Lijn D
-      feedback: Lijn C is correct omdat het y-snijpunt 2 is en de helling -0,75
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: "Drawn are four straight lines. Which graph corresponds to the formula
-        y= 2\u22120"
-      correct: 75x
-      wrong1: Line C
-      wrong2: 'Line B   '
-      wrong3: Line A
-      feedback: Q013_image1
-    section: 2.4
-    variation: 10
-    learningGoalLevel: 7
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q015
-    type: 0
-    image: {fileID: 21300000, guid: c14c893f32589944397f92239acfa835, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Wat is de vergelijking van deze lijn?
-      correct: x= -2
-      wrong1: x= -2y
-      wrong2: x= -2y
-      wrong3: y= -2
-      feedback: x= -2 is correct omdat de lijn verticaal is en door het punt gaat
-        (-2,0)
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: What is the equation of this line?
-      correct: x= -2
-      wrong1: x= -2y
-      wrong2: x= -2y
-      wrong3: y= -2
-      feedback: x= -2 is correct because the line is vertical and goes through the
-        point (-2
-    section: 3.3
-    variation: 9
-    learningGoalLevel: 14
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q016
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Gegeven de formules y=ax en y=ax+5 voor een bepaald getal a. Hoe
-        verhouden hun hellingen zich tot elkaar?
-      correct: They have the same steep
-      wrong1: they have the same steep but different magnitude
-      wrong2: they have different steep and equal magnitude
-      wrong3: They have different steep and magnitude
-      feedback: Ze hebben dezelfde helling omdat beide formules een 'a' voor de x
-        hebben.
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Given the formulas y=ax and y=ax+5 for a certain number a. How do
-        their slopes compare to each other?
-      correct: They have the same steep
-      wrong1: they have the same steep but different magnitude
-      wrong2: they have different steep and equal magnitude
-      wrong3: They have different steep and magnitude
-      feedback: They have the same slope because both formulas have 'a' before the
-        x.
-    section: 2.6
-    variation: 11
-    learningGoalLevel: 9
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q017
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Gegeven de formules y=ax en y=ax+3 voor een bepaald getal a. Wat
-        weet je over de snelheid van verandering?
-      correct: Het is hetzelfde
-      wrong1: Het is verschillend
-      wrong2: Dit is niet mogelijk om te weten
-      wrong3: Ik weet het niet
-      feedback: Het is hetzelfde omdat beide formules 'a' als helling hebben.
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Given the formulas y=ax and y=ax+3 for a certain number a. What do
-        you know about the rate of change?
-      correct: 'It is the same '
-      wrong1: 'it is different '
-      wrong2: it is not possible to know
-      wrong3: I don't know
-      feedback: It is the same because both formulas have 'a' as slope.
-    section: 2.6
-    variation: 11
-    learningGoalLevel: 9
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q018
-    type: 0
-    image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Zie de weg van A naar H. Wat is de helling van het lijnstuk CD?
-      correct: Gelijk aan 1
-      wrong1: Kleiner dan 1
-      wrong2: Groter dan 1
-      wrong3: Ik weet het niet
-      feedback: gelijk aan 1 is juist. De helling is gelijk aan het verschil tussen
-        de y-waarden gedeeld door het verschil tussen de overeenkomstige x-waarden
-        (bijvoorbeeld 4:4=1)
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: See the road from A to H. What is the slope of the line segment CD?
-      correct: equal to 1
-      wrong1: less than 1
-      wrong2: greater than 1
-      wrong3: I don't know
-      feedback: equal to 1 is correct. The slope is equal to the diference between
-        the y-values divided by the difference between the correspondent x-values
-        (for instance 4:4=1)
-    section: 1.4
-    variation: 12
-    learningGoalLevel: 3
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
     name: Q019
+    enabled: 1
     type: 0
     image: {fileID: 0}
     text:
@@ -541,559 +238,8 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 0}
   - internalName: 
-    name: Q020
-    type: 0
-    image: {fileID: 21300000, guid: 78e0c48544ff97c4b92781ad119cc925, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Met behulp van het gegeven punt, welke vergelijking is NIET de vergelijking
-        van deze rechte lijn?
-      correct: y -1 = -2x
-      wrong1: "2y = -4x \u2013"
-      wrong2: y +1 = -2x
-      wrong3: "y - 2 = -2(x \u2013 1,"
-      feedback: y -1 = -2x klopt want als x=- 2 dan is de y-waarde 5 en niet 3 (-2
-        x -2 +1 = 5)
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Using the given point
-      correct: ' which equation is NOT the equation of this straight line?'
-      wrong1: y -1 = -2x
-      wrong2: "2y = -4x \u2013"
-      wrong3: y +1 = -2x
-      feedback: G4
-    section: 3.2
-    variation: 14
-    learningGoalLevel: 13
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q021
-    type: 0
-    image: {fileID: 21300000, guid: 3d659bda497a2f547bb7f4c4e831362e, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Wat is de vergelijking van de lijn die evenwijdig is aan lijn s?
-      correct: "\"y= -3x-2\t\""
-      wrong1: "\"  y= -4x+1\t\""
-      wrong2: ' y=3x+1'
-      wrong3: y=1/3 x-2
-      feedback: y= -3x-2 is correct omdat de helling gelijk is (helling is -3)
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: What is the equation of the line that is parallel to line s?
-      correct: "\"y= -3x-2\t\""
-      wrong1: "\"  y= -4x+1\t\""
-      wrong2: ' y=3x+1'
-      wrong3: y=1/3 x-2
-      feedback: y= -3x-2 is correct        because its slope is equal (slope is -3)
-    section: 3.1
-    variation: 15
-    learningGoalLevel: 12
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q022
-    type: 0
-    image: {fileID: 21300000, guid: 4011d5048dfc1ab40881e0c0689ae8e9, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Wat is de vergelijking van de lijn die loodrecht staat op lijn r?
-      correct: y= -0,5x+1
-      wrong1: 'y=-2x+1 '
-      wrong2: y=2x-2
-      wrong3: ' y=0,5x+1'
-      feedback: y= -0,5+1 is correct omdat de helling van een loodrechte lijn -1/2
-        is (waarbij 2 de helling is van lijn r)
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: What is the equation of the line that is perpendicular to line r?
-      correct: y= -0
-      wrong1: 5x+1
-      wrong2: 'y=-2x+1 '
-      wrong3: y=2x-2
-      feedback: G4
-    section: 3.1
-    variation: 15
-    learningGoalLevel: 12
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q023
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: "Welke lijnen zijn evenwijdig? A: y = 2x + 3. B: y = 2x \u2013 5.
-        C: y = -2x +"
-      correct: A & B
-      wrong1: B & C
-      wrong2: A & C
-      wrong3: A & B & C
-      feedback: A & B hebben gelijke helling 2
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: "Which lines are parallel? A: y = 2x + 3.  B: y = 2x \u2013 5.  C:
-        y = -2x +"
-      correct: A & B
-      wrong1: B & C
-      wrong2: A & C
-      wrong3: A & B & C
-      feedback: A & B have equal slope 2
-    section: 3.1
-    variation: 16
-    learningGoalLevel: 12
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q024
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: "\"\"\"Wat is de vergelijking van de lijn: loodrecht op de lijn y
-        = \xBDx - 7 en die door het punt (3, -4) gaat\""
-      correct: y = -2x + 2
-      wrong1: "y = \xBDx \u2212"
-      wrong2: "y = 2x \u2212 "
-      wrong3: "y = -2x \u2212"
-      feedback: y = -2x + 2 klopt. De helling is -2 (-1/0,5= -2) omdat ze loodrecht
-        staan. Het y-snijpunt is 2 omdat de lijn door (3,-4) en -2x3+2=-4 gaat
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: "\"What is the equation of the line: perpendicular to the line y
-        = \xBDx - 7 and passing through the point (3"
-      correct: ' -4)?"'
-      wrong1: y = -2x + 2
-      wrong2: "y = \xBDx \u2212"
-      wrong3: "y = 2x \u2212 "
-      feedback: 
-    section: 2.8
-    variation: 17
-    learningGoalLevel: 11
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q025
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: "\"\"\"Wat is de vergelijking van de lijn: evenwijdig aan de lijn
-        y = -\xBCx + 5 en die door het punt (2, -1) gaat\""
-      correct: "y = -\xBCx \uFFFD"
-      wrong1: "y = \xBCx \u2212"
-      wrong2: "y = 4x \u2212"
-      wrong3: "y = -\xBCx \u2212"
-      feedback: "y = -\xBCx \u2212 \xBD is juist. De helling is -\xBC omdat ze evenwijdig
-        zijn. Het y-snijpunt is -\xBD omdat de lijn door (2,-1) en -1/4 x 2 - 1/2=-"
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: "\"What is the equation of the line: parallel to the line y = -\xBCx
-        + 5 and passing through the point (2"
-      correct: ' -1)"'
-      wrong1: "y = -\xBCx \uFFFD"
-      wrong2: "y = \xBCx \u2212"
-      wrong3: "y = 4x \u2212"
-      feedback: 
-    section: 2.8
-    variation: 17
-    learningGoalLevel: 11
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q026
-    type: 0
-    image: {fileID: 21300000, guid: eb3dab6c9066c68448469fa65e80d280, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Van welke functie is de grafiek het steilst?
-      correct: Functie 1
-      wrong1: Functie 2
-      wrong2: Functie 3
-      wrong3: Functie 4
-      feedback: '"Functie 1 is correct omdat de helling de hoogste magnitude (of
-        waarde) heeft"'
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: "Which function\u2019s graph is the steepes"
-      correct: Function 1
-      wrong1: Function 2
-      wrong2: Function 3
-      wrong3: Function 4
-      feedback: Function 1 is correct because the slope has the highest magnitude
-        (or value)
-    section: 2.7
-    variation: 30
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q027
-    type: 0
-    image: {fileID: 21300000, guid: eb3dab6c9066c68448469fa65e80d280, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke functies hebben grafieken met hellingen groter dan -4
-      correct: Functies 2, 3 and 4
-      wrong1: Functie 1, 2 en 3
-      wrong2: Functie 1, 2 en 4
-      wrong3: Functie 1, 3 en 4
-      feedback: functies 2, 3 en 4 is de juiste optie
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which functions have graphs with slopes greater than -4?
-      correct: functions 2; 3 and 4
-      wrong1: functions 1; 2 and 3
-      wrong2: function 1; 2 and 4
-      wrong3: Function 1; 3 and 4
-      feedback: functions 2; 3 and 4 is the correct option
-    section: 2.7
-    variation: 31
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q028
-    type: 0
-    image: {fileID: 21300000, guid: eb3dab6c9066c68448469fa65e80d280, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke functie heeft de grafiek met een y-snijpunt dat het verst verwijderd
-        is van 0
-      correct: Functie 3
-      wrong1: Functie 1
-      wrong2: 'Functie 2    '
-      wrong3: Functie 4
-      feedback: Function 3 is juist
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which function has the graph with a y-intercept farthest from 0?
-      correct: Function 3
-      wrong1: Function 1
-      wrong2: Function 2
-      wrong3: Function 4
-      feedback: Function 3 is correct
-    section: 2.7
-    variation: 18
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q029
-    type: 0
-    image: {fileID: 21300000, guid: 4eebfc4f15284db4b8dd49d9e8350408, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Van welke functie is de grafiek het steilst?
-      correct: 'Functie 1     '
-      wrong1: Functie 2
-      wrong2: Functie 3
-      wrong3: Functie 4
-      feedback: Functie 1 is correct omdat de helling de hoogste magnitude (of waarde)
-        heeft
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: "Which function\u2019s graph is the steepes"
-      correct: 'Function 1     '
-      wrong1: Function 2
-      wrong2: Function 3
-      wrong3: Function 4
-      feedback: Function 1 is correct because the slope has the highest magnitude
-        (or value)
-    section: 2.7
-    variation: 30
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q030
-    type: 0
-    image: {fileID: 21300000, guid: 4eebfc4f15284db4b8dd49d9e8350408, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke functies hebben grafieken met hellingen kleiner dan of gelijk
-        aan 1
-      correct: Functie 1, 2 en 4
-      wrong1: Functie 1, 3 and 4
-      wrong2: 'Functie 1, 2 en 3   '
-      wrong3: Functie 2, 3 and 4
-      feedback: functies 1, 2 en 4 is de juiste optie
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which functions have graphs with slopes smaller than or equal to
-        1?
-      correct: functions 1; 2 and 4
-      wrong1: Functions 1; 3 and 4
-      wrong2: 'function 1; 2 and 3   '
-      wrong3: functions 2; 3 and 4
-      feedback: functions 1; 2 and 4 is the correct option
-    section: 2.7
-    variation: 31
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q031
-    type: 0
-    image: {fileID: 21300000, guid: 4eebfc4f15284db4b8dd49d9e8350408, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke functie heeft de grafiek met een y-snijpunt dat het verst verwijderd
-        is van 0
-      correct: Functie 3
-      wrong1: Functie 1
-      wrong2: Functie 2
-      wrong3: Functie 4
-      feedback: Function 3 is juist
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which function has the graph with a y-intercept farthest from 0?
-      correct: Function 3
-      wrong1: Function 1
-      wrong2: Function 2
-      wrong3: Function 4
-      feedback: Function 3 is correct
-    section: 2.7
-    variation: 18
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q032
-    type: 0
-    image: {fileID: 21300000, guid: 3906daeb374c7034783205e07be2305a, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Van welke functie is de grafiek het steilst?
-      correct: 'Functie 2    '
-      wrong1: Functie 1
-      wrong2: Functie 3
-      wrong3: Functie 4
-      feedback: 
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: "Which function\u2019s graph is the steepes"
-      correct: 'Function 2    '
-      wrong1: Function 1
-      wrong2: Function 3
-      wrong3: Function 4
-      feedback: Function 2 is correct because the slope has the highest magnitude
-        (or value)
-    section: 2.7
-    variation: 30
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q033
-    type: 0
-    image: {fileID: 21300000, guid: 3906daeb374c7034783205e07be2305a, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke functies hebben grafieken met hellingen kleiner dan 1
-      correct: Functie 1, 2 en 4
-      wrong1: Functie 1, 3 and 4
-      wrong2: 'Functie 1, 2 en 3   '
-      wrong3: Functie 2, 3 and 4
-      feedback: functies 1, 2 en 4 is de juiste optie
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which functions have graphs with slopes smaller than 1?
-      correct: functions 1; 2 and 4
-      wrong1: Functions 1; 3 and 4
-      wrong2: 'function 1; 2 and 3   '
-      wrong3: functions 2; 3 and 4
-      feedback: functions 1; 2 and 4 is the correct option
-    section: 2.7
-    variation: 31
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q034
-    type: 0
-    image: {fileID: 21300000, guid: 3906daeb374c7034783205e07be2305a, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke functie heeft de grafiek met een y-snijpunt dat het verst verwijderd
-        is van 0
-      correct: Functie 3
-      wrong1: Functie 1
-      wrong2: Functie 2
-      wrong3: Functie 4
-      feedback: Function 3 is juist
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which function has the graph with a y-intercept farthest from 0?
-      correct: Function 3
-      wrong1: Function 1
-      wrong2: Function 2
-      wrong3: Function 4
-      feedback: Function 3 is correct
-    section: 2.7
-    variation: 18
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q035
-    type: 0
-    image: {fileID: 21300000, guid: 95c2e7aed3086654a8b2c591b86714a6, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Van welke functie is de grafiek het steilst?
-      correct: 'Functie 2    '
-      wrong1: Functie 1
-      wrong2: Functie 3
-      wrong3: Functie 4
-      feedback: 
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: "Which function\u2019s graph is the steepes"
-      correct: 'Function 2    '
-      wrong1: Function 1
-      wrong2: Function 3
-      wrong3: Function 4
-      feedback: Function 2 is correct because the slope has the highest magnitude
-        (or value)
-    section: 2.7
-    variation: 30
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q036
-    type: 0
-    image: {fileID: 21300000, guid: 95c2e7aed3086654a8b2c591b86714a6, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke functies hebben grafieken met hellingen groter dan of gelijk
-        aan 2
-      correct: Functie 2, 3 en 4
-      wrong1: Functie 1, 3 and 4
-      wrong2: 'function 1, 2 en 3   '
-      wrong3: 'Functie 1, 2 en 4   '
-      feedback: functies 2, 3 en 4 is de juiste optie
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which functions have graphs with slopes greater than or equal to
-        2
-      correct: functions 2; 3 and 4
-      wrong1: Functions 1; 3 and 4
-      wrong2: 'function 1; 2 and 3   '
-      wrong3: 'function 1; 2 and 4   '
-      feedback: functions 2; 3 and 4 is the correct option
-    section: 2.7
-    variation: 31
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q037
-    type: 0
-    image: {fileID: 21300000, guid: 95c2e7aed3086654a8b2c591b86714a6, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke functie heeft de grafiek met een y-snijpunt dat het verst verwijderd
-        is van 0
-      correct: Functie 3
-      wrong1: Functie 1
-      wrong2: Functie 2
-      wrong3: Functie 4
-      feedback: Function 3 is juist
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which function has the graph with a y-intercept farthest from 0
-      correct: Function 3
-      wrong1: Function 1
-      wrong2: Function 2
-      wrong3: Function 4
-      feedback: Function 3 is correct
-    section: 2.7
-    variation: 18
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q038
-    type: 0
-    image: {fileID: 21300000, guid: 93685b865ed4ad548bdaf0fe19dc1797, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Van welke functie is de grafiek het steilst?
-      correct: 'Functie 4    '
-      wrong1: Functie 1
-      wrong2: Functie 2
-      wrong3: Functie 3
-      feedback: 
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: "Which function\u2019s graph is the steepes"
-      correct: 'Function 4    '
-      wrong1: Function 1
-      wrong2: Function 2
-      wrong3: Function 3
-      feedback: Function 4 is correct because the slope has the highest magnitude
-        (or value)
-    section: 2.7
-    variation: 30
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q039
-    type: 0
-    image: {fileID: 21300000, guid: 93685b865ed4ad548bdaf0fe19dc1797, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke functies hebben grafieken met hellingen kleiner dan 1
-      correct: Functie 1, 3 en 4
-      wrong1: 'Functie 1, 2 and 4   '
-      wrong2: 'Functie 1, 2 en 3   '
-      wrong3: 'Functie 2, 3 en 4   '
-      feedback: Functies 1, 3 en 4 is de juiste optie
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which functions have graphs with slopes smaller than 1
-      correct: Functions 1; 3 and 4
-      wrong1: 'function 1; 2 and 4   '
-      wrong2: 'function 1; 2 and 3   '
-      wrong3: 'function 2; 3 and 4   '
-      feedback: Functions 1; 3 and 4 is the correct option
-    section: 2.7
-    variation: 31
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q040
-    type: 0
-    image: {fileID: 21300000, guid: 93685b865ed4ad548bdaf0fe19dc1797, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke functie heeft de grafiek met een y-snijpunt dat het verst verwijderd
-        is van 0
-      correct: 'Functie 2    '
-      wrong1: Functie 1
-      wrong2: Functie 3
-      wrong3: Functie 4
-      feedback: Function 2 is juist
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which function has the graph with a y-intercept farthest from 0
-      correct: 'Function 2    '
-      wrong1: Function 1
-      wrong2: Function 3
-      wrong3: Function 4
-      feedback: Function 2 is correct
-    section: 2.7
-    variation: 18
-    learningGoalLevel: 10
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
     name: Q041
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: b4b70df0214bc654197c162b98f4d0a8, type: 3}
     text:
@@ -1125,6 +271,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q042
+    enabled: 1
     type: 0
     image: {fileID: 0}
     text:
@@ -1155,219 +302,8 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 0}
   - internalName: 
-    name: Q043
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Hoe verhouden de lijnen van de vergelijkingen y=3x-8 en 2y-6x+16=0
-        zich tot elkaar?
-      correct: Dezelfde lijn
-      wrong1: Parallelle lijnen
-      wrong2: Evenwijdige lijnen
-      wrong3: Lijnen die niet evenwijdig of loodrecht zijn
-      feedback: De lijnen zijn hetzelfde. De vergelijking 2y-6x+16=0 kan worden geschreven
-        als 2y=6x-16. Deel beide zijden door 2 en je krijgt y=3x-8
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: How are the lines of the equations y=3x-8 and 2y-6x+16=0 related
-        to each other?
-      correct: The same line
-      wrong1: Parallel lines
-      wrong2: Perpendicular lines
-      wrong3: 'Lines that are neither parallel nor perpendicular '
-      feedback: 'The lines are the same. The equation 2y-6x+16=0 can be written as
-        2y=6x-16. Divide both sides by 2 and you get y=3x-8 '
-    section: 3.1
-    variation: 15
-    learningGoalLevel: 12
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q044
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: "Welke lijnen zijn evenwijdig: A: 5x=y-1 B: y=5x \u20131 C: 20x-4y"
-      correct: Ze zijn allemaal parallel
-      wrong1: A &B
-      wrong2: B & C
-      wrong3: A & C
-      feedback: 'Ze zijn allemaal evenwijdig omdat ze een gelijke helling hebben:
-        5'
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: "Which lines are parallel: A: 5x=y-1 B: y=5x \u20131 C: 20x-4y"
-      correct: 'They are all parallel '
-      wrong1: A &B
-      wrong2: B & C
-      wrong3: A & C
-      feedback: 'They are all parallel because they have equal slope: 5'
-    section: 3.1
-    variation: 16
-    learningGoalLevel: 12
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q045
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Wat is de vergelijking van de lijn die loodrecht staat op de lijn
-        5x-3y+30 en door het punt (-2, 7) gaat
-      correct: 5y+3x=29
-      wrong1: 3y+5x=25
-      wrong2: 5y-3x=41
-      wrong3: 5y-3x=-31
-      feedback: 5y+3x=29 klopt
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: 'What is the equation of the line that is perpendicular to the line
-        5x-3y+30 and passes through the point (-2; 7) '
-      correct: 5y+3x=29
-      wrong1: 3y+5x=25
-      wrong2: 5y-3x=41
-      wrong3: 5y-3x=-31
-      feedback: 5y+3x=29 is correct
-    section: 3.1
-    variation: 29
-    learningGoalLevel: 12
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q046
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: "Wat is de x-co\xF6rdinaat van het snijpunt van de lijnen 2x+5y=21
-        en x+y=3"
-      correct: -2
-      wrong1: -5
-      wrong2: 2
-      wrong3: 5
-      feedback: Optie -2 is juist
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: 'What is the x-coordinate of the intersection point for the lines
-        2x+5y=21 and x+y=3? '
-      correct: -2
-      wrong1: -5
-      wrong2: 2
-      wrong3: 5
-      feedback: Option -2 is correct
-    section: 3.4
-    variation: 21
-    learningGoalLevel: 15
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q047
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: "Wat is de y-co\xF6rdinaat van het snijpunt voor de lijnen 7x+2y=3
-        en x-3y=30"
-      correct: -9
-      wrong1: -3
-      wrong2: 3
-      wrong3: 9
-      feedback: Optie -9 is juist
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: What is the y-coordinate of the intersection point for the lines
-        7x+2y=3 and x-3y=30?
-      correct: -9
-      wrong1: -3
-      wrong2: 3
-      wrong3: 9
-      feedback: Option -9 is correct
-    section: 3.4
-    variation: 21
-    learningGoalLevel: 15
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q048
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Als 2x-3y=24 en 3x+4y=2, wat is dan de waarde van x-y?
-      correct: 10
-      wrong1: 2
-      wrong2: 22
-      wrong3: 26
-      feedback: 10 is juist
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: 'If 2x-3y=24 and 3x+4y=2; what is the value of x-y? '
-      correct: 10
-      wrong1: 2
-      wrong2: 22
-      wrong3: 26
-      feedback: 10 is correct
-    section: 3.2
-    variation: 19
-    learningGoalLevel: 13
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q049
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Als a+b=5 en 3a+2b=20, waar is 3a+b dan gelijk aan?
-      correct: 25
-      wrong1: 10
-      wrong2: 15
-      wrong3: 20
-      feedback: "25 klopt. Er zijn meerdere strategie\xEBn mogelijk"
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: If a+b=5 and 3a+2b=20; then what is 3a+b equal to?
-      correct: 25
-      wrong1: 10
-      wrong2: 15
-      wrong3: 20
-      feedback: '25 is correct. There are several strategies possible. '
-    section: 3.2
-    variation: 19
-    learningGoalLevel: 13
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q050
-    type: 0
-    image: {fileID: 21300000, guid: e889367f00eb01941aece871ae2b8a27, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Wat is de vergelijking van deze rechte lijn met behulp van het gegeven
-        punt?
-      correct: y - 2 = 3(x - 1)
-      wrong1: "y = 3x \u2013"
-      wrong2: y - 2 = 1/3(x - 1)
-      wrong3: y - 1 = 3(x - 2)
-      feedback: y - 2 = 3(x - 1) klopt
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Using the given point; what is the equation of this straight line?
-      correct: y - 2 = 3(x - 1)
-      wrong1: "y = 3x \u2013"
-      wrong2: y - 2 = 1/3(x - 1)
-      wrong3: y - 1 = 3(x - 2)
-      feedback: y - 2 = 3(x - 1) is correct
-    section: 3.3
-    variation: 20
-    learningGoalLevel: 14
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
     name: Q051
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 704b543cc6de71c41b456ff0ab90a7fd, type: 3}
     text:
@@ -1393,6 +329,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q052
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 43e592347b23a54439530823b4845396, type: 3}
     text:
@@ -1420,34 +357,8 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 0}
   - internalName: 
-    name: Q053
-    type: 0
-    image: {fileID: 21300000, guid: 4cc7fa545d13f48419aac942b2e7cf31, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke van deze lijnen heeft een helling van -5?
-      correct: c
-      wrong1: a
-      wrong2: b
-      wrong3: d
-      feedback: grafiek (c) is correct omdat het teken van de helling negatief is
-        (afnemende grafiek) en groter is (de grafiek is steiler)
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which of these lines has slope -5?
-      correct: c
-      wrong1: a
-      wrong2: b
-      wrong3: d
-      feedback: 'graph (c) is correct because the sign of slope is negative (decreasing
-        graph) and greater magnitude (the graph is more steep) '
-    section: 1.3
-    variation: 23
-    learningGoalLevel: 2
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
     name: Q054
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 4775aa53b998d3f45b756a93a799e165, type: 3}
     text:
@@ -1479,6 +390,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q055
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: bf276d5124c55c24d8a03b800e9668b6, type: 3}
     text:
@@ -1510,6 +422,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q056
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 16bf9fd304de3e84e95174916c6fc398, type: 3}
     text:
@@ -1541,6 +454,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q057
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: bdee144adaee7d4438d20ec5fb46a6e6, type: 3}
     text:
@@ -1571,7 +485,282 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 0}
   - internalName: 
+    name: Q065
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: fe081a691c30bdc4692226f1644ae5b4, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke lijn heeft y-snijpunt 4?
+      correct: a
+      wrong1: b
+      wrong2: c
+      wrong3: d
+      feedback: '"a is correct omdat de lijn de y-as met 4 kruist"'
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which line has y-intercept 4?
+      correct: a
+      wrong1: b
+      wrong2: c
+      wrong3: d
+      feedback: a is correct because the line crosses the y-axis by 4
+    section: 1.2
+    variation: 25
+    learningGoalLevel: 1
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q066
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: fe081a691c30bdc4692226f1644ae5b4, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke lijn gaat door punt (0,-4)?
+      correct: b
+      wrong1: a
+      wrong2: c
+      wrong3: d
+      feedback: b is correct omdat de lijn de x-as met nul kruist en de y-as met
+        -4
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which line goes through point (0;-4)?
+      correct: b
+      wrong1: a
+      wrong2: c
+      wrong3: d
+      feedback: b is correct because the line crosses the x-axis by zero and the
+        y-axis by -4
+    section: 1.2
+    variation: 25
+    learningGoalLevel: 1
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q067
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 356803d841d60f343ace53ee4516644e, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke lijn heeft y-snijpunt 4?
+      correct: a
+      wrong1: b
+      wrong2: c
+      wrong3: d
+      feedback: a is correct, want als de x-waarde nul is, is de y-waarde 4 (y-snijpunt)
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which line has y-intercept 4?
+      correct: a
+      wrong1: b
+      wrong2: c
+      wrong3: d
+      feedback: a is correct because if the x-value is zero the y-value is 4 (y-intercept)
+    section: 1.2
+    variation: 26
+    learningGoalLevel: 1
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q068
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 356803d841d60f343ace53ee4516644e, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke lijn gaat door punt (0,-4)?
+      correct: b
+      wrong1: a
+      wrong2: c
+      wrong3: d
+      feedback: b is juist, want als de x-waarde nul is, is de y-waarde - 4
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which line goes through point (0;-4)?
+      correct: b
+      wrong1: a
+      wrong2: c
+      wrong3: d
+      feedback: b is correct because if the x-value is zero the y-value is - 4
+    section: 1.2
+    variation: 26
+    learningGoalLevel: 1
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q069
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 3f3c7365ca26f57498371a74d90b3626, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke lijn heeft y-snijpunt 4?
+      correct: Tabel C
+      wrong1: Tabel A
+      wrong2: Tabel B
+      wrong3: Tabel D
+      feedback: tabel C is juist omdat voor x=0 de y-waarde 4 is
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which line has y-intercept 4?
+      correct: table C
+      wrong1: table A
+      wrong2: table B
+      wrong3: table D
+      feedback: table C is correct because for x=0 the y-value is 4
+    section: 1.2
+    variation: 33
+    learningGoalLevel: 1
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q070
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 3f3c7365ca26f57498371a74d90b3626, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke lijn gaat door punt (0,-4)?
+      correct: d
+      wrong1: a
+      wrong2: b
+      wrong3: c
+      feedback: d is juist omdat voor x=0 de y-waarde -4 is
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which line goes through point (0;-4)?
+      correct: d
+      wrong1: a
+      wrong2: b
+      wrong3: c
+      feedback: d is correct because for x=0 the y-value is -4
+    section: 1.2
+    variation: 33
+    learningGoalLevel: 1
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q071
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 356803d841d60f343ace53ee4516644e, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke lijn heeft het hoogste y-snijpunt?
+      correct: a
+      wrong1: b
+      wrong2: c
+      wrong3: d
+      feedback: optie a is correct omdat 4 hoger is dan -4, -2 en 2 (dit zijn de
+        andere y-snijpunten)
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which line has the highest y-intercept?
+      correct: a
+      wrong1: b
+      wrong2: c
+      wrong3: d
+      feedback: option a is correct because 4 is higher than -4; -2 and 2 (which
+        are the other y-intercepts)
+    section: 1.2
+    variation: 26
+    learningGoalLevel: 1
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q006
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke van de volgende formules komen overeen met een afnemende lineaire
+        functie?
+      correct: y = -9x + 1
+      wrong1: y = 9x - 1
+      wrong2: y = 9x +1
+      wrong3: y = 9x
+      feedback: y = -9x + 1 is juist omdat het teken van de helling (getal voor de
+        x) negatief is
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which of the following formulas matches with a decreasing linear
+        function?
+      correct: y = -9x + 1
+      wrong1: y = 9x - 1
+      wrong2: y = 9x +1
+      wrong3: y = 9x
+      feedback: y = -9x + 1 is correct because the sign of the slope (number before
+        the x) is negative
+    section: 1.3
+    variation: 4
+    learningGoalLevel: 2
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q053
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 4cc7fa545d13f48419aac942b2e7cf31, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke van deze lijnen heeft een helling van -5?
+      correct: c
+      wrong1: a
+      wrong2: b
+      wrong3: d
+      feedback: grafiek (c) is correct omdat het teken van de helling negatief is
+        (afnemende grafiek) en groter is (de grafiek is steiler)
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which of these lines has slope -5?
+      correct: c
+      wrong1: a
+      wrong2: b
+      wrong3: d
+      feedback: 'graph (c) is correct because the sign of slope is negative (decreasing
+        graph) and greater magnitude (the graph is more steep) '
+    section: 1.3
+    variation: 23
+    learningGoalLevel: 2
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q018
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Zie de weg van A naar H. Wat is de helling van het lijnstuk CD?
+      correct: Gelijk aan 1
+      wrong1: Kleiner dan 1
+      wrong2: Groter dan 1
+      wrong3: Ik weet het niet
+      feedback: gelijk aan 1 is juist. De helling is gelijk aan het verschil tussen
+        de y-waarden gedeeld door het verschil tussen de overeenkomstige x-waarden
+        (bijvoorbeeld 4:4=1)
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: See the road from A to H. What is the slope of the line segment CD?
+      correct: equal to 1
+      wrong1: less than 1
+      wrong2: greater than 1
+      wrong3: I don't know
+      feedback: equal to 1 is correct. The slope is equal to the diference between
+        the y-values divided by the difference between the correspondent x-values
+        (for instance 4:4=1)
+    section: 1.4
+    variation: 12
+    learningGoalLevel: 3
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
     name: Q058
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
@@ -1600,6 +789,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q059
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
@@ -1627,6 +817,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q060
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
@@ -1654,6 +845,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q061
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
@@ -1679,6 +871,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q062
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
@@ -1706,6 +899,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q063
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
@@ -1732,211 +926,8 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 0}
   - internalName: 
-    name: Q064
-    type: 0
-    image: {fileID: 0}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: '"""Gegeven de vergelijking y = x + 4. Welke student heeft gelijk?"""'
-      correct: 'Julia: deze lijn gaat door de as bij (0,4).'
-      wrong1: 'Peter: deze lijn gaat door de as bij (4,0).'
-      wrong2: 'Paul: deze lijn heeft helling 4.'
-      wrong3: None of the students is right.
-      feedback: de juiste optie is van Julia
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: '"Given the equation y = x + 4. Which student is right?"'
-      correct: 'Julia: this line goes through the axis at (0;4).'
-      wrong1: 'Peter: this line goes through the axis at (4;0).'
-      wrong2: 'Paul: this line has slope 4.'
-      wrong3: None of the students is right.
-      feedback: the correct option is from Julia
-    section: 2.6
-    variation: 28
-    learningGoalLevel: 9
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q065
-    type: 0
-    image: {fileID: 21300000, guid: fe081a691c30bdc4692226f1644ae5b4, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke lijn heeft y-snijpunt 4?
-      correct: a
-      wrong1: b
-      wrong2: c
-      wrong3: d
-      feedback: '"a is correct omdat de lijn de y-as met 4 kruist"'
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which line has y-intercept 4?
-      correct: a
-      wrong1: b
-      wrong2: c
-      wrong3: d
-      feedback: a is correct because the line crosses the y-axis by 4
-    section: 1.2
-    variation: 25
-    learningGoalLevel: 1
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q066
-    type: 0
-    image: {fileID: 21300000, guid: fe081a691c30bdc4692226f1644ae5b4, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke lijn gaat door punt (0,-4)?
-      correct: b
-      wrong1: a
-      wrong2: c
-      wrong3: d
-      feedback: b is correct omdat de lijn de x-as met nul kruist en de y-as met
-        -4
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which line goes through point (0;-4)?
-      correct: b
-      wrong1: a
-      wrong2: c
-      wrong3: d
-      feedback: b is correct because the line crosses the x-axis by zero and the
-        y-axis by -4
-    section: 1.2
-    variation: 25
-    learningGoalLevel: 1
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q067
-    type: 0
-    image: {fileID: 21300000, guid: 356803d841d60f343ace53ee4516644e, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke lijn heeft y-snijpunt 4?
-      correct: a
-      wrong1: b
-      wrong2: c
-      wrong3: d
-      feedback: a is correct, want als de x-waarde nul is, is de y-waarde 4 (y-snijpunt)
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which line has y-intercept 4?
-      correct: a
-      wrong1: b
-      wrong2: c
-      wrong3: d
-      feedback: a is correct because if the x-value is zero the y-value is 4 (y-intercept)
-    section: 1.2
-    variation: 26
-    learningGoalLevel: 1
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q068
-    type: 0
-    image: {fileID: 21300000, guid: 356803d841d60f343ace53ee4516644e, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke lijn gaat door punt (0,-4)?
-      correct: b
-      wrong1: a
-      wrong2: c
-      wrong3: d
-      feedback: b is juist, want als de x-waarde nul is, is de y-waarde - 4
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which line goes through point (0;-4)?
-      correct: b
-      wrong1: a
-      wrong2: c
-      wrong3: d
-      feedback: b is correct because if the x-value is zero the y-value is - 4
-    section: 1.2
-    variation: 26
-    learningGoalLevel: 1
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q069
-    type: 0
-    image: {fileID: 21300000, guid: 3f3c7365ca26f57498371a74d90b3626, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke lijn heeft y-snijpunt 4?
-      correct: Tabel C
-      wrong1: Tabel A
-      wrong2: Tabel B
-      wrong3: Tabel D
-      feedback: tabel C is juist omdat voor x=0 de y-waarde 4 is
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which line has y-intercept 4?
-      correct: table C
-      wrong1: table A
-      wrong2: table B
-      wrong3: table D
-      feedback: table C is correct because for x=0 the y-value is 4
-    section: 1.2
-    variation: 33
-    learningGoalLevel: 1
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q070
-    type: 0
-    image: {fileID: 21300000, guid: 3f3c7365ca26f57498371a74d90b3626, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke lijn gaat door punt (0,-4)?
-      correct: d
-      wrong1: a
-      wrong2: b
-      wrong3: c
-      feedback: d is juist omdat voor x=0 de y-waarde -4 is
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which line goes through point (0;-4)?
-      correct: d
-      wrong1: a
-      wrong2: b
-      wrong3: c
-      feedback: d is correct because for x=0 the y-value is -4
-    section: 1.2
-    variation: 33
-    learningGoalLevel: 1
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
-    name: Q071
-    type: 0
-    image: {fileID: 21300000, guid: 356803d841d60f343ace53ee4516644e, type: 3}
-    text:
-    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke lijn heeft het hoogste y-snijpunt?
-      correct: a
-      wrong1: b
-      wrong2: c
-      wrong3: d
-      feedback: optie a is correct omdat 4 hoger is dan -4, -2 en 2 (dit zijn de
-        andere y-snijpunten)
-    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which line has the highest y-intercept?
-      correct: a
-      wrong1: b
-      wrong2: c
-      wrong3: d
-      feedback: option a is correct because 4 is higher than -4; -2 and 2 (which
-        are the other y-intercepts)
-    section: 1.2
-    variation: 26
-    learningGoalLevel: 1
-    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 0}
-  - internalName: 
     name: Q072
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: ce4ca97ec1740964b84668f95e139c39, type: 3}
     text:
@@ -1964,6 +955,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q073
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 878258bcc178552409e76537a4bf0fea, type: 3}
     text:
@@ -1989,6 +981,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q074
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 547e8d99e9123f0419476458efb581b6, type: 3}
     text:
@@ -2016,6 +1009,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q075
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 182139ebd1cc23e4cb8d7902faeab161, type: 3}
     text:
@@ -2043,6 +1037,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q076
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 75900d227fa1b8448ad828a476fcc69f, type: 3}
     text:
@@ -2071,7 +1066,125 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 0}
   - internalName: 
+    name: Q010
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: dfbf006e6dfc6c741b6807f046efcf44, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Bekijk het tabel. Wat is de bijbehorende formule?
+      correct: y=6x
+      wrong1: y=-6x
+      wrong2: y=6
+      wrong3: y=6x+1
+      feedback: y=6x is juist. De veranderingssnelheid is constant en gelijk aan
+        6 (verschil tussen de y-waarden 30 en 12 gedeeld door het verschil tussen
+        de overeenkomstige x-waarden 5 en 3).
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Given the table. Which is the corresponding formula?
+      correct: y=6x
+      wrong1: y=-6x
+      wrong2: y=6
+      wrong3: y=6x+1
+      feedback: 'y=6x is correct. The rate of change is constante and equal to 6
+        (diference between the y-values 30 and 12 divided by the difference between
+        the correspondent x-values 5 and 3). '
+    section: 2.3
+    variation: 8
+    learningGoalLevel: 6
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q079
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: cca6a06cf5f85254c8dff5a81e5b487e, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke tabel hoort bij de formule y=-2(x-4)
+      correct: Tabel D
+      wrong1: Tabel A
+      wrong2: Tabel B
+      wrong3: Tabel C
+      feedback: 'Tabel D is correct. Er zijn verschillende manieren om het antwoord
+        te vinden. Bijvoorbeeld: y=-2(x-4) dus y=-2x+8, wat betekent dat voor x=0
+        de waarde van y 8 is.'
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which table corresponds to the formula y=-2(x-4)
+      correct: Table D
+      wrong1: Table A
+      wrong2: Table B
+      wrong3: Table C
+      feedback: 'Table D is correct. There are several ways to find the answer. For
+        instance: y=-2(x-4) therefore y=-2x+8; which means that for x=0 the value
+        of y is 8. '
+    section: 2.3
+    variation: 
+    learningGoalLevel: 6
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q013
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 6b23b5d95831b4f4594e18b0c855ae08, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Er zijn vier rechte lijnen getekend. Welke formule hoort bij lijn
+        D?
+      correct: y= - 0,75x-4
+      wrong1: y= 4 - 0,75x
+      wrong2: y= (4/3)x-4
+      wrong3: y= (4/3)x+4
+      feedback: y= - 0,75x-4 is juist omdat het y-snijpunt -4 is en de helling -0,75
+        is
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: 'Drawn are four straight lines. Which formula corresponds to line
+        D?  '
+      correct: y= - 0
+      wrong1: 75x-4
+      wrong2: y= 4 - 0
+      wrong3: 75x
+      feedback: G2
+    section: 2.4
+    variation: 10
+    learningGoalLevel: 7
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q014
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 6b23b5d95831b4f4594e18b0c855ae08, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Er zijn vier rechte lijnen getekend. Welke grafiek hoort bij de formule
+        y=2-0,75x?
+      correct: Lijn C
+      wrong1: Lijn B
+      wrong2: Lijn A
+      wrong3: Lijn D
+      feedback: Lijn C is correct omdat het y-snijpunt 2 is en de helling -0,75
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: "Drawn are four straight lines. Which graph corresponds to the formula
+        y= 2\u22120"
+      correct: 75x
+      wrong1: Line C
+      wrong2: 'Line B   '
+      wrong3: Line A
+      feedback: Q013_image1
+    section: 2.4
+    variation: 10
+    learningGoalLevel: 7
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
     name: Q077
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: fd15b456b1bbba844b5c1f0f6ee85c71, type: 3}
     text:
@@ -2099,6 +1212,7 @@ MonoBehaviour:
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q078
+    enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 3f72d2d9e90a86c449b12cc7ddb946a6, type: 3}
     text:
@@ -2127,31 +1241,996 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 0}
   - internalName: 
-    name: Q079
+    name: Q016
+    enabled: 1
     type: 0
-    image: {fileID: 21300000, guid: cca6a06cf5f85254c8dff5a81e5b487e, type: 3}
+    image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke tabel hoort bij de formule y=-2(x-4)
-      correct: Tabel D
-      wrong1: Tabel A
-      wrong2: Tabel B
-      wrong3: Tabel C
-      feedback: 'Tabel D is correct. Er zijn verschillende manieren om het antwoord
-        te vinden. Bijvoorbeeld: y=-2(x-4) dus y=-2x+8, wat betekent dat voor x=0
-        de waarde van y 8 is.'
+      question: Gegeven de formules y=ax en y=ax+5 voor een bepaald getal a. Hoe
+        verhouden hun hellingen zich tot elkaar?
+      correct: They have the same steep
+      wrong1: they have the same steep but different magnitude
+      wrong2: they have different steep and equal magnitude
+      wrong3: They have different steep and magnitude
+      feedback: Ze hebben dezelfde helling omdat beide formules een 'a' voor de x
+        hebben.
     - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which table corresponds to the formula y=-2(x-4)
-      correct: Table D
-      wrong1: Table A
-      wrong2: Table B
-      wrong3: Table C
-      feedback: 'Table D is correct. There are several ways to find the answer. For
-        instance: y=-2(x-4) therefore y=-2x+8; which means that for x=0 the value
-        of y is 8. '
-    section: 2.3
-    variation: 
-    learningGoalLevel: 6
+      question: Given the formulas y=ax and y=ax+5 for a certain number a. How do
+        their slopes compare to each other?
+      correct: They have the same steep
+      wrong1: they have the same steep but different magnitude
+      wrong2: they have different steep and equal magnitude
+      wrong3: They have different steep and magnitude
+      feedback: They have the same slope because both formulas have 'a' before the
+        x.
+    section: 2.6
+    variation: 11
+    learningGoalLevel: 9
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q017
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Gegeven de formules y=ax en y=ax+3 voor een bepaald getal a. Wat
+        weet je over de snelheid van verandering?
+      correct: Het is hetzelfde
+      wrong1: Het is verschillend
+      wrong2: Dit is niet mogelijk om te weten
+      wrong3: Ik weet het niet
+      feedback: Het is hetzelfde omdat beide formules 'a' als helling hebben.
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Given the formulas y=ax and y=ax+3 for a certain number a. What do
+        you know about the rate of change?
+      correct: 'It is the same '
+      wrong1: 'it is different '
+      wrong2: it is not possible to know
+      wrong3: I don't know
+      feedback: It is the same because both formulas have 'a' as slope.
+    section: 2.6
+    variation: 11
+    learningGoalLevel: 9
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q064
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: '"""Gegeven de vergelijking y = x + 4. Welke student heeft gelijk?"""'
+      correct: 'Julia: deze lijn gaat door de as bij (0,4).'
+      wrong1: 'Peter: deze lijn gaat door de as bij (4,0).'
+      wrong2: 'Paul: deze lijn heeft helling 4.'
+      wrong3: None of the students is right.
+      feedback: de juiste optie is van Julia
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: '"Given the equation y = x + 4. Which student is right?"'
+      correct: 'Julia: this line goes through the axis at (0;4).'
+      wrong1: 'Peter: this line goes through the axis at (4;0).'
+      wrong2: 'Paul: this line has slope 4.'
+      wrong3: None of the students is right.
+      feedback: the correct option is from Julia
+    section: 2.6
+    variation: 28
+    learningGoalLevel: 9
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q026
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: eb3dab6c9066c68448469fa65e80d280, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Van welke functie is de grafiek het steilst?
+      correct: Functie 1
+      wrong1: Functie 2
+      wrong2: Functie 3
+      wrong3: Functie 4
+      feedback: '"Functie 1 is correct omdat de helling de hoogste magnitude (of
+        waarde) heeft"'
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: "Which function\u2019s graph is the steepes"
+      correct: Function 1
+      wrong1: Function 2
+      wrong2: Function 3
+      wrong3: Function 4
+      feedback: Function 1 is correct because the slope has the highest magnitude
+        (or value)
+    section: 2.7
+    variation: 30
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q027
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: eb3dab6c9066c68448469fa65e80d280, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke functies hebben grafieken met hellingen groter dan -4
+      correct: Functies 2, 3 and 4
+      wrong1: Functie 1, 2 en 3
+      wrong2: Functie 1, 2 en 4
+      wrong3: Functie 1, 3 en 4
+      feedback: functies 2, 3 en 4 is de juiste optie
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which functions have graphs with slopes greater than -4?
+      correct: functions 2; 3 and 4
+      wrong1: functions 1; 2 and 3
+      wrong2: function 1; 2 and 4
+      wrong3: Function 1; 3 and 4
+      feedback: functions 2; 3 and 4 is the correct option
+    section: 2.7
+    variation: 31
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q028
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: eb3dab6c9066c68448469fa65e80d280, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke functie heeft de grafiek met een y-snijpunt dat het verst verwijderd
+        is van 0
+      correct: Functie 3
+      wrong1: Functie 1
+      wrong2: 'Functie 2    '
+      wrong3: Functie 4
+      feedback: Function 3 is juist
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which function has the graph with a y-intercept farthest from 0?
+      correct: Function 3
+      wrong1: Function 1
+      wrong2: Function 2
+      wrong3: Function 4
+      feedback: Function 3 is correct
+    section: 2.7
+    variation: 18
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q029
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 4eebfc4f15284db4b8dd49d9e8350408, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Van welke functie is de grafiek het steilst?
+      correct: 'Functie 1     '
+      wrong1: Functie 2
+      wrong2: Functie 3
+      wrong3: Functie 4
+      feedback: Functie 1 is correct omdat de helling de hoogste magnitude (of waarde)
+        heeft
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: "Which function\u2019s graph is the steepes"
+      correct: 'Function 1     '
+      wrong1: Function 2
+      wrong2: Function 3
+      wrong3: Function 4
+      feedback: Function 1 is correct because the slope has the highest magnitude
+        (or value)
+    section: 2.7
+    variation: 30
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q030
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 4eebfc4f15284db4b8dd49d9e8350408, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke functies hebben grafieken met hellingen kleiner dan of gelijk
+        aan 1
+      correct: Functie 1, 2 en 4
+      wrong1: Functie 1, 3 and 4
+      wrong2: 'Functie 1, 2 en 3   '
+      wrong3: Functie 2, 3 and 4
+      feedback: functies 1, 2 en 4 is de juiste optie
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which functions have graphs with slopes smaller than or equal to
+        1?
+      correct: functions 1; 2 and 4
+      wrong1: Functions 1; 3 and 4
+      wrong2: 'function 1; 2 and 3   '
+      wrong3: functions 2; 3 and 4
+      feedback: functions 1; 2 and 4 is the correct option
+    section: 2.7
+    variation: 31
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q031
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 4eebfc4f15284db4b8dd49d9e8350408, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke functie heeft de grafiek met een y-snijpunt dat het verst verwijderd
+        is van 0
+      correct: Functie 3
+      wrong1: Functie 1
+      wrong2: Functie 2
+      wrong3: Functie 4
+      feedback: Function 3 is juist
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which function has the graph with a y-intercept farthest from 0?
+      correct: Function 3
+      wrong1: Function 1
+      wrong2: Function 2
+      wrong3: Function 4
+      feedback: Function 3 is correct
+    section: 2.7
+    variation: 18
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q032
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 3906daeb374c7034783205e07be2305a, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Van welke functie is de grafiek het steilst?
+      correct: 'Functie 2    '
+      wrong1: Functie 1
+      wrong2: Functie 3
+      wrong3: Functie 4
+      feedback: 
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: "Which function\u2019s graph is the steepes"
+      correct: 'Function 2    '
+      wrong1: Function 1
+      wrong2: Function 3
+      wrong3: Function 4
+      feedback: Function 2 is correct because the slope has the highest magnitude
+        (or value)
+    section: 2.7
+    variation: 30
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q033
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 3906daeb374c7034783205e07be2305a, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke functies hebben grafieken met hellingen kleiner dan 1
+      correct: Functie 1, 2 en 4
+      wrong1: Functie 1, 3 and 4
+      wrong2: 'Functie 1, 2 en 3   '
+      wrong3: Functie 2, 3 and 4
+      feedback: functies 1, 2 en 4 is de juiste optie
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which functions have graphs with slopes smaller than 1?
+      correct: functions 1; 2 and 4
+      wrong1: Functions 1; 3 and 4
+      wrong2: 'function 1; 2 and 3   '
+      wrong3: functions 2; 3 and 4
+      feedback: functions 1; 2 and 4 is the correct option
+    section: 2.7
+    variation: 31
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q034
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 3906daeb374c7034783205e07be2305a, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke functie heeft de grafiek met een y-snijpunt dat het verst verwijderd
+        is van 0
+      correct: Functie 3
+      wrong1: Functie 1
+      wrong2: Functie 2
+      wrong3: Functie 4
+      feedback: Function 3 is juist
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which function has the graph with a y-intercept farthest from 0?
+      correct: Function 3
+      wrong1: Function 1
+      wrong2: Function 2
+      wrong3: Function 4
+      feedback: Function 3 is correct
+    section: 2.7
+    variation: 18
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q035
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 95c2e7aed3086654a8b2c591b86714a6, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Van welke functie is de grafiek het steilst?
+      correct: 'Functie 2    '
+      wrong1: Functie 1
+      wrong2: Functie 3
+      wrong3: Functie 4
+      feedback: 
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: "Which function\u2019s graph is the steepes"
+      correct: 'Function 2    '
+      wrong1: Function 1
+      wrong2: Function 3
+      wrong3: Function 4
+      feedback: Function 2 is correct because the slope has the highest magnitude
+        (or value)
+    section: 2.7
+    variation: 30
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q036
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 95c2e7aed3086654a8b2c591b86714a6, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke functies hebben grafieken met hellingen groter dan of gelijk
+        aan 2
+      correct: Functie 2, 3 en 4
+      wrong1: Functie 1, 3 and 4
+      wrong2: 'function 1, 2 en 3   '
+      wrong3: 'Functie 1, 2 en 4   '
+      feedback: functies 2, 3 en 4 is de juiste optie
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which functions have graphs with slopes greater than or equal to
+        2
+      correct: functions 2; 3 and 4
+      wrong1: Functions 1; 3 and 4
+      wrong2: 'function 1; 2 and 3   '
+      wrong3: 'function 1; 2 and 4   '
+      feedback: functions 2; 3 and 4 is the correct option
+    section: 2.7
+    variation: 31
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q037
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 95c2e7aed3086654a8b2c591b86714a6, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke functie heeft de grafiek met een y-snijpunt dat het verst verwijderd
+        is van 0
+      correct: Functie 3
+      wrong1: Functie 1
+      wrong2: Functie 2
+      wrong3: Functie 4
+      feedback: Function 3 is juist
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which function has the graph with a y-intercept farthest from 0
+      correct: Function 3
+      wrong1: Function 1
+      wrong2: Function 2
+      wrong3: Function 4
+      feedback: Function 3 is correct
+    section: 2.7
+    variation: 18
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q038
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 93685b865ed4ad548bdaf0fe19dc1797, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Van welke functie is de grafiek het steilst?
+      correct: 'Functie 4    '
+      wrong1: Functie 1
+      wrong2: Functie 2
+      wrong3: Functie 3
+      feedback: 
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: "Which function\u2019s graph is the steepes"
+      correct: 'Function 4    '
+      wrong1: Function 1
+      wrong2: Function 2
+      wrong3: Function 3
+      feedback: Function 4 is correct because the slope has the highest magnitude
+        (or value)
+    section: 2.7
+    variation: 30
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q039
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 93685b865ed4ad548bdaf0fe19dc1797, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke functies hebben grafieken met hellingen kleiner dan 1
+      correct: Functie 1, 3 en 4
+      wrong1: 'Functie 1, 2 and 4   '
+      wrong2: 'Functie 1, 2 en 3   '
+      wrong3: 'Functie 2, 3 en 4   '
+      feedback: Functies 1, 3 en 4 is de juiste optie
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which functions have graphs with slopes smaller than 1
+      correct: Functions 1; 3 and 4
+      wrong1: 'function 1; 2 and 4   '
+      wrong2: 'function 1; 2 and 3   '
+      wrong3: 'function 2; 3 and 4   '
+      feedback: Functions 1; 3 and 4 is the correct option
+    section: 2.7
+    variation: 31
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q040
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 93685b865ed4ad548bdaf0fe19dc1797, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Welke functie heeft de grafiek met een y-snijpunt dat het verst verwijderd
+        is van 0
+      correct: 'Functie 2    '
+      wrong1: Functie 1
+      wrong2: Functie 3
+      wrong3: Functie 4
+      feedback: Function 2 is juist
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Which function has the graph with a y-intercept farthest from 0
+      correct: 'Function 2    '
+      wrong1: Function 1
+      wrong2: Function 3
+      wrong3: Function 4
+      feedback: Function 2 is correct
+    section: 2.7
+    variation: 18
+    learningGoalLevel: 10
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q024
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: "\"\"\"Wat is de vergelijking van de lijn: loodrecht op de lijn y
+        = \xBDx - 7 en die door het punt (3, -4) gaat\""
+      correct: y = -2x + 2
+      wrong1: "y = \xBDx \u2212"
+      wrong2: "y = 2x \u2212 "
+      wrong3: "y = -2x \u2212"
+      feedback: y = -2x + 2 klopt. De helling is -2 (-1/0,5= -2) omdat ze loodrecht
+        staan. Het y-snijpunt is 2 omdat de lijn door (3,-4) en -2x3+2=-4 gaat
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: "\"What is the equation of the line: perpendicular to the line y
+        = \xBDx - 7 and passing through the point (3"
+      correct: ' -4)?"'
+      wrong1: y = -2x + 2
+      wrong2: "y = \xBDx \u2212"
+      wrong3: "y = 2x \u2212 "
+      feedback: 
+    section: 2.8
+    variation: 17
+    learningGoalLevel: 11
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q025
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: "\"\"\"Wat is de vergelijking van de lijn: evenwijdig aan de lijn
+        y = -\xBCx + 5 en die door het punt (2, -1) gaat\""
+      correct: "y = -\xBCx \uFFFD"
+      wrong1: "y = \xBCx \u2212"
+      wrong2: "y = 4x \u2212"
+      wrong3: "y = -\xBCx \u2212"
+      feedback: "y = -\xBCx \u2212 \xBD is juist. De helling is -\xBC omdat ze evenwijdig
+        zijn. Het y-snijpunt is -\xBD omdat de lijn door (2,-1) en -1/4 x 2 - 1/2=-"
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: "\"What is the equation of the line: parallel to the line y = -\xBCx
+        + 5 and passing through the point (2"
+      correct: ' -1)"'
+      wrong1: "y = -\xBCx \uFFFD"
+      wrong2: "y = \xBCx \u2212"
+      wrong3: "y = 4x \u2212"
+      feedback: 
+    section: 2.8
+    variation: 17
+    learningGoalLevel: 11
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q021
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 3d659bda497a2f547bb7f4c4e831362e, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Wat is de vergelijking van de lijn die evenwijdig is aan lijn s?
+      correct: "\"y= -3x-2\t\""
+      wrong1: "\"  y= -4x+1\t\""
+      wrong2: ' y=3x+1'
+      wrong3: y=1/3 x-2
+      feedback: y= -3x-2 is correct omdat de helling gelijk is (helling is -3)
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: What is the equation of the line that is parallel to line s?
+      correct: "\"y= -3x-2\t\""
+      wrong1: "\"  y= -4x+1\t\""
+      wrong2: ' y=3x+1'
+      wrong3: y=1/3 x-2
+      feedback: y= -3x-2 is correct        because its slope is equal (slope is -3)
+    section: 3.1
+    variation: 15
+    learningGoalLevel: 12
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q022
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 4011d5048dfc1ab40881e0c0689ae8e9, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Wat is de vergelijking van de lijn die loodrecht staat op lijn r?
+      correct: y= -0,5x+1
+      wrong1: 'y=-2x+1 '
+      wrong2: y=2x-2
+      wrong3: ' y=0,5x+1'
+      feedback: y= -0,5+1 is correct omdat de helling van een loodrechte lijn -1/2
+        is (waarbij 2 de helling is van lijn r)
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: What is the equation of the line that is perpendicular to line r?
+      correct: y= -0
+      wrong1: 5x+1
+      wrong2: 'y=-2x+1 '
+      wrong3: y=2x-2
+      feedback: G4
+    section: 3.1
+    variation: 15
+    learningGoalLevel: 12
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q023
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: "Welke lijnen zijn evenwijdig? A: y = 2x + 3. B: y = 2x \u2013 5.
+        C: y = -2x +"
+      correct: A & B
+      wrong1: B & C
+      wrong2: A & C
+      wrong3: A & B & C
+      feedback: A & B hebben gelijke helling 2
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: "Which lines are parallel? A: y = 2x + 3.  B: y = 2x \u2013 5.  C:
+        y = -2x +"
+      correct: A & B
+      wrong1: B & C
+      wrong2: A & C
+      wrong3: A & B & C
+      feedback: A & B have equal slope 2
+    section: 3.1
+    variation: 16
+    learningGoalLevel: 12
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q043
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Hoe verhouden de lijnen van de vergelijkingen y=3x-8 en 2y-6x+16=0
+        zich tot elkaar?
+      correct: Dezelfde lijn
+      wrong1: Parallelle lijnen
+      wrong2: Evenwijdige lijnen
+      wrong3: Lijnen die niet evenwijdig of loodrecht zijn
+      feedback: De lijnen zijn hetzelfde. De vergelijking 2y-6x+16=0 kan worden geschreven
+        als 2y=6x-16. Deel beide zijden door 2 en je krijgt y=3x-8
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: How are the lines of the equations y=3x-8 and 2y-6x+16=0 related
+        to each other?
+      correct: The same line
+      wrong1: Parallel lines
+      wrong2: Perpendicular lines
+      wrong3: 'Lines that are neither parallel nor perpendicular '
+      feedback: 'The lines are the same. The equation 2y-6x+16=0 can be written as
+        2y=6x-16. Divide both sides by 2 and you get y=3x-8 '
+    section: 3.1
+    variation: 15
+    learningGoalLevel: 12
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q044
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: "Welke lijnen zijn evenwijdig: A: 5x=y-1 B: y=5x \u20131 C: 20x-4y"
+      correct: Ze zijn allemaal parallel
+      wrong1: A &B
+      wrong2: B & C
+      wrong3: A & C
+      feedback: 'Ze zijn allemaal evenwijdig omdat ze een gelijke helling hebben:
+        5'
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: "Which lines are parallel: A: 5x=y-1 B: y=5x \u20131 C: 20x-4y"
+      correct: 'They are all parallel '
+      wrong1: A &B
+      wrong2: B & C
+      wrong3: A & C
+      feedback: 'They are all parallel because they have equal slope: 5'
+    section: 3.1
+    variation: 16
+    learningGoalLevel: 12
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q045
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Wat is de vergelijking van de lijn die loodrecht staat op de lijn
+        5x-3y+30 en door het punt (-2, 7) gaat
+      correct: 5y+3x=29
+      wrong1: 3y+5x=25
+      wrong2: 5y-3x=41
+      wrong3: 5y-3x=-31
+      feedback: 5y+3x=29 klopt
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: 'What is the equation of the line that is perpendicular to the line
+        5x-3y+30 and passes through the point (-2; 7) '
+      correct: 5y+3x=29
+      wrong1: 3y+5x=25
+      wrong2: 5y-3x=41
+      wrong3: 5y-3x=-31
+      feedback: 5y+3x=29 is correct
+    section: 3.1
+    variation: 29
+    learningGoalLevel: 12
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q020
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 78e0c48544ff97c4b92781ad119cc925, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Met behulp van het gegeven punt, welke vergelijking is NIET de vergelijking
+        van deze rechte lijn?
+      correct: y -1 = -2x
+      wrong1: "2y = -4x \u2013"
+      wrong2: y +1 = -2x
+      wrong3: "y - 2 = -2(x \u2013 1,"
+      feedback: y -1 = -2x klopt want als x=- 2 dan is de y-waarde 5 en niet 3 (-2
+        x -2 +1 = 5)
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Using the given point
+      correct: ' which equation is NOT the equation of this straight line?'
+      wrong1: y -1 = -2x
+      wrong2: "2y = -4x \u2013"
+      wrong3: y +1 = -2x
+      feedback: G4
+    section: 3.2
+    variation: 14
+    learningGoalLevel: 13
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q048
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Als 2x-3y=24 en 3x+4y=2, wat is dan de waarde van x-y?
+      correct: 10
+      wrong1: 2
+      wrong2: 22
+      wrong3: 26
+      feedback: 10 is juist
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: 'If 2x-3y=24 and 3x+4y=2; what is the value of x-y? '
+      correct: 10
+      wrong1: 2
+      wrong2: 22
+      wrong3: 26
+      feedback: 10 is correct
+    section: 3.2
+    variation: 19
+    learningGoalLevel: 13
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q049
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Als a+b=5 en 3a+2b=20, waar is 3a+b dan gelijk aan?
+      correct: 25
+      wrong1: 10
+      wrong2: 15
+      wrong3: 20
+      feedback: "25 klopt. Er zijn meerdere strategie\xEBn mogelijk"
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: If a+b=5 and 3a+2b=20; then what is 3a+b equal to?
+      correct: 25
+      wrong1: 10
+      wrong2: 15
+      wrong3: 20
+      feedback: '25 is correct. There are several strategies possible. '
+    section: 3.2
+    variation: 19
+    learningGoalLevel: 13
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q012
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: 2309065906305e14e86b0bf9e341e4f7, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Wat is de vergelijking van deze lijn?
+      correct: y=3
+      wrong1: x=3
+      wrong2: x=3y
+      wrong3: y=3x
+      feedback: y=3 is juist. Voor elke x-waarde is de corresponderende y-waarde
+        3. Met andere woorden, de veranderingssnelheid is constant en gelijk aan
+        nul en het y-snijpunt is 3.
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: What is the equation of this line?
+      correct: y=3
+      wrong1: x=3
+      wrong2: x=3y
+      wrong3: y=3x
+      feedback: y=3 is correct. For each x-value the correspondent y-value is 3.
+        In other words the rate of change is constante and equal to zero and the
+        y-intercept is 3.
+    section: 3.3
+    variation: 9
+    learningGoalLevel: 14
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q015
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: c14c893f32589944397f92239acfa835, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Wat is de vergelijking van deze lijn?
+      correct: x= -2
+      wrong1: x= -2y
+      wrong2: x= -2y
+      wrong3: y= -2
+      feedback: x= -2 is correct omdat de lijn verticaal is en door het punt gaat
+        (-2,0)
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: What is the equation of this line?
+      correct: x= -2
+      wrong1: x= -2y
+      wrong2: x= -2y
+      wrong3: y= -2
+      feedback: x= -2 is correct because the line is vertical and goes through the
+        point (-2
+    section: 3.3
+    variation: 9
+    learningGoalLevel: 14
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q050
+    enabled: 1
+    type: 0
+    image: {fileID: 21300000, guid: e889367f00eb01941aece871ae2b8a27, type: 3}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Wat is de vergelijking van deze rechte lijn met behulp van het gegeven
+        punt?
+      correct: y - 2 = 3(x - 1)
+      wrong1: "y = 3x \u2013"
+      wrong2: y - 2 = 1/3(x - 1)
+      wrong3: y - 1 = 3(x - 2)
+      feedback: y - 2 = 3(x - 1) klopt
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: Using the given point; what is the equation of this straight line?
+      correct: y - 2 = 3(x - 1)
+      wrong1: "y = 3x \u2013"
+      wrong2: y - 2 = 1/3(x - 1)
+      wrong3: y - 1 = 3(x - 2)
+      feedback: y - 2 = 3(x - 1) is correct
+    section: 3.3
+    variation: 20
+    learningGoalLevel: 14
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q046
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: "Wat is de x-co\xF6rdinaat van het snijpunt van de lijnen 2x+5y=21
+        en x+y=3"
+      correct: -2
+      wrong1: -5
+      wrong2: 2
+      wrong3: 5
+      feedback: Optie -2 is juist
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: 'What is the x-coordinate of the intersection point for the lines
+        2x+5y=21 and x+y=3? '
+      correct: -2
+      wrong1: -5
+      wrong2: 2
+      wrong3: 5
+      feedback: Option -2 is correct
+    section: 3.4
+    variation: 21
+    learningGoalLevel: 15
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q047
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: "Wat is de y-co\xF6rdinaat van het snijpunt voor de lijnen 7x+2y=3
+        en x-3y=30"
+      correct: -9
+      wrong1: -3
+      wrong2: 3
+      wrong3: 9
+      feedback: Optie -9 is juist
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: What is the y-coordinate of the intersection point for the lines
+        7x+2y=3 and x-3y=30?
+      correct: -9
+      wrong1: -3
+      wrong2: 3
+      wrong3: 9
+      feedback: Option -9 is correct
+    section: 3.4
+    variation: 21
+    learningGoalLevel: 15
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q008
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Een tank van 60 gallon is aanvankelijk vol met water en wordt afgevoerd
+        met een constante snelheid van 9 gallon per minuut. Schrijf een formule die
+        het aantal liters water in de tank modelleert na x minuten.
+      correct: y=9x+60
+      wrong1: y=(1/9)x+60
+      wrong2: y=-9x+60
+      wrong3: Geen een
+      feedback: y=9x+60 is juist omdat de veranderingssnelheid 9 is en het y-snijpunt
+        60 (bij x=0 minuten was er y=60 gallon water).
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: A 60-gallon tank is initially full of water and being drained at
+        a constant rate of 9 gallons per minute. Write a formula that models the
+        number of gallons of water in the tank after x minutes.
+      correct: y=9x+60
+      wrong1: y=(1/9)x+60
+      wrong2: y=-9x+60
+      wrong3: None of them
+      feedback: y=9x+60 is correct because the rate of change is 9 and the y-intercept
+        is 60 (at x=0 minutes there was y=60 gallon water).
+    section: 3.5
+    variation: 6
+    learningGoalLevel: 16
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 0}
+  - internalName: 
+    name: Q011
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Een goed groeit gelijkmatig (lineair). Om 12:00 is er 10 kg, om 20:00
+        is er 34 kg. Wat is de hoeveelheid om 16:00?
+      correct: 22kg
+      wrong1: 30kg
+      wrong2: 14kg
+      wrong3: 18 kg
+      feedback: 22kg is juist
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: A good grows evenly (linear). At 12 o'clock there is 10 kg
+      correct: ' at 20 o''clock there is 34 kg. What is the quantity at 16 o''clock? '
+      wrong1: 22kg
+      wrong2: 30kg
+      wrong3: 14kg
+      feedback: 
+    section: 3.5
+    variation: 32
+    learningGoalLevel: 16
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}

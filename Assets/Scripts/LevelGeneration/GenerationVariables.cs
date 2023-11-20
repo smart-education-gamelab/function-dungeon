@@ -53,7 +53,7 @@ public class GenerationVariables : ICloneable {
         for (int i = 0; i < roomCount; i++) sections.Add(GetLearningGoalSectionIndexForRoom(defs, i, roomCount));
 
         var sectionOccurences = Utils.CountOccurrences(sections);
-        var availableSectionOccurences = Utils.CountOccurrences(list.questions.Select(x => x.learningGoalLevel).ToList());
+        var availableSectionOccurences = Utils.CountOccurrences(list.questions.Where(x => x.enabled).Select(x => x.learningGoalLevel).ToList());
 
         List<string> invalidSections = new List<string>();
         foreach (var section in sectionOccurences) {
