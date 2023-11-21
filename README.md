@@ -16,9 +16,9 @@ For the most recent updates and ongoing developments, visit:
 
 Expanding the game's reach and functionality, there are a number of specialized branches:
 
-- [Question Editor](): Offers tooling for users to add custom questions.
-- [Localization](): Adds ingame localization, removing the need for different builds for multiple languages.
-- [Level Generator](): Adds tooling for procedurally generated levels.
+- [Question Editor](https://github.com/smart-education-gamelab/function-dungeon/tree/question-editor): Offers tooling for users to add custom questions.
+- [Localization](https://github.com/smart-education-gamelab/function-dungeon/tree/localization): Adds ingame localization, removing the need for different builds for multiple languages.
+- [Level Generator](https://github.com/smart-education-gamelab/function-dungeon/tree/level-generator): Adds AI-driven procedurally generated levels.
 
 ### GAMMA Distribution Version
 
@@ -37,5 +37,17 @@ Pay homage to the roots of Function Dungeon, originally crafted by Kevin Hooijsc
 - [Original Version](https://github.com/smart-education-gamelab/function-dungeon/tree/original)
 
 ---
+### Credits
 
-Feel free to explore these branches to experience the various stages of Function Dungeon's evolution and to find the version that best suits your needs. Thank you for your interest in Function Dungeon!
+Game Development by Kevin Hooijschuur & Erwin van Crasbeek.
+Math Content and Question Design by Sonia Palha & Daan van Smaalen.
+Game Design by Kevin Hooijschuur, Sonia Palha, Anders Bouwer, Daan van Smaalen & Erwin van Crasbeek.
+Music composed, performed and produced by Anders Bouwer.
+Developed in the context of the European Erasmus+ project GAMMA (GAMe-based Learning in MAthematics). Project website: http://www.project-gamma.eu/
+
+* Dutch Translations by Daan van Smaalen, Sonia Palha and Anders Bouwer.
+* Greek Translations by National and Kapodistrian University of Athens, School of Philosophy, Department of Educational Studies, Greece.
+* Croatian Translations by Department of Mathematics, J. J. Strossmayer University of Osijek, Croatia.
+* Finnish Translations by Satakunta University of Applied Sciences, Faculty of Technology, Finland.
+
+Amsterdam University of Applied Sciences, Amsterdam, The Netherlands
