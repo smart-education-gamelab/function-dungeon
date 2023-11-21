@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q055
+  m_EditorClassIdentifier: 
+  id: Q055
+  image: {fileID: 21300000, guid: bf276d5124c55c24d8a03b800e9668b6, type: 3}
+  text:
+  - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+    question: '"""De figuur toont de eerste vier V-patronen. Elk patroon heeft een
+      nummer. Hoeveel stippen heeft het V-patroon met nummer 85?"""'
+    correct: 171
+    wrong1: 169
+    wrong2: 170
+    wrong3: 168
+    feedback: Het antwoord is 171. De constante veranderingssnelheid is 2 en het
+      y-snijpunt is 1 (voor patroon nul is er 1 punt). Het hele patroon wordt gegeven
+      door de formule y=2x+1. Voor x=85 dan is y=171
+  - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+    question: '"The figure shows the first four V-patterns. Each pattern has a number.
+      How many dots has the V-pattern with number 85?"'
+    correct: 171
+    wrong1: 169
+    wrong2: 170
+    wrong3: 168
+    feedback: The answer is 171. The constant rate of change is 2 and the y-intercept
+      is 1 (for pattern zero there 1 dot). The whole pattern is given by the formula
+      y=2x+1. For x=85 than is y=171
+  section: 1.1
+  variation: 24
+  learningGoal: G1
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0

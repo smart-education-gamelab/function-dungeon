@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258c1598b01db4498fc138c3571dd87, type: 3}
+  m_Name: Tutorial (Collecting 2)
+  m_EditorClassIdentifier: 
+  content:
+  - sprite: {fileID: -1072785490643722561, guid: 2b3f6777b882e994fa36c4f5416aa471,
+      type: 3}
+    localizationKey:
+      m_TableReference:
+        m_TableCollectionName: GUID:073bf3d286edcdf4e81273b945f74c72
+      m_TableEntryReference:
+        m_KeyId: 129575579648
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
