@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Default Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Default
+  m_TableCollectionNameGuidString: 073bf3d286edcdf4e81273b945f74c72
+  m_Entries:
+  - m_Id: 20699836416
+    m_Key: TUTORIAL_CONTROLS1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59513925632
+    m_Key: TUTORIAL_CONTROLS2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93965938688
+    m_Key: TUTORIAL_CALLING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107622592512
+    m_Key: TUTORIAL_COLLECTING1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129575579648
+    m_Key: TUTORIAL_COLLECTING2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27233927196672
+    m_Key: CLUEFOUND_FEEDBACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27334938619904
+    m_Key: CLUEFOUND_QUESTIONFOUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27438248521728
+    m_Key: PHONECALL_HELP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27532767162368
+    m_Key: PHONECALL_FEEDBACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27599288823808
+    m_Key: NPC_1_FAIL1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27791266312192
+    m_Key: NPC_1_FAIL2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27815765241856
+    m_Key: NPC_1_SUCCESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27870240862208
+    m_Key: NPC_2_FAIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27891560509440
+    m_Key: NPC_2_SUCCESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77147507945472
+    m_Key: MENU_INSTRUCTIONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77278860963840
+    m_Key: MENU_CHOOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77306996355072
+    m_Key: MENU_LEVEL1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77330195050496
+    m_Key: MENU_LEVEL2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77340924080128
+    m_Key: MENU_HOWTOPLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80267633913856
+    m_Key: MENU_GENERATELEVEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701939655274496
+    m_Key: MENU_PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703583293960192
+    m_Key: MENU_PAUSE_MAINMENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703622049329152
+    m_Key: MENU_PAUSE_RESUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703695130882048
+    m_Key: MENU_PAUSE_RESTART
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2323505867632148507
+  references:
+    version: 2
+    RefIds:
+    - rid: 2323505867632148507
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1694599503200

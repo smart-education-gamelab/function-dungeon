@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ace75cb0caa9a419e57282f0b4d789, type: 3}
+  m_Name: Q008
+  m_EditorClassIdentifier: 
+  id: Q008
+  image: {fileID: 0}
+  text:
+  - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+    question: A 60-gallon tank is initially full of water and being drained at a
+      constant rate of 9 gallons per minute. Write a formula that models the number
+      of gallons of water in the tank after x minutes.
+    correct: y=9x+60
+    wrong1: y=(1/9)x+60
+    wrong2: y=-9x+60
+    wrong3: None of them
+    feedback: y=9x+60 is correct because the rate of change is 9 and the y-intercept
+      is 60 (at x=0 minutes there was y=60 gallon water).
+  section: 3.5
+  variation: 6
+  learningGoal: G5
+  dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+  used: 0
