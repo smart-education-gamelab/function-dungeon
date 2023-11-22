@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810740611c3c3304a9838edd89d03023, type: 3}
+  m_Name: Chalk
+  m_EditorClassIdentifier: 
+  item_name: Chalk
+  item_sprite: {fileID: 21300000, guid: 809879cd95637084a87c98e21929bb59, type: 3}
+  item_GO: {fileID: 8801282838247220377, guid: 2ce008d2e3ef9d54d8043c33d93a1233, type: 3}
+  original_object: {fileID: 0}
