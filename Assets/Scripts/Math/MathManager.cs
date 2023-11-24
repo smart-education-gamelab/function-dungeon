@@ -14,7 +14,6 @@ public class MathManager : MonoBehaviour {
     public QuestionList questionList;
     internal int index;
 
-    private PlayerController player;
     private DialogueManager dialogueManager;
     [HideInInspector] public Question activeQuestion;
     internal TriggerExercise questionOrigin;
@@ -37,7 +36,6 @@ public class MathManager : MonoBehaviour {
 
     [Header("After Failure")]
     internal int wrongAnsw;
-    private GameObject failRoom;
 
     private void Start() {
         //Ensure we can generate consistent levels with the same questions.
@@ -50,13 +48,11 @@ public class MathManager : MonoBehaviour {
             }
         }
 
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         dialogueManager = gameObject.GetComponent<DialogueManager>();
         audioManager = gameObject.GetComponent<AudioManager>();
     }
 
-    public void ResetQuestions(GameObject failRoom) {
-        this.failRoom = failRoom;
+    public void ResetQuestions() {
         foreach (Question question in questionList.questions) {
             if (question.used) {
                 question.used = false;
@@ -118,13 +114,14 @@ public class MathManager : MonoBehaviour {
 
     private void WrongAnswer() {
         questionsWrong++;
-        FindObjectOfType<Teleport>().destination = player.transform.position;
+        FindObjectOfType<Teleport>().destination = Globals.PlayerController.transform.position;
         Color c = icon.color;
         c.a = 0.3f;
         icon.color = c;
         icon.sprite = incorrect;
         audioManager.Play("Wrong");
-        player.FallAndTeleport(new Vector2(failRoom.transform.position.x, failRoom.transform.position.y), null);
+        FailRoom failRoom = FindObjectOfType<FailRoom>();
+        Globals.PlayerController.FallAndTeleport(new Vector2(failRoom.spawnPos.position.x, failRoom.spawnPos.position.y), null);
     }
 
     private IEnumerator closeUI(float delayTime) {

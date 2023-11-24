@@ -9,7 +9,7 @@ public class MathSetup : MonoBehaviour
     public GameObject failRoom;
 
     public void Start() {
-        Globals.MathManager.ResetQuestions(failRoom);
+        Globals.MathManager.ResetQuestions();
     }
 
     public void Awake()

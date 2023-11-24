@@ -91,7 +91,7 @@ MonoBehaviour:
     variation: 2
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
+    used: 1
     puzzlePrefab: {fileID: 0}
   - internalName: 
     name: Q003

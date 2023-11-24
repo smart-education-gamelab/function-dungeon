@@ -28,7 +28,8 @@ public class QuestionText : ICloneable {
 
 public enum QuestionType {
     MULTIPLECHOICE,
-    CUSTOM
+    CUSTOM,
+    MULTIPLECHOICEGAMIFIED
 }
 
 [Serializable]

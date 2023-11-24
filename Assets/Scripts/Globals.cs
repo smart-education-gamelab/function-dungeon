@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -55,6 +56,7 @@ public class Globals : MonoBehaviour {
         _Instance.GlobalInitialize();
         _Instance.isInitialized = true;
     }
+
 
     private void GlobalInitialize() {
         Utils.FindUniqueObject(out sceneManager);

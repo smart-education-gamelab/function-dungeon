@@ -27,6 +27,7 @@ public class TriggerExercise : MonoBehaviour {
     }
 
     public void OnTrigger() {
+        if (Globals.MathManager.displayExerciseUI || Globals.MathManager.customPuzzle) return;
         Question question = GetQuestion();
         Globals.MathManager.feedback = false;
         Globals.MathManager.questionOrigin = this;
@@ -36,15 +37,18 @@ public class TriggerExercise : MonoBehaviour {
         Globals.MathManager.torches = setExercise.Torches();
 
         if (question.type == QuestionType.MULTIPLECHOICE) {
-            //Globals.MathManager.displayExerciseUI = true;
-            //Globals.DialogueManager.StartDialogue(setExercise.dialogue);
-            //UpdateUI();
-            Globals.MathManager.customPuzzle = Instantiate(Globals.MultipleChoicePuzzlePrefab).GetComponent<CustomPuzzle>();
-        } else if (question.type == QuestionType.CUSTOM) {
-            Globals.MathManager.customPuzzle = Instantiate(question.puzzlePrefab).GetComponent<CustomPuzzle>();
+            Globals.MathManager.displayExerciseUI = true;
+            Globals.DialogueManager.StartDialogue(setExercise.dialogue);
+            UpdateUI();
+        } else { //If its a custom puzzle question
+            if (question.type == QuestionType.MULTIPLECHOICEGAMIFIED) {
+                Globals.MathManager.customPuzzle = Instantiate(Globals.MultipleChoicePuzzlePrefab).GetComponent<CustomPuzzle>();
+            } else if (question.type == QuestionType.CUSTOM) {
+                Globals.MathManager.customPuzzle = Instantiate(question.puzzlePrefab).GetComponent<CustomPuzzle>();
+            }
+            Globals.PlayerController.FallAndTeleport(Globals.MathManager.customPuzzle.playerSpawnPoint.position, Globals.MathManager.customPuzzle.OnPlayerEnter);
+            Globals.MathManager.customPuzzle.question = question;
         }
-        Globals.PlayerController.FallAndTeleport(Globals.MathManager.customPuzzle.playerSpawnPoint.position, Globals.MathManager.customPuzzle.OnPlayerEnter);
-        Globals.MathManager.customPuzzle.question = question;
     }
 
     private Question GetQuestion() {
@@ -52,7 +56,7 @@ public class TriggerExercise : MonoBehaviour {
         List<int> usable = new List<int>();
 
         foreach (Question question in Globals.MathManager.questionList.questions) {
-            if(!question.enabled) continue;
+            if (!question.enabled) continue;
             if (Constants.learningGoalLevels[question.learningGoalLevel] == transform.parent.GetComponent<SetExercise>().section) {
                 usedUsable.Add(Globals.MathManager.questionList.questions.IndexOf(question));
                 if (!question.used) {

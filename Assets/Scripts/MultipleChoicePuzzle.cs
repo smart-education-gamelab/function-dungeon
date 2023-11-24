@@ -60,18 +60,26 @@ public class MultipleChoicePuzzle : CustomPuzzle {
             }
         }
 
-
-        if (previousAnswer != null) previousAnswer.text.color = backupColor;
-
-        if (closestDistanceSqr < 0.5f) {
+        if (closestDistanceSqr < 0.5f && previousAnswer != closest) {
             previousAnswer = closest;
+            if (previousAnswer != null) previousAnswer.text.color = backupColor;
             backupColor = closest.text.color;
             if (closest == answerTextPairs[0]) {
                 closest.text.color = Color.green;
                 ladder.gameObject.SetActive(true);
             } else {
                 closest.text.color = Color.red;
+                MathManager mathManager = FindObjectOfType<MathManager>();
+                mathManager.questionsWrong++;
+                FindObjectOfType<Teleport>().destination = Globals.PlayerController.transform.position;
+                FindObjectOfType<AudioManager>().Play("Wrong");
+                FailRoom failRoom = FindObjectOfType<FailRoom>();
+                Globals.PlayerController.FallAndTeleport(new Vector2(failRoom.spawnPos.position.x, failRoom.spawnPos.position.y), OnWrongAnswerFall);
             }
         }
+    }
+
+    private void OnWrongAnswerFall() {
+        Globals.CameraController.ReattachCamera(0);
     }
 }

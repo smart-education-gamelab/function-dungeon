@@ -29,13 +29,10 @@ public class ShowFeedback : MonoBehaviour
             {
                 btn.GetComponent<Image>().color = Color.red;
             }
-            
-
-            
         }
 
         LocalizedString localized = new LocalizedString();
-        localized.TableReference = "Table";
+        localized.TableReference = "Questions";
         localized.TableEntryReference = Globals.MathManager.activeQuestion.name + "_FEEDBACK";
 
         //mathManager.math.dialogue.content[0].localizationKey = mathManager.math.feedback;

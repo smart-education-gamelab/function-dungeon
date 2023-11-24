@@ -88,7 +88,7 @@ public class QuestionEditorWindow : EditorWindow {
             float indexWidth = GUI.skin.label.CalcSize(new GUIContent(learningGoal)).x;
             Rect labelRect = new Rect(rect.x, rect.y, rect.width - indexWidth, rect.height);
             Rect indexRect = new Rect(rect.xMax - indexWidth, rect.y, indexWidth, rect.height);
-             GUI.Label(labelRect, label);
+            GUI.Label(labelRect, label);
             GUI.Label(indexRect, learningGoal);
             GUI.contentColor = color;
         }
@@ -206,7 +206,8 @@ public class QuestionEditorWindow : EditorWindow {
 
         QuestionType questionType = (QuestionType)questionTypeProperty.enumValueIndex;
         switch (questionType) {
-            case QuestionType.MULTIPLECHOICE: DrawQuestionMultipleChoice(); break;
+            case QuestionType.MULTIPLECHOICE: 
+            case QuestionType.MULTIPLECHOICEGAMIFIED: DrawQuestionMultipleChoice(); break;
             case QuestionType.CUSTOM: DrawQuestionCustom(); break;
         }
 
