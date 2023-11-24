@@ -4,10 +4,6 @@ using UnityEngine;
 using TMPro;
 
 public class CanvasManager : MonoBehaviour {
-    private DialogueManager dialogueManager;
-    private MathManager mathManager;
-    private EndScreen endScreen;
-    private RequestUIManager requestManager;
     private Call call;
     [SerializeField] private TextMeshProUGUI callsLeft;
 
@@ -21,10 +17,6 @@ public class CanvasManager : MonoBehaviour {
     [SerializeField] private GameObject phoneBtn;
 
     private void Awake() {
-        dialogueManager = GameObject.Find("Manager").GetComponent<DialogueManager>();
-        mathManager = GameObject.Find("Manager").GetComponent<MathManager>();
-        endScreen = FindObjectOfType<EndScreen>();
-        requestManager = FindObjectOfType<RequestUIManager>();
         call = FindObjectOfType<Call>();
     }
 
@@ -33,23 +25,23 @@ public class CanvasManager : MonoBehaviour {
     }
 
     private void Update() {
-        if (dialogueManager.displayDialogueUI) {
+        if (Globals.DialogueManager.displayDialogueUI) {
             dialogueUI.SetActive(true);
             inventoryUI.SetActive(false);
         } else {
             inventoryUI.SetActive(true);
         }
-        if (mathManager.displayExerciseUI && dialogueManager.sentences.Count == 0) {
+        if (Globals.MathManager.displayExerciseUI && Globals.DialogueManager.sentences.Count == 0) {
             dialogueUI.SetActive(true);
             exerciseUI.SetActive(true);
         }
 
-        if (!dialogueManager.displayDialogueUI && !mathManager.displayExerciseUI) {
+        if (!Globals.DialogueManager.displayDialogueUI && !Globals.MathManager.displayExerciseUI) {
             dialogueUI.SetActive(false);
             exerciseUI.SetActive(false);
         }
 
-        if (endScreen.displayEndScreen) {
+        if (Globals.EndScreen.displayEndScreen) {
             endScreenUI.SetActive(true);
             canvas.SetActive(false);
         } else {
@@ -57,13 +49,13 @@ public class CanvasManager : MonoBehaviour {
             canvas.SetActive(true);
         }
 
-        if (!dialogueManager.displayDialogueUI && requestManager.displayRequestUI) {
+        if (!Globals.DialogueManager.displayDialogueUI && Globals.RequestUIManager.displayRequestUI) {
             requestUI.SetActive(true);
         } else {
             requestUI.SetActive(false);
         }
 
-        if (mathManager.displayExerciseUI && call.calls > 0) {
+        if (Globals.MathManager.displayExerciseUI && call.calls > 0) {
             phoneBtn.SetActive(true);
         } else {
             phoneBtn.SetActive(false);

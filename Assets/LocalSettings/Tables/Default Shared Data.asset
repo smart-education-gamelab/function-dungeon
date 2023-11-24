@@ -111,6 +111,10 @@ MonoBehaviour:
     m_Key: MENU_PAUSE_RESTART
     m_Metadata:
       m_Items: []
+  - m_Id: 26082878103121920
+    m_Key: TUTORIAL_CARRYABLE
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

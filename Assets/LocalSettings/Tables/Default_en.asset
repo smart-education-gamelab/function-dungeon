@@ -148,6 +148,11 @@ MonoBehaviour:
     m_Localized: Restart
     m_Metadata:
       m_Items: []
+  - m_Id: 26082878103121920
+    m_Localized: Some objects such as the stones next to you can be picked up. Press
+      'E' to pick them up or put them down again.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

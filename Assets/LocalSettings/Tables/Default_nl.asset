@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 20699836416
-    m_Localized: Loop romd met de WASD of pijltjestoetsen. Druk op spatiebalk om
+    m_Localized: Loop rond met de WASD of pijltjestoetsen. Druk op spatiebalk om
       verder te gaan.
     m_Metadata:
       m_Items: []
@@ -42,8 +42,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 129575579648
-    m_Localized: Goed bezig met het vinden van het item! Als je de volgende keer
-      vastzit met een moeilijke vraag, bel me dan!
+    m_Localized: Mooi dat je het item gevonden hebt! Als je de volgende keer vastzit
+      met een moeilijke vraag, bel me dan!
     m_Metadata:
       m_Items: []
   - m_Id: 27233927196672
@@ -128,6 +128,11 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 703695130882048
     m_Localized: Herstart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26082878103121920
+    m_Localized: Sommige objecten zoals de stenen naast je kunnen opgepakt worden.
+      Druk op 'E' om ze op te pakken of weer neer te zetten.
     m_Metadata:
       m_Items: []
   references:

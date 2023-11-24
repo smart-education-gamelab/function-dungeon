@@ -17,6 +17,8 @@ public class Globals : MonoBehaviour {
     private DialogueManager dialogueManager;
     private MathManager mathManager;
     public Inventory_UI[] inventoryUI;
+    private EndScreen endScreen;
+    private RequestUIManager requestUIManager;
 
     [Header("Resources")]
     public Sprite handIcon;
@@ -32,6 +34,8 @@ public class Globals : MonoBehaviour {
     public static DialogueManager DialogueManager => _Instance.dialogueManager;
     public static CameraController CameraController => _Instance.cameraController;
     public static Inventory_UI[] InventoryUI => _Instance.inventoryUI;
+    public static EndScreen EndScreen => _Instance.endScreen;
+    public static RequestUIManager RequestUIManager => _Instance.requestUIManager;
 
     public static Sprite HandIcon => _Instance.handIcon;
     public static GameObject HolePrefab => _Instance.holePrefab;
@@ -67,6 +71,8 @@ public class Globals : MonoBehaviour {
         Utils.FindUniqueObject(out endScreenUI);
         Utils.FindUniqueObject(out dialogueManager);
         Utils.FindUniqueObject(out mathManager);
+        Utils.FindUniqueObject(out endScreen);
+        Utils.FindUniqueObject(out requestUIManager);
     }
 
     public static Globals GetInstance() {
