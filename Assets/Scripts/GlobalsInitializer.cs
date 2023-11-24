@@ -15,6 +15,6 @@ public class GlobalsInitializer : MonoBehaviour {
         Globals.Initialize();
         if (openMainMenu) Globals.UIManager.SetMenu("Main");
         if (playerSpawnPoint)
-            FindObjectOfType<PlayerController>().transform.position = playerSpawnPoint.transform.position;
+            FindObjectOfType<PlayerController>().transform.position = new Vector3(playerSpawnPoint.transform.position.x, playerSpawnPoint.transform.position.y, 0);
     }
 }
