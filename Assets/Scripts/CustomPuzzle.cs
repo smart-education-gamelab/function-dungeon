@@ -16,8 +16,10 @@ public class CustomPuzzle : MonoBehaviour {
         transform.position = new Vector3(-100, -100, 0);
     }
 
-    //Called when the player exits the puzzle
+    //Called when the player tries to exit the puzzle
     public virtual void OnLadderExit() {
+        if (Globals.PlayerController.IsHoldingItem()) return;
+
         Globals.MathManager.OnQuestionComplete();
         Globals.PlayerController.transform.position = originalPlayerLocation;
         Globals.MathManager.customPuzzle = null;

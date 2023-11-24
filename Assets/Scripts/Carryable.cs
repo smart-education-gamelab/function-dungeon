@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +17,7 @@ public class Carryable : MonoBehaviour {
     public CarryableType type;
     private Color originalColor;
     private Rigidbody2D rb;
+    [NonSerialized] public Transform parent; //Stores the parent of the object while its being picked up by the player
 
     private bool isInteractable = false;
     private GameObject interactionIcon;

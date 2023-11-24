@@ -85,13 +85,14 @@ public class PlayerController : Movement {
                     if (currentHeldItem != null) {
                         Vector3 targetPosition = transform.position + lookDirection.normalized * 0.6f; //Distance from player
                         if (!IsPlaceOccupied(targetPosition)) {
-                            currentHeldItem.transform.SetParent(null);
                             currentHeldItem.transform.position = targetPosition;
+                            currentHeldItem.transform.SetParent(currentHeldItem.parent);
                             currentHeldItem.OnDrop();
                             currentHeldItem = null;
                         }
                     } else if (closestCarryable != null && closestCarryable.IsInteractable()) {
                         currentHeldItem = closestCarryable;
+                        currentHeldItem.parent = currentHeldItem.transform.parent;
                         currentHeldItem.transform.SetParent(itemHoldPosition);
                         currentHeldItem.transform.localPosition = Vector3.zero;
                         currentHeldItem.OnPickup();
