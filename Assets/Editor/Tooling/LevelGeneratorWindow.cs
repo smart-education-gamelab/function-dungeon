@@ -13,7 +13,7 @@ public class LevelGeneratorWindow : EditorWindow {
     private const string levelGeneratorScenePath = "assets/Scenes/level generation.unity";
     private string learningGoalSectionsStr = "";
     private string generationString = "";
-    private GenerationVariables variables = new GenerationVariables();
+    private GenerationVariables variables = new GenerationVariables(true);
     private LevelGenerator levelGenerator;
     private bool readVariablesValid = true;
     private Color redColor = new Color(2f, 0.5f, 0.5f);
@@ -28,7 +28,6 @@ public class LevelGeneratorWindow : EditorWindow {
     private void OnEnable() {
         questionList = AssetDatabase.LoadAssetAtPath<QuestionList>(Constants.questionListPath);
         CreateReorderableList();
-        variables.learningGoalSections.Add(new LearningGoalSectionDefinition(0, Constants.learningGoalLevels.Count - 1));
         UnityEditor.SceneManagement.EditorSceneManager.activeSceneChanged += OnSceneChanged;
         InvalidateGenerationString();
         UpdateSelectedLearningGoalSections();

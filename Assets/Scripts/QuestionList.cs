@@ -34,7 +34,8 @@ public enum QuestionType {
 
 [Serializable]
 public class Question : ICloneable {
-    public string internalName = ""; //This variable is only here so we don't encounter a very strange bug in the editor window. If this string isn't here, the name field of this question will keep losing focus.
+    [NonSerialized] public int uniqueIdentifier; //Used so multiple questions can share the same name. The variable is assigned during initialization of localizations in the LocalizationManager.
+    public string ignoreThis = ""; //This variable is only here so we don't encounter a very strange bug in the editor window. If this string isn't here, the name field of this question will keep losing focus.
     public string name = "";
     public bool enabled = true;
     public QuestionType type = QuestionType.MULTIPLECHOICE;
@@ -62,22 +63,22 @@ public class Question : ICloneable {
     public bool used = false;
 
     public string GetQuestionLocalizationKey() {
-        return name + "_QUESTION";
+        return name + uniqueIdentifier + "_QUESTION";
     }
     public string GetCorrectLocalizationKey() {
-        return name + "_CORRECT";
+        return name + uniqueIdentifier + "_CORRECT";
     }
     public string GetWrong1LocalizationKey() {
-        return name + "_WRONG1";
+        return name + uniqueIdentifier + "_WRONG1";
     }
     public string GetWrong2LocalizationKey() {
-        return name + "_WRONG2";
+        return name + uniqueIdentifier + "_WRONG2";
     }
     public string GetWrong3LocalizationKey() {
-        return name + "_WRONG3";
+        return name + uniqueIdentifier + "_WRONG3";
     }
     public string GetFeedbackLocalizationKey() {
-        return name + "_FEEDBACK";
+        return name + uniqueIdentifier + "_FEEDBACK";
     }
 
     //Custom

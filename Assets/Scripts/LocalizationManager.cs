@@ -20,7 +20,10 @@ public class LocalizationManager : MonoBehaviour {
 
     public IEnumerator Start() {
         yield return LocalizationSettings.InitializationOperation;
+        int index = 0;
         foreach (var question in questionList.questions) {
+            question.uniqueIdentifier = index;
+            index++;
             foreach (QuestionText text in question.text) {
                 var stringTable = LocalizationSettings.StringDatabase.GetTableAsync("Questions", text.locale).WaitForCompletion();
                 try {

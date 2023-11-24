@@ -10,6 +10,7 @@ using System.Reflection;
 using UnityEditor.Localization.Plugins.XLIFF.V12;
 using static UnityEditor.Rendering.FilterWindow;
 using Malee.List;
+using static UnityEditor.Progress;
 
 public class QuestionEditorWindow : EditorWindow {
     private SerializedObject serializedQuestionList;
@@ -43,7 +44,13 @@ public class QuestionEditorWindow : EditorWindow {
             mathList.drawHeaderCallback += DrawHeader;
             mathList.onSelectCallback += OnSelect;
             mathList.onRemoveCallback += OnRemove;
+            mathList.onAddCallback += OnAddItem;
         }
+    }
+    void OnAddItem(ReorderableList list) {
+        var item = list.AddItem();
+        item.FindPropertyRelative("name").stringValue = item.FindPropertyRelative("name").stringValue + "_copy";
+        selectedQuestion = item;
     }
 
     private void OnRemove(ReorderableList list) {
@@ -206,7 +213,7 @@ public class QuestionEditorWindow : EditorWindow {
 
         QuestionType questionType = (QuestionType)questionTypeProperty.enumValueIndex;
         switch (questionType) {
-            case QuestionType.MULTIPLECHOICE: 
+            case QuestionType.MULTIPLECHOICE:
             case QuestionType.MULTIPLECHOICEGAMIFIED: DrawQuestionMultipleChoice(); break;
             case QuestionType.CUSTOM: DrawQuestionCustom(); break;
         }

@@ -39,6 +39,10 @@ public class GenerationVariables : ICloneable {
     [JsonProperty("q")]
     public bool randomizedQuestions = true;
 
+    public GenerationVariables(bool addDefault) {
+        learningGoalSections.Add(new LearningGoalSectionDefinition(0, Constants.learningGoalLevels.Count - 1));
+    }
+
     public object Clone() {
         GenerationVariables newVariables = (GenerationVariables)MemberwiseClone();
         newVariables.learningGoalSections = new List<LearningGoalSectionDefinition>();

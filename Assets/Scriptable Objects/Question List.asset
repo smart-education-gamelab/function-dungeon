@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Question List
   m_EditorClassIdentifier: 
   questions:
-  - internalName: 
+  - ignoreThis: 
     name: FunctionPuzzle
     enabled: 1
     type: 1
@@ -41,9 +41,9 @@ MonoBehaviour:
     used: 0
     puzzlePrefab: {fileID: 2794574825249174417, guid: deff5df608869994a8044588ba8c6d1d,
       type: 3}
-  - internalName: 
+  - ignoreThis: 
     name: Q001
-    enabled: 1
+    enabled: 0
     type: 0
     image: {fileID: 0}
     text:
@@ -67,9 +67,9 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q002
-    enabled: 1
+    enabled: 0
     type: 0
     image: {fileID: 0}
     text:
@@ -91,11 +91,11 @@ MonoBehaviour:
     variation: 2
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 1
+    used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q003
-    enabled: 1
+    enabled: 0
     type: 0
     image: {fileID: 0}
     text:
@@ -119,9 +119,9 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q004
-    enabled: 1
+    enabled: 0
     type: 0
     image: {fileID: 0}
     text:
@@ -145,10 +145,10 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q007
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: 971338901c3dffc4e9c1288479555268, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -183,9 +183,9 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q009
-    enabled: 1
+    enabled: 0
     type: 0
     image: {fileID: 0}
     text:
@@ -211,9 +211,9 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q019
-    enabled: 1
+    enabled: 0
     type: 0
     image: {fileID: 0}
     text:
@@ -237,10 +237,10 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q041
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: b4b70df0214bc654197c162b98f4d0a8, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -267,11 +267,11 @@ MonoBehaviour:
     variation: 5
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
+    used: 1
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q042
-    enabled: 1
+    enabled: 0
     type: 0
     image: {fileID: 0}
     text:
@@ -301,11 +301,11 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q051
-    enabled: 1
+    enabled: 0
     type: 0
-    image: {fileID: 21300000, guid: 704b543cc6de71c41b456ff0ab90a7fd, type: 3}
+    image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
       question: Welke van de volgende grafieken stelt een lineaire functie voor?
@@ -327,10 +327,10 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q052
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: 43e592347b23a54439530823b4845396, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -356,7 +356,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q054
     enabled: 1
     type: 0
@@ -388,7 +388,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q055
     enabled: 1
     type: 0
@@ -420,7 +420,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q056
     enabled: 1
     type: 0
@@ -452,7 +452,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q057
     enabled: 1
     type: 0
@@ -484,9 +484,9 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q065
-    enabled: 1
+    enabled: 0
     type: 0
     image: {fileID: 21300000, guid: fe081a691c30bdc4692226f1644ae5b4, type: 3}
     text:
@@ -510,7 +510,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q066
     enabled: 1
     type: 0
@@ -538,7 +538,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q067
     enabled: 1
     type: 0
@@ -564,7 +564,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q068
     enabled: 1
     type: 0
@@ -590,7 +590,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q069
     enabled: 1
     type: 0
@@ -616,7 +616,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q070
     enabled: 1
     type: 0
@@ -642,7 +642,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q071
     enabled: 1
     type: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q006
     enabled: 1
     type: 0
@@ -700,7 +700,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q053
     enabled: 1
     type: 0
@@ -728,7 +728,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q018
     enabled: 1
     type: 0
@@ -758,7 +758,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q058
     enabled: 1
     type: 0
@@ -787,7 +787,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q059
     enabled: 1
     type: 0
@@ -815,7 +815,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q060
     enabled: 1
     type: 0
@@ -843,7 +843,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q061
     enabled: 1
     type: 0
@@ -869,7 +869,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q062
     enabled: 1
     type: 0
@@ -897,7 +897,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q063
     enabled: 1
     type: 0
@@ -925,7 +925,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q072
     enabled: 1
     type: 0
@@ -953,7 +953,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q073
     enabled: 1
     type: 0
@@ -979,7 +979,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q074
     enabled: 1
     type: 0
@@ -1007,7 +1007,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q075
     enabled: 1
     type: 0
@@ -1022,7 +1022,7 @@ MonoBehaviour:
       feedback: b is correct omdat het de enige lijn is met zowel positieve helling
         als positief y-snijpunt
     - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which line has slope -2 and goes through (1;1)?
+      question: Which line has slope -2 and goes through (1,1)?
       correct: b
       wrong1: a
       wrong2: c
@@ -1035,15 +1035,15 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q076
     enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 75900d227fa1b8448ad828a476fcc69f, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: '"""Gezien de grafiek. Welke leerling heeft gelijk?"""'
-      correct: Geen enkele student heeft gelijk
+      question: Gezien de grafiek. Welke leerling heeft gelijk?
+      correct: Geen enkele student heeft gelijk.
       wrong1: 'Ebbe: het y-snijpunt is positief.'
       wrong2: 'Nils: de lijn gaat door (-1,1).'
       wrong3: 'Ines: de helling is negatief.'
@@ -1051,7 +1051,7 @@ MonoBehaviour:
         het snijpunt met de y-as negatief is (niet positief), de lijn gaat door (-2,1)
         en niet door (-1, 1), de helling is positief (niet negatief).'
     - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: '"Given the graph. Which student is right?"'
+      question: Given the graph. Which student is right?
       correct: None of the students is right.
       wrong1: 'Ebbe: the y-intercept is positive.'
       wrong2: 'Nils: the line passes through (-1;1).'
@@ -1065,7 +1065,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q010
     enabled: 1
     type: 0
@@ -1095,14 +1095,14 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q079
     enabled: 1
     type: 0
     image: {fileID: 21300000, guid: cca6a06cf5f85254c8dff5a81e5b487e, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: Welke tabel hoort bij de formule y=-2(x-4)
+      question: Welke tabel hoort bij de formule y=-2(x-4)?
       correct: Tabel D
       wrong1: Tabel A
       wrong2: Tabel B
@@ -1111,7 +1111,7 @@ MonoBehaviour:
         te vinden. Bijvoorbeeld: y=-2(x-4) dus y=-2x+8, wat betekent dat voor x=0
         de waarde van y 8 is.'
     - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: Which table corresponds to the formula y=-2(x-4)
+      question: Which table corresponds to the formula y=-2(x-4)?
       correct: Table D
       wrong1: Table A
       wrong2: Table B
@@ -1125,7 +1125,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q013
     enabled: 1
     type: 0
@@ -1154,7 +1154,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q014
     enabled: 1
     type: 0
@@ -1182,7 +1182,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q077
     enabled: 1
     type: 0
@@ -1210,14 +1210,14 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q078
     enabled: 1
     type: 0
     image: {fileID: 21300000, guid: 3f72d2d9e90a86c449b12cc7ddb946a6, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
-      question: '"""Gezien de tabel. Welke leerling heeft gelijk?"""""""'
+      question: Gezien de tabel. Welke leerling heeft gelijk?
       correct: 'Marloes: deze lineaire functie heeft helling -2.'
       wrong1: 'Paul: deze lineaire functie gaat door (10,-10).'
       wrong2: 'Ines: deze lineaire functie heeft y-snijpunt 4.'
@@ -1226,7 +1226,7 @@ MonoBehaviour:
         4-8=-4) gedeeld door het verschil tussen de overeenkomstige x-waarden is
         -2.
     - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
-      question: '"Given the table. Which student is right?"'
+      question: Given the table. Which student is right?
       correct: 'Marloes: this linear function has slope -2.'
       wrong1: 'Paul: this linear function passes through (10;-10).'
       wrong2: 'Ines: this linear function has y-intercept 4.'
@@ -1240,7 +1240,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q016
     enabled: 1
     type: 0
@@ -1270,7 +1270,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q017
     enabled: 1
     type: 0
@@ -1298,7 +1298,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q064
     enabled: 1
     type: 0
@@ -1324,7 +1324,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q026
     enabled: 1
     type: 0
@@ -1352,7 +1352,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q027
     enabled: 1
     type: 0
@@ -1378,7 +1378,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q028
     enabled: 1
     type: 0
@@ -1405,7 +1405,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q029
     enabled: 1
     type: 0
@@ -1433,7 +1433,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q030
     enabled: 1
     type: 0
@@ -1461,7 +1461,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q031
     enabled: 1
     type: 0
@@ -1488,7 +1488,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q032
     enabled: 1
     type: 0
@@ -1515,7 +1515,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q033
     enabled: 1
     type: 0
@@ -1541,7 +1541,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q034
     enabled: 1
     type: 0
@@ -1568,7 +1568,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q035
     enabled: 1
     type: 0
@@ -1595,7 +1595,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q036
     enabled: 1
     type: 0
@@ -1623,7 +1623,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q037
     enabled: 1
     type: 0
@@ -1650,7 +1650,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q038
     enabled: 1
     type: 0
@@ -1677,7 +1677,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q039
     enabled: 1
     type: 0
@@ -1703,7 +1703,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q040
     enabled: 1
     type: 0
@@ -1730,7 +1730,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q024
     enabled: 1
     type: 0
@@ -1759,7 +1759,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q025
     enabled: 1
     type: 0
@@ -1788,7 +1788,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q021
     enabled: 1
     type: 0
@@ -1814,7 +1814,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q022
     enabled: 1
     type: 0
@@ -1841,7 +1841,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q023
     enabled: 1
     type: 0
@@ -1869,7 +1869,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q043
     enabled: 1
     type: 0
@@ -1899,7 +1899,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q044
     enabled: 1
     type: 0
@@ -1926,7 +1926,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q045
     enabled: 1
     type: 0
@@ -1954,7 +1954,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q020
     enabled: 1
     type: 0
@@ -1982,7 +1982,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q048
     enabled: 1
     type: 0
@@ -2008,7 +2008,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q049
     enabled: 1
     type: 0
@@ -2034,7 +2034,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q012
     enabled: 1
     type: 0
@@ -2064,7 +2064,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q015
     enabled: 1
     type: 0
@@ -2092,7 +2092,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q050
     enabled: 1
     type: 0
@@ -2119,7 +2119,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q046
     enabled: 1
     type: 0
@@ -2147,7 +2147,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q047
     enabled: 1
     type: 0
@@ -2175,7 +2175,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q008
     enabled: 1
     type: 0
@@ -2207,7 +2207,7 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
-  - internalName: 
+  - ignoreThis: 
     name: Q011
     enabled: 1
     type: 0
