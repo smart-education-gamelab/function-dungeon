@@ -28,7 +28,7 @@ public class Carryable : MonoBehaviour {
         interactionIcon = new GameObject("InteractionIcon");
         SpriteRenderer interactionSpriteRenderer = interactionIcon.AddComponent<SpriteRenderer>();
         interactionSpriteRenderer.sprite = Globals.HandIcon;
-        interactionSpriteRenderer.sortingOrder = 2;
+        interactionSpriteRenderer.sortingOrder = 3;
         interactionSpriteRenderer.sortingLayerName = "Foreground";
         interactionIcon.transform.SetParent(transform);
         interactionIcon.transform.localPosition = new Vector3(-0.01f, 0.17f, 0f); //Hardcoded offset for current hand icon

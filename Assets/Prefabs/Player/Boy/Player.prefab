@@ -358,7 +358,7 @@ MonoBehaviour:
   speedY: 5
   directionX: 0
   directionY: 0
-  anim: {fileID: 0}
+  anim: {fileID: 5716244444172739067}
   itemHoldPosition: {fileID: 2752439187085119878}
   carriableSearchRadius: 0.5
   currentHeldItem: {fileID: 0}
@@ -381,11 +381,6 @@ MonoBehaviour:
   items:
   - {fileID: 0}
   - {fileID: 0}
-  UI:
-  - slots: {fileID: 0}
-    icon: {fileID: 0}
-  - slots: {fileID: 0}
-    icon: {fileID: 0}
 --- !u!114 &798803791
 MonoBehaviour:
   m_ObjectHideFlags: 0
