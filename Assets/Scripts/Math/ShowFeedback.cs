@@ -19,8 +19,8 @@ public class ShowFeedback : MonoBehaviour
             if (Globals.MathManager.answers[i].text != LocalizationManager.Localize(Globals.MathManager.activeQuestion.GetCorrectLocalizationKey(), LocalizationTable.QUESTIONS))
             {
                 btn.GetComponent<Button>().enabled = false;
-            }
-            else
+                btn.GetComponent<Image>().color = Color.white;
+            } else
             {
                 btn.GetComponent<Image>().color = Color.green;
             }
@@ -33,7 +33,7 @@ public class ShowFeedback : MonoBehaviour
 
         LocalizedString localized = new LocalizedString();
         localized.TableReference = "Questions";
-        localized.TableEntryReference = Globals.MathManager.activeQuestion.name + "_FEEDBACK";
+        localized.TableEntryReference = Globals.MathManager.activeQuestion.GetFeedbackLocalizationKey();
 
         //mathManager.math.dialogue.content[0].localizationKey = mathManager.math.feedback;
         Globals.MathManager.activeQuestion.dialogue.content[0].localizationKey = localized;

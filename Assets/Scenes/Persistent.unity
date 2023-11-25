@@ -3145,7 +3145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7e33e2d4f46af34b983acaaab5fba37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  easyQuestions: 1
+  easyQuestions: 0
 --- !u!4 &671783059
 Transform:
   m_ObjectHideFlags: 0

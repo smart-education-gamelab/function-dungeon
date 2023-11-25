@@ -248,15 +248,22 @@ public class QuestionEditorWindow : EditorWindow {
 
     // Displays localization options and allows editing localized text.
     private void DrawLocalizationSection() {
-        if (LocalizationSettings.AvailableLocales.Locales.Count == 0) {
-            GUILayout.Space(10);
-            EditorGUILayout.LabelField("AvailableLocales can't be retrieved from LocalizationSettings");
-            return;
-        }
+        Locale activeLocale = null;
         EditorGUILayout.LabelField("Localization");
-        activeLocalizationTab = GUILayout.Toolbar(activeLocalizationTab, LocalizationSettings.AvailableLocales.Locales.Select(x => x.name).ToArray());
-        GUILayout.BeginVertical(EditorStyles.helpBox);
-        Locale activeLocale = LocalizationSettings.AvailableLocales.Locales[activeLocalizationTab];
+        if (LocalizationSettings.AvailableLocales.Locales.Count == 0) {
+            //AvailableLocales can't be retrieved from LocalizationSettings.
+            //This bug is caused by Unity so we can't always access the available locales.
+            //If that's the case, we fall back to the locales that are already stored in the question.
+            //However, this does mean that any newly added locales (which will very rarely be the case) won't be added to the question straight away.
+            Locale[] locales = GetLocales();
+            activeLocalizationTab = GUILayout.Toolbar(activeLocalizationTab, locales.Select(x => x.name).ToArray());
+            GUILayout.BeginVertical(EditorStyles.helpBox);
+            activeLocale = locales[activeLocalizationTab];
+        } else {
+            activeLocalizationTab = GUILayout.Toolbar(activeLocalizationTab, LocalizationSettings.AvailableLocales.Locales.Select(x => x.name).ToArray());
+            GUILayout.BeginVertical(EditorStyles.helpBox);
+            activeLocale = LocalizationSettings.AvailableLocales.Locales[activeLocalizationTab];
+        }
 
         SerializedProperty localizedQuestionText = FindOrAddLocalizedText(activeLocale);
         FilteredTextArea(localizedQuestionText.FindPropertyRelative("question"), new GUIContent("Question:"));
@@ -267,6 +274,16 @@ public class QuestionEditorWindow : EditorWindow {
         FilteredTextArea(localizedQuestionText.FindPropertyRelative("feedback"), new GUIContent("Feedback:"));
 
         EditorGUILayout.EndVertical();
+    }
+
+    private Locale[] GetLocales() {
+        List<Locale> locales = new List<Locale>();
+        SerializedProperty propTexts = selectedQuestion.FindPropertyRelative("text");
+        for (int i = 0; i < propTexts.arraySize; i++) {
+            SerializedProperty propText = propTexts.GetArrayElementAtIndex(i);
+            locales.Add((Locale)propText.FindPropertyRelative("locale").objectReferenceValue);
+        }
+        return locales.ToArray();
     }
 
     //Find the property with localizations for the current language. If it doesn't exist, add it.

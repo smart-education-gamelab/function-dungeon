@@ -36,10 +36,10 @@ public class TriggerExercise : MonoBehaviour {
         Globals.MathManager.index = index;
         Globals.MathManager.torches = setExercise.Torches();
 
+        UpdateUI();
         if (question.type == QuestionType.MULTIPLECHOICE) {
             Globals.MathManager.displayExerciseUI = true;
             Globals.DialogueManager.StartDialogue(setExercise.dialogue);
-            UpdateUI();
         } else { //If its a custom puzzle question
             if (question.type == QuestionType.MULTIPLECHOICEGAMIFIED) {
                 Globals.MathManager.customPuzzle = Instantiate(Globals.MultipleChoicePuzzlePrefab).GetComponent<CustomPuzzle>();
