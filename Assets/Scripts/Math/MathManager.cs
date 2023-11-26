@@ -35,7 +35,7 @@ public class MathManager : MonoBehaviour {
     [SerializeField] internal Text difficulty;
 
     [Header("After Failure")]
-    internal int wrongAnsw;
+    internal string wrongAnsw;
 
     private void Start() {
         //Ensure we can generate consistent levels with the same questions.
@@ -77,7 +77,7 @@ public class MathManager : MonoBehaviour {
             }
         } else {
             WrongAnswer();
-            wrongAnsw = number;
+            wrongAnsw = answers[number].text;
         }
 
         StartCoroutine(closeUI(1));

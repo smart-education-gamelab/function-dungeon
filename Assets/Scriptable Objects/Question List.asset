@@ -148,7 +148,7 @@ MonoBehaviour:
   - ignoreThis: 
     name: Q007
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: 971338901c3dffc4e9c1288479555268, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -240,7 +240,7 @@ MonoBehaviour:
   - ignoreThis: 
     name: Q041
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: b4b70df0214bc654197c162b98f4d0a8, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -267,7 +267,7 @@ MonoBehaviour:
     variation: 5
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 1
+    used: 0
     puzzlePrefab: {fileID: 0}
   - ignoreThis: 
     name: Q042
@@ -330,7 +330,7 @@ MonoBehaviour:
   - ignoreThis: 
     name: Q052
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: 43e592347b23a54439530823b4845396, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -359,7 +359,7 @@ MonoBehaviour:
   - ignoreThis: 
     name: Q054
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: 4775aa53b998d3f45b756a93a799e165, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -391,7 +391,7 @@ MonoBehaviour:
   - ignoreThis: 
     name: Q055
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: bf276d5124c55c24d8a03b800e9668b6, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -423,7 +423,7 @@ MonoBehaviour:
   - ignoreThis: 
     name: Q056
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: 16bf9fd304de3e84e95174916c6fc398, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}

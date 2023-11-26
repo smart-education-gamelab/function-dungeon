@@ -5,11 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
-using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour {
-    [SerializeField] private PostProcessVolume volume;
+    [SerializeField] private Volume volume;
 
     [Serializable]
     public class UIScreen {
