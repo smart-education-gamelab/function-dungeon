@@ -58,7 +58,7 @@ public class LevelGenerator : MonoBehaviour {
         UpdateAlphabetLookupTable();
         //UpdateMap();
 
-        if (newLevelOnPlay) Generate((int)Time.time, false);
+        if (newLevelOnPlay || Globals.IsInitialized()) Generate((int)Time.time, false, Globals.LevelGenerationVariables);
         else if (Application.isPlaying) Globals.UIManager.BlackScreenFadeOut(2.0f);
     }
 
@@ -74,7 +74,7 @@ public class LevelGenerator : MonoBehaviour {
 
     IEnumerator GenerateCoroutine() {
 #if UNITY_EDITOR
-        EditorSceneManager.MarkAllScenesDirty();
+        if (!Application.isPlaying) EditorSceneManager.MarkAllScenesDirty();
 #endif
         UnityEngine.Random.InitState(generationSeed + generationAttempts);
         lastGenerationWidth = width;
@@ -182,8 +182,8 @@ public class LevelGenerator : MonoBehaviour {
 
     public void Generate(int seed, bool shouldVisualize, GenerationVariables variables = null) {
         this.variables = variables;
-        if (variables != null) SetVariables(variables);
         generationSeed = seed;
+        if (variables != null) SetVariables(variables);
         Time.timeScale = 0;
         visualize = shouldVisualize;
         generationAttempts = 0;
@@ -379,6 +379,8 @@ public class LevelGenerator : MonoBehaviour {
     }
 
     private void SetVariables(GenerationVariables variables) {
+        generationSeed = variables.seed;
+
         Recipe roomsAmountRecipe = GetRecipe("Redirect back to Alleys");
         roomsAmountRecipe.amountOfRedirections = variables.amountOfRooms - 2;
         Recipe cleanupRecipe = GetRecipe("Cleanup");

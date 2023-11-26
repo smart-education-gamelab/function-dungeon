@@ -43,6 +43,9 @@ public class GenerationVariables : ICloneable {
         learningGoalSections.Add(new LearningGoalSectionDefinition(0, Constants.learningGoalLevels.Count - 1));
     }
 
+    public GenerationVariables() {
+    }
+
     public object Clone() {
         GenerationVariables newVariables = (GenerationVariables)MemberwiseClone();
         newVariables.learningGoalSections = new List<LearningGoalSectionDefinition>();

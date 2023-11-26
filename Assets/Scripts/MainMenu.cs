@@ -7,4 +7,8 @@ public class MainMenu : MonoBehaviour {
         Globals.SceneManager.SetScene(level);
         Globals.UIManager.CloseMenu(1.0f);
     }
+
+    public void GenerateLevel() {
+        Globals.UIManager.SetMenu("LevelGenerator");
+    }
 }
