@@ -25,7 +25,7 @@ public class ShowFeedback : MonoBehaviour
                 btn.GetComponent<Image>().color = Color.green;
             }
 
-            if (i == Globals.MathManager.wrongAnsw)
+            if (Globals.MathManager.answers[i].text.Equals(Globals.MathManager.wrongAnsw))
             {
                 btn.GetComponent<Image>().color = Color.red;
             }

@@ -58,7 +58,7 @@ public class LevelGenerator : MonoBehaviour {
         UpdateAlphabetLookupTable();
         //UpdateMap();
 
-        if (newLevelOnPlay || Globals.IsInitialized()) Generate((int)Time.time, false, Globals.LevelGenerationVariables);
+        if (newLevelOnPlay || (Globals.IsInitialized() && Globals.LevelGenerationVariables != null)) Generate((int)Time.time, false, Globals.LevelGenerationVariables);
         else if (Application.isPlaying) Globals.UIManager.BlackScreenFadeOut(2.0f);
     }
 

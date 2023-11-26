@@ -70,7 +70,7 @@ public class MultipleChoicePuzzle : CustomPuzzle {
             } else {
                 closest.text.color = Color.red;
                 MathManager mathManager = FindObjectOfType<MathManager>();
-                Globals.MathManager.wrongAnsw = answerTextPairs.IndexOf(closest);
+                Globals.MathManager.wrongAnsw = closest.text.text;
                 mathManager.questionsWrong++;
                 FindObjectOfType<Teleport>().destination = Globals.PlayerController.transform.position;
                 FindObjectOfType<AudioManager>().Play("Wrong");
