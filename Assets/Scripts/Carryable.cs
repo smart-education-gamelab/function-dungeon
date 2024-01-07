@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public enum CarryableType {
     MovableStone,
@@ -12,9 +13,12 @@ public enum CarryableType {
 [RequireComponent(typeof(Rigidbody2D))]
 public class Carryable : MonoBehaviour {
     public Collider2D objectCollider;
+    public CarryableType type;
+
     private SpriteRenderer spriteRenderer;
     private Color interactableColor = Color.yellow;
-    public CarryableType type;
+    public float maxSnapDistance = 1.25f;
+
     private Color originalColor;
     private Rigidbody2D rb;
     [NonSerialized] public Transform parent; //Stores the parent of the object while its being picked up by the player
@@ -102,5 +106,35 @@ public class Carryable : MonoBehaviour {
     public virtual void OnDrop() {
         objectCollider.gameObject.SetActive(true);
         rb.bodyType = RigidbodyType2D.Dynamic;
+    }
+
+    public void TrySnapToPuzzleFloor(Tilemap tileMap) {
+        Vector3Int centerCellPosition = tileMap.WorldToCell(transform.position);
+
+        Vector3 snapPosition = Vector3.zero;
+        float closestDistance = float.MaxValue;
+
+        // Loop through a 3x3 area around the object.
+        for (int xOffset = -1; xOffset <= 1; xOffset++) {
+            for (int yOffset = -1; yOffset <= 1; yOffset++) {
+                Vector3Int currentCellPosition = centerCellPosition + new Vector3Int(xOffset, yOffset, 0);
+                TileBase tile = tileMap.GetTile(currentCellPosition);
+
+                if (tile != null && tile.name.Contains("Puzzlefloor")) {
+                    Vector3 centerPosition = tileMap.GetCellCenterWorld(currentCellPosition);
+                    float distance = Vector3.Distance(transform.position, centerPosition);
+
+                    if (distance < maxSnapDistance && distance < closestDistance) {
+                        closestDistance = distance;
+                        snapPosition = centerPosition + new Vector3(0f, 0.25f, 0f);
+                    }
+                }
+            }
+        }
+
+        // Check if a valid snapping position was found.
+        if (snapPosition != Vector3.zero) {
+            transform.position = snapPosition;
+        }
     }
 }
