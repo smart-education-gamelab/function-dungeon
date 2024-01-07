@@ -1341,15 +1341,9 @@ PrefabInstance:
         type: 3}
       propertyPath: anim
       value: 
-      objectReference: {fileID: 368202848}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6d3c700575d5a44e8c0bb7df03e8add, type: 3}
---- !u!95 &368202848 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5716244444172739067, guid: a6d3c700575d5a44e8c0bb7df03e8add,
-    type: 3}
-  m_PrefabInstance: {fileID: 368202847}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &431194191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5515830856644488234, guid: 2109665d4cb0ac74a82da5025de9e040,
@@ -4075,9 +4069,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1483663349
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1072785490643722561, guid: 2b3f6777b882e994fa36c4f5416aa471,
     type: 3}
   m_Color: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}

@@ -33,7 +33,7 @@ public class PlayerController : Movement {
 
 
     public virtual void Start() {
-        anim = gameObject.GetComponent<Animator>();
+        anim = gameObject.GetComponentInChildren<Animator>();
 
         allowVerticalInput = true;
         allowHorizontalInput = true;

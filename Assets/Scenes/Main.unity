@@ -4464,6 +4464,11 @@ PrefabInstance:
       propertyPath: UI.Array.data[1].slots
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5716244444172739064, guid: a6d3c700575d5a44e8c0bb7df03e8add,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5716244444172739065, guid: a6d3c700575d5a44e8c0bb7df03e8add,
         type: 3}
       propertyPath: m_RootOrder
