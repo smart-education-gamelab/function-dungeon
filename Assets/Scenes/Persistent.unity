@@ -1844,6 +1844,12 @@ PrefabInstance:
       objectReference: {fileID: 493811103}
     - target: {fileID: 6095014668745944123, guid: 5f64e59ece06ac44282b76cdc4dc94a3,
         type: 3}
+      propertyPath: questionList
+      value: 
+      objectReference: {fileID: 11400000, guid: 6dd59e2dae4066240ae2fe6ed161f791,
+        type: 2}
+    - target: {fileID: 6095014668745944123, guid: 5f64e59ece06ac44282b76cdc4dc94a3,
+        type: 3}
       propertyPath: answers.Array.data[0]
       value: 
       objectReference: {fileID: 493811107}
@@ -4197,7 +4203,7 @@ MonoBehaviour:
     icon: {fileID: 541643044}
   - slots: {fileID: 541643043}
     icon: {fileID: 541643042}
-  handIcon: {fileID: 21300000, guid: 78d6124eb88bfb9438e39f522155fabb, type: 3}
+  handIcon: {fileID: 21300000, guid: 2a5046fd6a1bc594cb63b9dc16976314, type: 3}
   holePrefab: {fileID: 341249878369409598, guid: d9274e803dc820a4882102063152d7ee,
     type: 3}
   multipleChoicePuzzlePrefab: {fileID: 2794574825249174417, guid: cfec08dc727de6f4aa36a0990cf5adac,

@@ -25,6 +25,7 @@ public class Carryable : MonoBehaviour {
 
     private bool isInteractable = false;
     private GameObject interactionIcon;
+    private static Vector3 interactableIconScale = new Vector3(0.25f, 0.25f, 0f);
 
     public virtual void Start() {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -33,12 +34,12 @@ public class Carryable : MonoBehaviour {
 
         interactionIcon = new GameObject("InteractionIcon");
         SpriteRenderer interactionSpriteRenderer = interactionIcon.AddComponent<SpriteRenderer>();
-        interactionSpriteRenderer.sprite = Globals.HandIcon;
+        interactionSpriteRenderer.sprite = Globals.InteractionIcon;
         interactionSpriteRenderer.sortingOrder = 3;
         interactionSpriteRenderer.sortingLayerName = "Foreground";
         interactionIcon.transform.SetParent(transform);
-        interactionIcon.transform.localPosition = new Vector3(-0.01f, 0.17f, 0f); //Hardcoded offset for current hand icon
-        interactionIcon.transform.localScale = new Vector3(0.1f, 0.1f, 0f);
+        interactionIcon.transform.localPosition = new Vector3(0f, 0.25f, 0f); //Hardcoded offset for current hand icon
+        interactionIcon.transform.localScale = interactableIconScale;
         interactionIcon.SetActive(false);
         InitializePhysicsVariables();
     }
@@ -97,6 +98,7 @@ public class Carryable : MonoBehaviour {
     //}
 
     public virtual void OnPickup() {
+        interactionIcon.SetActive(false);
         objectCollider.gameObject.SetActive(false);
         rb.velocity = Vector3.zero;
         rb.angularVelocity = 0;
@@ -108,7 +110,7 @@ public class Carryable : MonoBehaviour {
         rb.bodyType = RigidbodyType2D.Dynamic;
     }
 
-    public void TrySnapToPuzzleFloor(Tilemap tileMap) {
+    public bool TrySnapToPuzzleFloor(Tilemap tileMap) {
         Vector3Int centerCellPosition = tileMap.WorldToCell(transform.position);
 
         Vector3 snapPosition = Vector3.zero;
@@ -135,6 +137,8 @@ public class Carryable : MonoBehaviour {
         // Check if a valid snapping position was found.
         if (snapPosition != Vector3.zero) {
             transform.position = snapPosition;
+            return true;
         }
+        return false;
     }
 }

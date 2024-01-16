@@ -37,7 +37,7 @@ public class Globals : MonoBehaviour {
     public static EndScreen EndScreen => _Instance.endScreen;
     public static RequestUIManager RequestUIManager => _Instance.requestUIManager;
 
-    public static Sprite HandIcon => _Instance.handIcon;
+    public static Sprite InteractionIcon => _Instance.handIcon;
     public static GameObject HolePrefab => _Instance.holePrefab;
     public static GameObject MultipleChoicePuzzlePrefab => _Instance.multipleChoicePuzzlePrefab;
 

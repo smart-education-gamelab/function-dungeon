@@ -53,11 +53,11 @@ Material:
     m_Floats:
     - _DistanceFade: 1.4
     - _EnableExternalAlpha: 0
-    - _FadeAmount: 4
-    - _FadeDistance: 0.37
-    - _LineThickness: 0.025
+    - _FadeAmount: 2.5
+    - _FadeDistance: 1
+    - _LineThickness: 0.03
     m_Colors:
-    - _Color: {r: 0.5801887, g: 0.91586083, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.75964546, b: 0, a: 0.78431374}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

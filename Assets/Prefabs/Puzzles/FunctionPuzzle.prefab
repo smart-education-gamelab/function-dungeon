@@ -1935,6 +1935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectCollider: {fileID: 1609250625164829328}
   type: 1
+  maxSnapDistance: 1.25
   number: 1
 --- !u!1 &2351488343269482752
 GameObject:
@@ -4613,7 +4614,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7b02c77a6fa8f7141a07b38c43c12846, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11746,6 +11747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectCollider: {fileID: 953871496464850920}
   type: 1
+  maxSnapDistance: 1.25
   number: 0.33333334
 --- !u!1 &5430967074138461942
 GameObject:
@@ -11897,6 +11899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectCollider: {fileID: 3284194424714718590}
   type: 1
+  maxSnapDistance: 1.25
   number: 0.5
 --- !u!1 &5981538281887742976
 GameObject:
@@ -26732,7 +26735,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7b02c77a6fa8f7141a07b38c43c12846, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
