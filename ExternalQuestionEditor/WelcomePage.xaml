@@ -1,0 +1,92 @@
+﻿<local:WindowPage x:Class="ExternalQuestionEditor.WelcomePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ExternalQuestionEditor"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid>
+            <Grid x:Name="loadingOverlay" Panel.ZIndex="1" Visibility="Collapsed">
+                <Rectangle Fill="{DynamicResource Foreground}" Opacity="0.5" />
+                <local:Spinner x:Name="spinner" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*" />
+                    <ColumnDefinition Width="40*" MinWidth="380" />
+                    <ColumnDefinition Width="30*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5*" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="15*" />
+                    <RowDefinition Height="40*" MinHeight="100" />
+                    <RowDefinition Height="30*" />
+                </Grid.RowDefinitions>
+                <Viewbox Grid.Row="1" Grid.Column="1">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                            <Label
+                        Padding="0" HorizontalAlignment="Center" Content="Function Dungeon" FontSize="48"
+                        FontWeight="Light"
+                        Foreground="{DynamicResource Text}" />
+                        <Label Grid.Row="1" HorizontalAlignment="Center" Padding="-10" Margin="-10" Content="Question Editor" FontSize="16"
+                        FontWeight="Bold"
+                        Foreground="{DynamicResource Text}"></Label>
+                    </Grid>
+                </Viewbox>
+                <Grid Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition MinHeight="100" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                    </Grid.RowDefinitions>
+                    <Border
+                    Grid.Row="0" AllowDrop="True"
+                    Background="{DynamicResource Foreground}"
+                    BorderThickness="2" CornerRadius="20" Drop="Rectangle_Drop">
+                        <Border.BorderBrush>
+                            <DrawingBrush TileMode="Tile" Viewport="0,0,8,8" ViewportUnits="Absolute">
+                                <DrawingBrush.Drawing>
+                                    <DrawingGroup>
+                                        <GeometryDrawing Brush="{DynamicResource Text}">
+                                            <GeometryDrawing.Geometry>
+                                                <GeometryGroup>
+                                                    <RectangleGeometry Rect="0,0,50,50" />
+                                                    <RectangleGeometry Rect="50,50,50,50" />
+                                                </GeometryGroup>
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                </DrawingBrush.Drawing>
+                            </DrawingBrush>
+                        </Border.BorderBrush>
+                        <StackPanel Height="109" Margin="0,-2" VerticalAlignment="Center">
+                            <Label
+                            Margin="5,0,5,0" HorizontalAlignment="Center" Background="Transparent" Content="Drag-en-drop een .FDQ bestand hier"
+                            FontSize="20"
+                            Style="{StaticResource LabelStyle}" />
+                            <Label
+                            Margin="0,0,0,5" Padding="0" HorizontalAlignment="Center" Background="Transparent"
+                            Content="OF" FontSize="16"
+                            Style="{StaticResource LabelStyle}" />
+                            <Button
+                            MaxWidth="250" Margin="40,0,40,0" AllowDrop="True" Click="OpenFileClick"
+                            Content="Open bestand" Drop="Rectangle_Drop" />
+                        </StackPanel>
+
+                    </Border>
+                    <TextBox Foreground="{DynamicResource Text}" x:Name="fileTextBox" Grid.Row="1" Margin="20,10,20,0" IsReadOnly="True" />
+                    <Button
+                    Grid.Row="2" MaxWidth="300" Margin="20,6,20,0" Click="NieuwClick"
+                    Content="Nieuwe vragenlijst" />
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</local:WindowPage>
