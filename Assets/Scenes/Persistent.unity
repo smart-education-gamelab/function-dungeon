@@ -3156,7 +3156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a21f9dc6fb68c544da53a34d4659d74b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionList: {fileID: 11400000, guid: 8280954d436790c4c9cc62c4effca907, type: 2}
 --- !u!4 &701841323
 Transform:
   m_ObjectHideFlags: 0

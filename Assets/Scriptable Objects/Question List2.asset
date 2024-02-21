@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Question List
   m_EditorClassIdentifier: 
   questions:
-  - name: Q001
+  - ignoreThis: 
+    name: Q001
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -32,11 +35,14 @@ MonoBehaviour:
       feedback: 
     section: x
     variation: 1
-    learningGoal: x
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q002
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q002
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -55,11 +61,14 @@ MonoBehaviour:
       feedback: 
     section: x
     variation: 2
-    learningGoal: x
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q003
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q003
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -78,11 +87,14 @@ MonoBehaviour:
       feedback: 
     section: x
     variation: 3
-    learningGoal: x
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q004
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q004
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -101,11 +113,14 @@ MonoBehaviour:
       feedback: 
     section: x
     variation: 22
-    learningGoal: x
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q005
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q005
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -128,11 +143,14 @@ MonoBehaviour:
         the x) is positive
     section: 1.3
     variation: 4
-    learningGoal: G1
     learningGoalLevel: 2
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q006
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q006
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -155,11 +173,14 @@ MonoBehaviour:
         the x) is negative
     section: 1.3
     variation: 4
-    learningGoal: G1
     learningGoalLevel: 2
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q007
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q007
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 971338901c3dffc4e9c1288479555268, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -190,11 +211,14 @@ MonoBehaviour:
         -2+18=16.
     section: 1.1
     variation: 5
-    learningGoal: G1
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q008
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q008
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -219,11 +243,14 @@ MonoBehaviour:
         is 60 (at x=0 minutes there was y=60 gallon water).
     section: 3.5
     variation: 6
-    learningGoal: G5
     learningGoalLevel: 16
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q009
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q009
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -244,11 +271,14 @@ MonoBehaviour:
       feedback: Q009_image1
     section: x
     variation: 7
-    learningGoal: G3
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q010
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q010
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: dfbf006e6dfc6c741b6807f046efcf44, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -271,11 +301,14 @@ MonoBehaviour:
         the correspondent x-values 5 and 3). '
     section: 2.3
     variation: 8
-    learningGoal: G2
     learningGoalLevel: 6
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q011
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q011
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -295,11 +328,14 @@ MonoBehaviour:
       feedback: 
     section: 3.5
     variation: 32
-    learningGoal: G5
     learningGoalLevel: 16
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q012
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q012
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 2309065906305e14e86b0bf9e341e4f7, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -322,11 +358,14 @@ MonoBehaviour:
         y-intercept is 3.
     section: 3.3
     variation: 9
-    learningGoal: G4
     learningGoalLevel: 14
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q013
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q013
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 6b23b5d95831b4f4594e18b0c855ae08, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -348,11 +387,14 @@ MonoBehaviour:
       feedback: G2
     section: 2.4
     variation: 10
-    learningGoal: G2
     learningGoalLevel: 7
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q014
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q014
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 6b23b5d95831b4f4594e18b0c855ae08, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -373,11 +415,14 @@ MonoBehaviour:
       feedback: Q013_image1
     section: 2.4
     variation: 10
-    learningGoal: G2
     learningGoalLevel: 7
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q015
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q015
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: c14c893f32589944397f92239acfa835, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -398,11 +443,14 @@ MonoBehaviour:
         point (-2
     section: 3.3
     variation: 9
-    learningGoal: G4
     learningGoalLevel: 14
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q016
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q016
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -425,11 +473,14 @@ MonoBehaviour:
         x.
     section: 2.6
     variation: 11
-    learningGoal: G2
     learningGoalLevel: 9
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q017
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q017
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -450,11 +501,14 @@ MonoBehaviour:
       feedback: It is the same because both formulas have 'a' as slope.
     section: 2.6
     variation: 11
-    learningGoal: G2
     learningGoalLevel: 9
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q018
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q018
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -477,11 +531,14 @@ MonoBehaviour:
         (for instance 4:4=1)
     section: 1.4
     variation: 12
-    learningGoal: G1
     learningGoalLevel: 3
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q019
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q019
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -500,11 +557,14 @@ MonoBehaviour:
       feedback: x
     section: x
     variation: 13
-    learningGoal: x
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q020
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q020
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 78e0c48544ff97c4b92781ad119cc925, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -525,11 +585,14 @@ MonoBehaviour:
       feedback: G4
     section: 3.2
     variation: 14
-    learningGoal: G4
     learningGoalLevel: 13
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q021
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q021
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 3d659bda497a2f547bb7f4c4e831362e, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -548,11 +611,14 @@ MonoBehaviour:
       feedback: y= -3x-2 is correct        because its slope is equal (slope is -3)
     section: 3.1
     variation: 15
-    learningGoal: G4
     learningGoalLevel: 12
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q022
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q022
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 4011d5048dfc1ab40881e0c0689ae8e9, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -572,11 +638,14 @@ MonoBehaviour:
       feedback: G4
     section: 3.1
     variation: 15
-    learningGoal: G4
     learningGoalLevel: 12
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q023
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q023
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -597,11 +666,14 @@ MonoBehaviour:
       feedback: A & B have equal slope 2
     section: 3.1
     variation: 16
-    learningGoal: G4
     learningGoalLevel: 12
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q024
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q024
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -623,11 +695,14 @@ MonoBehaviour:
       feedback: 
     section: 2.8
     variation: 17
-    learningGoal: G3
     learningGoalLevel: 11
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q025
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q025
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -649,11 +724,14 @@ MonoBehaviour:
       feedback: 
     section: 2.8
     variation: 17
-    learningGoal: G3
     learningGoalLevel: 11
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q026
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q026
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: eb3dab6c9066c68448469fa65e80d280, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -674,11 +752,14 @@ MonoBehaviour:
         (or value)
     section: 2.7
     variation: 30
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q027
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q027
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: eb3dab6c9066c68448469fa65e80d280, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -697,11 +778,14 @@ MonoBehaviour:
       feedback: functions 2; 3 and 4 is the correct option
     section: 2.7
     variation: 31
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q028
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q028
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: eb3dab6c9066c68448469fa65e80d280, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -721,11 +805,14 @@ MonoBehaviour:
       feedback: Function 3 is correct
     section: 2.7
     variation: 18
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q029
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q029
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 4eebfc4f15284db4b8dd49d9e8350408, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -746,11 +833,14 @@ MonoBehaviour:
         (or value)
     section: 2.7
     variation: 30
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q030
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q030
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 4eebfc4f15284db4b8dd49d9e8350408, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -771,11 +861,14 @@ MonoBehaviour:
       feedback: functions 1; 2 and 4 is the correct option
     section: 2.7
     variation: 31
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q031
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q031
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 4eebfc4f15284db4b8dd49d9e8350408, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -795,11 +888,14 @@ MonoBehaviour:
       feedback: Function 3 is correct
     section: 2.7
     variation: 18
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q032
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q032
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 3906daeb374c7034783205e07be2305a, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -819,11 +915,14 @@ MonoBehaviour:
         (or value)
     section: 2.7
     variation: 30
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q033
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q033
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 3906daeb374c7034783205e07be2305a, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -842,11 +941,14 @@ MonoBehaviour:
       feedback: functions 1; 2 and 4 is the correct option
     section: 2.7
     variation: 31
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q034
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q034
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 3906daeb374c7034783205e07be2305a, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -866,11 +968,14 @@ MonoBehaviour:
       feedback: Function 3 is correct
     section: 2.7
     variation: 18
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q035
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q035
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 95c2e7aed3086654a8b2c591b86714a6, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -890,11 +995,14 @@ MonoBehaviour:
         (or value)
     section: 2.7
     variation: 30
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q036
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q036
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 95c2e7aed3086654a8b2c591b86714a6, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -915,11 +1023,14 @@ MonoBehaviour:
       feedback: functions 2; 3 and 4 is the correct option
     section: 2.7
     variation: 31
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q037
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q037
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 95c2e7aed3086654a8b2c591b86714a6, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -939,11 +1050,14 @@ MonoBehaviour:
       feedback: Function 3 is correct
     section: 2.7
     variation: 18
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q038
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q038
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 93685b865ed4ad548bdaf0fe19dc1797, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -963,11 +1077,14 @@ MonoBehaviour:
         (or value)
     section: 2.7
     variation: 30
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q039
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q039
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 93685b865ed4ad548bdaf0fe19dc1797, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -986,11 +1103,14 @@ MonoBehaviour:
       feedback: Functions 1; 3 and 4 is the correct option
     section: 2.7
     variation: 31
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q040
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q040
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 93685b865ed4ad548bdaf0fe19dc1797, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1010,11 +1130,14 @@ MonoBehaviour:
       feedback: Function 2 is correct
     section: 2.7
     variation: 18
-    learningGoal: G3
     learningGoalLevel: 10
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q041
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q041
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: b4b70df0214bc654197c162b98f4d0a8, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1039,11 +1162,14 @@ MonoBehaviour:
         add the rate 2 to the y-value for x=-1. That is 1+2=3.
     section: 1.1
     variation: 5
-    learningGoal: G1
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q042
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q042
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1068,11 +1194,14 @@ MonoBehaviour:
         add 3 to the y-value for x=-1. That is -4+3=-1.
     section: x
     variation: 5
-    learningGoal: G1
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q043
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q043
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1095,11 +1224,14 @@ MonoBehaviour:
         2y=6x-16. Divide both sides by 2 and you get y=3x-8 '
     section: 3.1
     variation: 15
-    learningGoal: G4
     learningGoalLevel: 12
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q044
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q044
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1119,11 +1251,14 @@ MonoBehaviour:
       feedback: 'They are all parallel because they have equal slope: 5'
     section: 3.1
     variation: 16
-    learningGoal: G4
     learningGoalLevel: 12
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q045
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q045
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1144,11 +1279,14 @@ MonoBehaviour:
       feedback: 5y+3x=29 is correct
     section: 3.1
     variation: 29
-    learningGoal: G5
     learningGoalLevel: 12
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q046
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q046
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1169,11 +1307,14 @@ MonoBehaviour:
       feedback: Option -2 is correct
     section: 3.4
     variation: 21
-    learningGoal: G4
     learningGoalLevel: 15
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q047
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q047
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1194,11 +1335,14 @@ MonoBehaviour:
       feedback: Option -9 is correct
     section: 3.4
     variation: 21
-    learningGoal: G4
     learningGoalLevel: 15
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q048
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q048
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1217,11 +1361,14 @@ MonoBehaviour:
       feedback: 10 is correct
     section: 3.2
     variation: 19
-    learningGoal: G4
     learningGoalLevel: 13
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q049
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q049
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1240,11 +1387,14 @@ MonoBehaviour:
       feedback: '25 is correct. There are several strategies possible. '
     section: 3.2
     variation: 19
-    learningGoal: G4
     learningGoalLevel: 13
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q050
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q050
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: e889367f00eb01941aece871ae2b8a27, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1264,12 +1414,15 @@ MonoBehaviour:
       feedback: y - 2 = 3(x - 1) is correct
     section: 3.3
     variation: 20
-    learningGoal: G4
     learningGoalLevel: 14
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q051
-    image: {fileID: 21300000, guid: 704b543cc6de71c41b456ff0ab90a7fd, type: 3}
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q051
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
       question: Welke van de volgende grafieken stelt een lineaire functie voor?
@@ -1287,11 +1440,14 @@ MonoBehaviour:
       feedback: Graph C is correct
     section: x
     variation: 22
-    learningGoal: G1
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q052
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q052
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 43e592347b23a54439530823b4845396, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1313,11 +1469,14 @@ MonoBehaviour:
         x-values)
     section: 1.1
     variation: 22
-    learningGoal: G1
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q053
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q053
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 4cc7fa545d13f48419aac942b2e7cf31, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1338,11 +1497,14 @@ MonoBehaviour:
         graph) and greater magnitude (the graph is more steep) '
     section: 1.3
     variation: 23
-    learningGoal: G1
     learningGoalLevel: 2
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q054
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q054
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 4775aa53b998d3f45b756a93a799e165, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1367,11 +1529,14 @@ MonoBehaviour:
         pattern 8 has 17 dot"
     section: 1.1
     variation: 24
-    learningGoal: G1
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q055
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q055
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: bf276d5124c55c24d8a03b800e9668b6, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1396,11 +1561,14 @@ MonoBehaviour:
         y=2x+1. For x=85 than is y=171
     section: 1.1
     variation: 24
-    learningGoal: G1
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q056
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q056
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 16bf9fd304de3e84e95174916c6fc398, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1425,11 +1593,14 @@ MonoBehaviour:
         pattern 5 has 21 dot"
     section: 1.1
     variation: 24
-    learningGoal: G1
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q057
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q057
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: bdee144adaee7d4438d20ec5fb46a6e6, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1454,11 +1625,14 @@ MonoBehaviour:
         y=4x+1. For x=25 than is y=101
     section: 1.1
     variation: 24
-    learningGoal: G1
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q058
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q058
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1480,11 +1654,14 @@ MonoBehaviour:
         divided by the difference between the correspondent x-values is 2.
     section: 1.4
     variation: 27
-    learningGoal: G1
     learningGoalLevel: 3
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q059
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q059
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1505,11 +1682,14 @@ MonoBehaviour:
         divided by the difference between the correspondent x-values is -0.5.
     section: 1.4
     variation: 27
-    learningGoal: G1
     learningGoalLevel: 3
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q060
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q060
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1530,11 +1710,14 @@ MonoBehaviour:
         divided by the difference between the correspondent x-values is -1.
     section: 1.4
     variation: 27
-    learningGoal: G1
     learningGoalLevel: 3
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q061
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q061
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1553,11 +1736,14 @@ MonoBehaviour:
       feedback: 0 is the correct answer because the line is horozontal
     section: 1.4
     variation: 27
-    learningGoal: G1
     learningGoalLevel: 3
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q062
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q062
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1578,11 +1764,14 @@ MonoBehaviour:
         divided by the difference between the correspondent x-values is 1.5.
     section: 1.4
     variation: 27
-    learningGoal: G1
     learningGoalLevel: 3
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q063
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q063
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: a00e753abc016714faeb15fd0ded59f7, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1603,11 +1792,14 @@ MonoBehaviour:
         divided by the difference between the correspondent x-values is 1/3
     section: 1.4
     variation: 27
-    learningGoal: G1
     learningGoalLevel: 3
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q064
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q064
+    enabled: 1
+    type: 0
     image: {fileID: 0}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1626,11 +1818,14 @@ MonoBehaviour:
       feedback: the correct option is from Julia
     section: 2.6
     variation: 28
-    learningGoal: G2
     learningGoalLevel: 9
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q065
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q065
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: fe081a691c30bdc4692226f1644ae5b4, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1649,11 +1844,14 @@ MonoBehaviour:
       feedback: a is correct because the line crosses the y-axis by 4
     section: 1.2
     variation: 25
-    learningGoal: G1
     learningGoalLevel: 1
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q066
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q066
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: fe081a691c30bdc4692226f1644ae5b4, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1674,11 +1872,14 @@ MonoBehaviour:
         y-axis by -4
     section: 1.2
     variation: 25
-    learningGoal: G1
     learningGoalLevel: 1
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q067
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q067
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 356803d841d60f343ace53ee4516644e, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1697,11 +1898,14 @@ MonoBehaviour:
       feedback: a is correct because if the x-value is zero the y-value is 4 (y-intercept)
     section: 1.2
     variation: 26
-    learningGoal: G1
     learningGoalLevel: 1
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q068
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q068
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 356803d841d60f343ace53ee4516644e, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1720,11 +1924,14 @@ MonoBehaviour:
       feedback: b is correct because if the x-value is zero the y-value is - 4
     section: 1.2
     variation: 26
-    learningGoal: G1
     learningGoalLevel: 1
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q069
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q069
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 3f3c7365ca26f57498371a74d90b3626, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1743,11 +1950,14 @@ MonoBehaviour:
       feedback: table C is correct because for x=0 the y-value is 4
     section: 1.2
     variation: 33
-    learningGoal: G1
     learningGoalLevel: 1
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q070
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q070
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 3f3c7365ca26f57498371a74d90b3626, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1766,11 +1976,14 @@ MonoBehaviour:
       feedback: d is correct because for x=0 the y-value is -4
     section: 1.2
     variation: 33
-    learningGoal: G1
     learningGoalLevel: 1
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q071
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q071
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 356803d841d60f343ace53ee4516644e, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1791,11 +2004,14 @@ MonoBehaviour:
         are the other y-intercepts)
     section: 1.2
     variation: 26
-    learningGoal: G1
     learningGoalLevel: 1
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q072
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q072
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: ce4ca97ec1740964b84668f95e139c39, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1816,11 +2032,14 @@ MonoBehaviour:
         is -6.
     section: 2.1
     variation: 
-    learningGoal: G2
     learningGoalLevel: 4
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q073
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q073
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 878258bcc178552409e76537a4bf0fea, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1839,11 +2058,14 @@ MonoBehaviour:
       feedback: table d is correct
     section: 2.1
     variation: 
-    learningGoal: G2
     learningGoalLevel: 4
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q074
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q074
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 547e8d99e9123f0419476458efb581b6, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1864,11 +2086,14 @@ MonoBehaviour:
         y-values increases with two units. And the line crosses the y-axis by -4
     section: 2.2
     variation: 34
-    learningGoal: G2
     learningGoalLevel: 5
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q075
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q075
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 182139ebd1cc23e4cb8d7902faeab161, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1889,11 +2114,14 @@ MonoBehaviour:
         and positive y-intercept
     section: 2.2
     variation: 34
-    learningGoal: G2
     learningGoalLevel: 5
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q076
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q076
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 75900d227fa1b8448ad828a476fcc69f, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1916,11 +2144,14 @@ MonoBehaviour:
         not (-1; 1); the slope is positive (not negative).'
     section: 2.2
     variation: 
-    learningGoal: G2
     learningGoalLevel: 5
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q077
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q077
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: fd15b456b1bbba844b5c1f0f6ee85c71, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1941,11 +2172,14 @@ MonoBehaviour:
       feedback: Table D is correct because if x=0 in Table D than is y=-4
     section: 2.5
     variation: 
-    learningGoal: G2
     learningGoalLevel: 8
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q078
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q078
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: 3f72d2d9e90a86c449b12cc7ddb946a6, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1968,11 +2202,14 @@ MonoBehaviour:
         is -2.
     section: 2.5
     variation: 
-    learningGoal: G2
     learningGoalLevel: 8
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
-  - name: Q079
+    puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q079
+    enabled: 1
+    type: 0
     image: {fileID: 21300000, guid: cca6a06cf5f85254c8dff5a81e5b487e, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -1995,7 +2232,7 @@ MonoBehaviour:
         of y is 8. '
     section: 2.3
     variation: 
-    learningGoal: G2
     learningGoalLevel: 6
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
+    puzzlePrefab: {fileID: 0}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questions:
   - ignoreThis: 
-    name: FunctionPuzzle
+    name: FunctionPuzzle_copy
     enabled: 1
     type: 1
     image: {fileID: 0}
@@ -38,6 +38,6 @@ MonoBehaviour:
     variation: 32
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 0
-    puzzlePrefab: {fileID: 2794574825249174417, guid: deff5df608869994a8044588ba8c6d1d,
+    used: 1
+    puzzlePrefab: {fileID: 2794574825249174417, guid: 763ac23f08ed82a47818469df766de3b,
       type: 3}

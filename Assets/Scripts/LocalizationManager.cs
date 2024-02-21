@@ -16,17 +16,16 @@ public enum LocalizationTable {
 }
 
 public class LocalizationManager : MonoBehaviour {
-    public QuestionList questionList;
-
     public IEnumerator Start() {
         yield return LocalizationSettings.InitializationOperation;
         int index = 0;
-        foreach (var question in questionList.questions) {
+        foreach (var question in Globals.MathManager.GetQuestionList().questions) {
             question.uniqueIdentifier = index;
             index++;
             foreach (QuestionText text in question.text) {
                 var stringTable = LocalizationSettings.StringDatabase.GetTableAsync("Questions", text.locale).WaitForCompletion();
                 try {
+                    print(question.GetQuestionLocalizationKey());
                     stringTable.AddEntry(question.GetQuestionLocalizationKey(), text.question);
                     stringTable.AddEntry(question.GetCorrectLocalizationKey(), text.correct);
                     stringTable.AddEntry(question.GetWrong1LocalizationKey(), text.wrong1);
