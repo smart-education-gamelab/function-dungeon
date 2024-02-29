@@ -1,5 +1,5 @@
-# Function Dungeon - Development
+# Function Dungeon - New Graphics
 
-Welcome to the **Development Branch** of the Function Dungeon repository. This branch is the heartbeat of the project, where the latest changes and work-in-progress updates are made.
+Welcome to the **New Graphics Branch** of the Function Dungeon repository. This branch contains an experimental version of Function Dungeon which introduces a new visual style to the game.
 
 [Back to Main Branch](https://github.com/smart-education-gamelab/function-dungeon)
