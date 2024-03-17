@@ -8,7 +8,11 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEditor;
 using System.Threading.Tasks;
+#if UNITY_EDITOR
 using UnityEditor.SceneManagement;
+#endif
+using Mono.Cecil;
+
 
 #if UNITY_EDITOR
 using Unity.EditorCoroutines.Editor;
@@ -33,7 +37,8 @@ public class LevelGenerator : MonoBehaviour {
     [SerializeField] public int lastGenerationWidth = 32;
     [SerializeField] public int lastGenerationHeight = 32;
 
-    [SerializeField] public int xMin, xMax, yMin, yMax;
+    [SerializeField] public int xMin, xMax, yMin, yMax; //Used during generation to know the min and max positions at which any tiles have been changed
+    [SerializeField] public int realXMin, realXMax, realYMin, realYMax; //Used to find the min and max size of the generated level
     [SerializeField] public int xGenerationOffset, yGenerationOffset;
 
     public List<Recipe> recipes = new List<Recipe>();
@@ -56,10 +61,15 @@ public class LevelGenerator : MonoBehaviour {
 
     public void Start() {
         UpdateAlphabetLookupTable();
+        CalculateLevelDimensions();
+
         //UpdateMap();
 
         if (newLevelOnPlay || (Globals.IsInitialized() && Globals.LevelGenerationVariables != null)) Generate((int)Time.time, false, Globals.LevelGenerationVariables);
-        else if (Application.isPlaying) Globals.UIManager.BlackScreenFadeOut(2.0f);
+        else if (Application.isPlaying) {
+            FindObjectOfType<PreviewCamera>(true).GeneratePreview();
+            Globals.UIManager.BlackScreenFadeOut(2.0f);
+        }
     }
 
     private void UpdateAlphabetLookupTable() {
@@ -151,15 +161,29 @@ public class LevelGenerator : MonoBehaviour {
         }
 
         UpdateMap(true);
+        CalculateLevelDimensions();
         Time.timeScale = 1;
         Debug.Log("Succesfully generated level");
-        if (Application.isPlaying)
-            Globals.UIManager.BlackScreenFadeOut(2.0f);
         if (Application.isPlaying) {
+            Globals.UIManager.BlackScreenFadeOut(2.0f);
+            FindObjectOfType<PreviewCamera>(true).GeneratePreview();
             FindObjectOfType<MathSetup>().Awake();
 
             foreach (SetDoors setDoors in FindObjectsOfType<SetDoors>()) {
                 setDoors.Awake();
+            }
+        }
+    }
+
+    private void CalculateLevelDimensions() {
+        for (int y = 0; y < layoutTileMap.size.x; y++) {
+            for (int x = 0; x < layoutTileMap.size.y; x++) {
+                if (layoutTileMap.GetTile(new Vector3Int(x, y, 0)).name != "Dungeon Background") {
+                    realXMin = Mathf.Min(xMin, x);
+                    realXMax = Mathf.Max(xMax, x);
+                    realYMin = Mathf.Min(yMin, y);
+                    realYMax = Mathf.Max(yMax, y);
+                }
             }
         }
     }
@@ -311,14 +335,16 @@ public class LevelGenerator : MonoBehaviour {
                 Symbol newTerminal = alphabetLookupTable[character];
                 if (newTerminal.type != SymbolType.WILDCARD) {
                     tile.character = newTerminal.character;
-                    if (tile.character != 's') {
-                        xMin = Mathf.Min(xMin, x);
-                        xMax = Mathf.Max(xMax, x);
-                        yMin = Mathf.Min(yMin, y);
-                        yMax = Mathf.Max(yMax, y);
-                    }
+                    //if (tile.character != 's') {
+                    //
+                    //}
                 }
-                GrammarPlacedEvent gpEvent = new GrammarPlacedEvent(GetTile(x + xx, y + yy), character, executionCount, rewritePattern);
+                TileDefinition tileDefinition = GetTile(x + xx, y + yy);
+                xMin = Mathf.Min(xMin, tileDefinition.x);
+                xMax = Mathf.Max(xMax, tileDefinition.x);
+                yMin = Mathf.Min(yMin, tileDefinition.y);
+                yMax = Mathf.Max(yMax, tileDefinition.y);
+                GrammarPlacedEvent gpEvent = new GrammarPlacedEvent(tileDefinition, character, executionCount, rewritePattern);
                 grammar.patternPlacedCallback.Invoke(this, gpEvent);
 
                 if (gpEvent.newCharacter != character) {
@@ -411,6 +437,7 @@ public class LevelGenerator : MonoBehaviour {
         GUIStyle style = GUI.skin.textField;
         style.alignment = TextAnchor.MiddleCenter;
 
+        //Handles.DrawSolidRectangleWithOutline(new Rect(xMin, yMin, xMax - xMin, yMax - yMin), UnityEngine.Color.white, UnityEngine.Color.red);
 
         for (int y = 0; y < lastGenerationHeight; y++) {
             for (int x = 0; x < lastGenerationWidth; x++) {

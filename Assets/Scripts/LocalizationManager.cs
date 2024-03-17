@@ -25,7 +25,9 @@ public class LocalizationManager : MonoBehaviour {
             question.uniqueIdentifier = index;
             index++;
             foreach (QuestionText text in question.text) {
-                var stringTable = LocalizationSettings.StringDatabase.GetTableAsync("Questions", text.locale).WaitForCompletion();
+                var loadOperation = LocalizationSettings.StringDatabase.GetTableAsync("Questions", text.locale);
+                yield return loadOperation;
+                var stringTable = loadOperation.Result;
                 try {
                     stringTable.AddEntry(question.GetQuestionLocalizationKey(), text.question);
                     stringTable.AddEntry(question.GetCorrectLocalizationKey(), text.correct);

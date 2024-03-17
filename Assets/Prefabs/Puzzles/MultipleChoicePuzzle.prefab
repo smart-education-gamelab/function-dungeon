@@ -322,8 +322,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   question:
-    internalName: 
+    ignoreThis: 
     name: 
+    enabled: 1
     type: 0
     image: {fileID: 0}
     text: []

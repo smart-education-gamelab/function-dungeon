@@ -1990,6 +1990,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0a55c96e4440849ae262f497025347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  question:
+    ignoreThis: 
+    name: 
+    enabled: 1
+    type: 0
+    image: {fileID: 0}
+    text: []
+    section: 
+    variation: 
+    learningGoalLevel: 0
+    dialogue: {fileID: 0}
+    used: 0
+    puzzlePrefab: {fileID: 0}
   playerSpawnPoint: {fileID: 470768583063491564}
   answeredCorrectly: 0
   laser: {fileID: 5784807385314651385}
