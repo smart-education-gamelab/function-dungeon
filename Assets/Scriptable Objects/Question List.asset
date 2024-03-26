@@ -148,7 +148,7 @@ MonoBehaviour:
   - ignoreThis: 
     name: Q007
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: 971338901c3dffc4e9c1288479555268, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -240,7 +240,7 @@ MonoBehaviour:
   - ignoreThis: 
     name: Q041
     enabled: 1
-    type: 0
+    type: 2
     image: {fileID: 21300000, guid: b4b70df0214bc654197c162b98f4d0a8, type: 3}
     text:
     - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
@@ -267,7 +267,7 @@ MonoBehaviour:
     variation: 5
     learningGoalLevel: 0
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
-    used: 1
+    used: 0
     puzzlePrefab: {fileID: 0}
   - ignoreThis: 
     name: Q042
@@ -2236,3 +2236,32 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
     used: 0
     puzzlePrefab: {fileID: 0}
+  - ignoreThis: 
+    name: Q011_copy
+    enabled: 1
+    type: 1
+    image: {fileID: 0}
+    text:
+    - locale: {fileID: 11400000, guid: 3d2e8e5ba3c7fc144ad985903dec531c, type: 2}
+      question: Een goed groeit gelijkmatig (lineair). Om 12:00 is er 10 kg, om 20:00
+        is er 34 kg. Wat is de hoeveelheid om 16:00?
+      correct: 22kg
+      wrong1: 30kg
+      wrong2: 14kg
+      wrong3: 18kg
+      feedback: 22kg is juist.
+    - locale: {fileID: 11400000, guid: c99b97da9a8de07409d214676f10ca74, type: 2}
+      question: 'A good grows evenly (linear). At 12 o''clock there is 10 kg, at
+        20 o''clock there is 34 kg. What is the quantity at 16 o''clock? '
+      correct: 22kg
+      wrong1: 30kg
+      wrong2: 14kg
+      wrong3: 18kg
+      feedback: 22kg is correct.
+    section: 3.5
+    variation: 32
+    learningGoalLevel: 0
+    dialogue: {fileID: 11400000, guid: 15aca9ca1064545419c7e8102926b8e1, type: 2}
+    used: 0
+    puzzlePrefab: {fileID: 2794574825249174417, guid: deff5df608869994a8044588ba8c6d1d,
+      type: 3}

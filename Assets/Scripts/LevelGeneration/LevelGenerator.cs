@@ -118,7 +118,11 @@ public class LevelGenerator : MonoBehaviour {
             Recipe recipe = recipes[nextRecipe];
             nextRecipe++;
             if (!recipe.enabled) continue;
-            recipe.onRecipeStartCallback?.Invoke(this);
+            try {
+                recipe.onRecipeStartCallback?.Invoke(this);
+            } catch (Exception ex) {
+                //Debug.LogError("Recipe start callback error: " + ex);
+            }
 
             // Process recipe based on its type
             if (recipe.type == RecipeType.GRAMMAR) {
@@ -157,7 +161,12 @@ public class LevelGenerator : MonoBehaviour {
                 if (index == -1) throw new Exception($"Recipe {recipe.name} redirection {recipe.redirectionName} not found!");
                 nextRecipe = index;
             }
-            recipe.onRecipeEndCallback?.Invoke(this);
+
+            try {
+                recipe.onRecipeEndCallback?.Invoke(this);
+            } catch (Exception ex) {
+                //Debug.LogError("Recipe start callback error: " + ex);
+            }
         }
 
         UpdateMap(true);
@@ -222,17 +231,16 @@ public class LevelGenerator : MonoBehaviour {
     }
 
     private void Restart(string reason) {
+        StopCoroutine();
+
         generationAttempts++;
         Debug.LogWarning("Level Generation failed because: " + reason);
-#if UNITY_EDITOR
         if (generationAttempts > 10) {
             Debug.LogError("Level Generation attemts exceeded 10. Failed to generate level.");
             Time.timeScale = 1;
-            return;
+            Globals.SceneManager.SetScene("Main");
         }
-#endif
 
-        StopCoroutine();
         StartCoroutine();
     }
 
