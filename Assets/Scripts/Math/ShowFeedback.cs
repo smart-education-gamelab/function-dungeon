@@ -36,6 +36,7 @@ public class ShowFeedback : MonoBehaviour
         localized.TableEntryReference = Globals.MathManager.activeQuestion.GetFeedbackLocalizationKey();
 
         //mathManager.math.dialogue.content[0].localizationKey = mathManager.math.feedback;
+        Globals.MathManager.activeQuestion.dialogue.content[0].localizationOverride = Globals.MathManager.activeQuestion.GetFeedbackLocalizationKey();
         Globals.MathManager.activeQuestion.dialogue.content[0].localizationKey = localized;
         Globals.DialogueManager.AddDialogue(Globals.MathManager.activeQuestion.dialogue);
     }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Localization;
@@ -16,4 +17,5 @@ public class Content
     public Sprite sprite;
 
     public LocalizedString localizationKey;
+    [NonSerialized] public string localizationOverride = "";
 }

@@ -31,7 +31,10 @@ public class DialogueManager : MonoBehaviour
         for (int i = 0; i < dialogue.content.Length; i++)
         {
             sprites.Enqueue(dialogue.content[i].sprite);
-            sentences.Enqueue(dialogue.content[i].localizationKey.GetLocalizedString());
+
+            if (dialogue.content[i].localizationOverride.Length != 0) {
+                sentences.Enqueue(LocalizationManager.Localize(dialogue.content[i].localizationOverride, LocalizationTable.QUESTIONS));
+            } else sentences.Enqueue(dialogue.content[i].localizationKey.GetLocalizedString());
         }
     }
 
