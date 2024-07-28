@@ -18,7 +18,7 @@ Expanding the game's reach and functionality, there are a number of specialized 
 
 - [Question Editor](https://github.com/smart-education-gamelab/function-dungeon/tree/question-editor): Offers tooling for users to add custom questions.
 - [Localization](https://github.com/smart-education-gamelab/function-dungeon/tree/localization): Adds ingame localization, removing the need for different builds for multiple languages.
-- [Level Generator](https://github.com/smart-education-gamelab/function-dungeon/tree/level-generator): Adds AI-driven procedurally generated levels.
+- [Level Generator](https://github.com/smart-education-gamelab/function-dungeon/tree/level-generator) ([play](https://play.unity.com/en/games/2b76aaf8-5467-442e-82ad-f955dbaa8f6f/function-dungeon-ingame-level-generator)): Adds AI-driven procedurally generated levels.
 
 ### GAMMA Distribution Version
 
