@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System;
+using System.IO;
 
 public class MathManager : MonoBehaviour {
     [NonSerialized] public CustomPuzzle customPuzzle;
@@ -50,6 +51,25 @@ public class MathManager : MonoBehaviour {
 
         dialogueManager = gameObject.GetComponent<DialogueManager>();
         audioManager = gameObject.GetComponent<AudioManager>();
+    }
+
+    private void ExportQuestions() {
+        string str = "";
+        foreach (var question in questionList.questions) {
+            if (!question.enabled || (question.type != QuestionType.MULTIPLECHOICE && question.type != QuestionType.MULTIPLECHOICEGAMIFIED)) continue;
+            str += question.name + "\n";
+            str += "Question: " + question.text[1].question + "\n";
+            str += "Correct answer: " + question.text[1].correct + "\n";
+            str += "Wrong answer 1: " + question.text[1].wrong1 + "\n";
+            str += "Wrong answer 2: " + question.text[1].wrong2 + "\n";
+            str += "Wrong answer 3: " + question.text[1].wrong3 + "\n";
+            str += "Feedback: " + question.text[1].feedback + "\n";
+            if (question.image)
+                str += "Image: " + question.image.name + "\n\n";
+            else str += "\n";
+        }
+
+        GUIUtility.systemCopyBuffer = str;
     }
 
     public void ResetQuestions() {
@@ -127,5 +147,9 @@ public class MathManager : MonoBehaviour {
     private IEnumerator closeUI(float delayTime) {
         yield return new WaitForSeconds(delayTime);
         displayExerciseUI = false;
+    }
+
+    public QuestionList GetQuestionList() {
+        return questionList;
     }
 }

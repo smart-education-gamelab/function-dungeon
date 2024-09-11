@@ -13,12 +13,9 @@ public class ItemRequest : SetRequest
     [SerializeField] private Dialogue successDialogue;
     [SerializeField] private Dialogue failureDialogue;
 
-    private Call call;
-
     private void Start()
     {
         dialogueManager = FindObjectOfType<DialogueManager>();
-        call = FindObjectOfType<Call>();
     }
 
     public void OnInteraction(Inventory target)
@@ -26,6 +23,7 @@ public class ItemRequest : SetRequest
         if (ItemCheck.CheckItems(target, this.request.item))
         {
             dialogueManager.StartDialogue(successDialogue);
+            Call call = FindObjectOfType<Call>(true);
             call.calls++;
             call.score++;
             targetObject.GetComponent<SpriteRenderer>().sprite = updatedSprite;

@@ -5,39 +5,29 @@ using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.UI;
 
-public class ShowFeedback : MonoBehaviour
-{
-    public void Feedback()
-    {
+public class ShowFeedback : MonoBehaviour {
+    public void Feedback() {
+        if (Globals.MathManager.displayExerciseUI) return;
         Globals.MathManager.feedback = true;
         Globals.MathManager.displayExerciseUI = true;
 
-        for (int i = 0; i < Globals.MathManager.answers.Length; i++)
-        {
+        for (int i = 0; i < Globals.MathManager.answers.Length; i++) {
             GameObject btn = Globals.MathManager.answers[i].transform.parent.gameObject;
             btn.SetActive(true);
-            if (Globals.MathManager.answers[i].text != LocalizationManager.Localize(Globals.MathManager.activeQuestion.GetCorrectLocalizationKey(), LocalizationTable.QUESTIONS))
-            {
+            if (Globals.MathManager.answers[i].text != LocalizationManager.Localize(Globals.MathManager.activeQuestion.GetCorrectLocalizationKey(), LocalizationTable.QUESTIONS)) {
                 btn.GetComponent<Button>().enabled = false;
                 btn.GetComponent<Image>().color = Color.white;
-            } else
-            {
+            } else {
                 btn.GetComponent<Image>().color = Color.green;
             }
 
-            if (Globals.MathManager.answers[i].text.Equals(Globals.MathManager.wrongAnsw))
-            {
+            if (Globals.MathManager.answers[i].text.Equals(Globals.MathManager.wrongAnsw)) {
                 btn.GetComponent<Image>().color = Color.red;
             }
         }
 
-        LocalizedString localized = new LocalizedString();
-        localized.TableReference = "Questions";
-        localized.TableEntryReference = Globals.MathManager.activeQuestion.GetFeedbackLocalizationKey();
-
         //mathManager.math.dialogue.content[0].localizationKey = mathManager.math.feedback;
         Globals.MathManager.activeQuestion.dialogue.content[0].localizationOverride = Globals.MathManager.activeQuestion.GetFeedbackLocalizationKey();
-        Globals.MathManager.activeQuestion.dialogue.content[0].localizationKey = localized;
         Globals.DialogueManager.AddDialogue(Globals.MathManager.activeQuestion.dialogue);
     }
 }

@@ -176,12 +176,17 @@ public class LevelGenerator : MonoBehaviour {
         if (Application.isPlaying) {
             Globals.UIManager.BlackScreenFadeOut(2.0f);
             FindObjectOfType<PreviewCamera>(true).GeneratePreview();
-            FindObjectOfType<MathSetup>().Awake();
+            Invoke("InitializeMath", 1.0f);
 
             foreach (SetDoors setDoors in FindObjectsOfType<SetDoors>()) {
                 setDoors.Awake();
             }
         }
+    }
+
+    private void InitializeMath() {
+        FindObjectOfType<MathSetup>().InitializeObjects();
+
     }
 
     private void CalculateLevelDimensions() {

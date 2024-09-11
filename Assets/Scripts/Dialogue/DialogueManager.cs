@@ -8,8 +8,7 @@ using UnityEngine.Localization.Components;
 using UnityEngine.Localization;
 using static PlayerController;
 
-public class DialogueManager : MonoBehaviour
-{
+public class DialogueManager : MonoBehaviour {
     internal bool displayDialogueUI;
 
     [Header("UI")]
@@ -20,16 +19,13 @@ public class DialogueManager : MonoBehaviour
     public Queue<string> sentences;
     private Queue<Sprite> sprites;
 
-    private void Awake()
-    {
+    private void Awake() {
         sentences = new Queue<string>();
         sprites = new Queue<Sprite>();
     }
 
-    public void AddDialogue(Dialogue dialogue)
-    {
-        for (int i = 0; i < dialogue.content.Length; i++)
-        {
+    public void AddDialogue(Dialogue dialogue) {
+        for (int i = 0; i < dialogue.content.Length; i++) {
             sprites.Enqueue(dialogue.content[i].sprite);
 
             if (dialogue.content[i].localizationOverride.Length != 0) {
@@ -39,6 +35,9 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void StartCustomDialogue(Sprite[] customSprites, string[] customSentences) {
+        //if (displayDialogueUI) return;
+        sentences.Clear();
+        sprites.Clear();
         displayDialogueUI = true;
 
         foreach (Sprite sprite in customSprites) sprites.Enqueue(sprite);
@@ -49,29 +48,27 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void StartDialogue(Dialogue dialogue)
-    {
+    public void StartDialogue(Dialogue dialogue) {
+        if (displayDialogueUI) return;
+        sentences.Clear();
+        sprites.Clear();
         displayDialogueUI = true;
         AddDialogue(dialogue);
 
-        if (sentences.Count == dialogue.content.Length)
-        {
+        if (sentences.Count == dialogue.content.Length) {
             DisplayNextSentence();
         }
     }
 
-    public void DisplayNextSentence()
-    {
-        if (sentences.Count == 0)
-        {
+    public void DisplayNextSentence() {
+        if (sentences.Count == 0) {
             EndDialogue();
             return;
         }
 
         string sentence = sentences.Dequeue();
         Sprite sprite = sprites.Dequeue();
-        if (sprite != null)
-        {
+        if (sprite != null) {
             characterSprite.sprite = sprite;
         }
 
@@ -79,19 +76,17 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(TypeSentence(sentence));
     }
 
-    IEnumerator TypeSentence(string sentence)
-    {
+    IEnumerator TypeSentence(string sentence) {
         dialogueText.text = "";
-        foreach (char letter in sentence.ToCharArray())
-        {
+        foreach (char letter in sentence.ToCharArray()) {
             dialogueText.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
     }
 
-    public void EndDialogue()
-    {
+    public void EndDialogue() {
         displayDialogueUI = false;
+        if (Globals.MathManager.feedback) return;
         Globals.PlayerController.state = PlayerState.Idle;
     }
 }

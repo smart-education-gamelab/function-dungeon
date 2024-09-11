@@ -2241,7 +2241,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7b02c77a6fa8f7141a07b38c43c12846, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3170,6 +3170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectCollider: {fileID: 6300576805854622944}
   type: 1
+  maxSnapDistance: 1.25
   customPuzzle: {fileID: 4800111986618670984}
 --- !u!1 &7147466366053181367
 GameObject:
@@ -18257,7 +18258,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7b02c77a6fa8f7141a07b38c43c12846, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

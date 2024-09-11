@@ -6,7 +6,6 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
 using UnityEngine.Rendering;
-using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour {
@@ -71,7 +70,7 @@ public class UIManager : MonoBehaviour {
         blackScreen.blocksRaycasts = false;
         blackScreen.interactable = false;
         return DOTween.To(() => blackScreen.alpha, x => blackScreen.alpha = x, 0.0f, duration).SetUpdate(true)
-            .OnComplete(()=> blackScreenActive = false);
+            .OnComplete(() => blackScreenActive = false);
     }
 
     public void QuitGame() {

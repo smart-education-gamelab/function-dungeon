@@ -43,7 +43,7 @@ public class Globals : MonoBehaviour {
     //Level generation
     public static GenerationVariables LevelGenerationVariables => _Instance.variables;
 
-    public static Sprite HandIcon => _Instance.handIcon;
+    public static Sprite InteractionIcon => _Instance.handIcon;
     public static GameObject HolePrefab => _Instance.holePrefab;
     public static GameObject MultipleChoicePuzzlePrefab => _Instance.multipleChoicePuzzlePrefab;
 

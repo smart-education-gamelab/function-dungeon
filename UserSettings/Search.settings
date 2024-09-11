@@ -16,6 +16,9 @@ scopes = {
 	"last_search.21382318" = "tile"
 	"OpenInspectorPreview.21382318" = "0"
 	"currentGroup.21382318" = "asset"
+	"last_search.DD5CDDE4" = ""
+	"OpenInspectorPreview.DD5CDDE4" = "0"
+	"currentGroup.DD5CDDE4" = "all"
 }
 providers = {
 	at = {
@@ -72,6 +75,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"questi"
 	"st:MENU_GENERATELEVEL"
 	"m"
 	"p"
