@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using System;
+using UnityEditor;
 
 public class EndScreen : MonoBehaviour {
     internal bool displayEndScreen;
@@ -18,8 +19,13 @@ public class EndScreen : MonoBehaviour {
         displayEndScreen = true;
         Globals.EndScreenUI.scoreTxt.text = Globals.MathManager.questionsAnswered.ToString() + " out of " + (FindObjectsOfType<SetExercise>().Length + " questions answered");
         string score = FindObjectOfType<Call>(true).score.ToString();
-        string npcCount = GameObject.FindGameObjectsWithTag("NPC").Length.ToString();
-        Globals.EndScreenUI.helpedTxt.text = score + " out of " + npcCount + " people helped";
+        int actualNPCCount = 0;
+        foreach(GameObject npc in GameObject.FindGameObjectsWithTag("NPC")) {
+            if (npc.activeSelf) {
+                actualNPCCount++;
+            }
+        }
+        Globals.EndScreenUI.helpedTxt.text = score + " out of " + actualNPCCount + " people helped";
         Globals.EndScreenUI.wrongTxt.text = Globals.MathManager.questionsWrong.ToString() + " questions answered incorrectly";
     }
 }

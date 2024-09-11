@@ -20,6 +20,9 @@ public class Globals : MonoBehaviour {
     private EndScreen endScreen;
     private RequestUIManager requestUIManager;
 
+    //Level generation
+    private GenerationVariables variables = null;
+
     [Header("Resources")]
     public Sprite handIcon;
     public GameObject holePrefab;
@@ -36,6 +39,9 @@ public class Globals : MonoBehaviour {
     public static Inventory_UI[] InventoryUI => _Instance.inventoryUI;
     public static EndScreen EndScreen => _Instance.endScreen;
     public static RequestUIManager RequestUIManager => _Instance.requestUIManager;
+
+    //Level generation
+    public static GenerationVariables LevelGenerationVariables => _Instance.variables;
 
     public static Sprite InteractionIcon => _Instance.handIcon;
     public static GameObject HolePrefab => _Instance.holePrefab;
@@ -73,6 +79,10 @@ public class Globals : MonoBehaviour {
         Utils.FindUniqueObject(out mathManager);
         Utils.FindUniqueObject(out endScreen);
         Utils.FindUniqueObject(out requestUIManager);
+    }
+
+    public static void SetLevelGenerationVariables(GenerationVariables variables) {
+        _Instance.variables = variables;
     }
 
     public static Globals GetInstance() {
