@@ -24,11 +24,11 @@ Expanding the game's reach and functionality, there are a number of specialized 
 
 The current official version distributed via GAMMA includes multiple language options:
 
-- [English](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-english) ([play](https://play.unity.com/mg/other/function-dungeon-english))
-- [Dutch](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-dutch) ([play](https://play.unity.com/mg/other/function-dungeon-nl-1))
-- [Greek](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-greek) ([play](https://play.unity.com/mg/other/function-dungeon-greek))
-- [Croatian](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-croatian) ([play](https://play.unity.com/mg/other/function-dungeon-cr))
-- [Finnish](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-finnish) ([play](https://play.unity.com/mg/other/function-dungeon-finnish))
+- [English](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-english) ([play](https://play.unity.com/en/games/719b59d2-c683-4560-8f27-92977634a7a9/function-dungeon-english))
+- [Dutch](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-dutch) ([play](https://play.unity.com/en/games/98f5801e-8933-4351-a46b-1ac7e12e1986/function-dungeon-nl))
+- [Greek](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-greek) ([play](https://play.unity.com/en/games/3c7eddc5-9855-4aec-88fd-91f40d487ea6/function-dungeon-greek))
+- [Croatian](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-croatian) ([play](https://play.unity.com/en/games/d4e649aa-033d-48b9-9016-2a8147820a77/function-dungeon-cr))
+- [Finnish](https://github.com/smart-education-gamelab/function-dungeon/tree/gamma-distributed-finnish) ([play](https://play.unity.com/en/games/c9d32c74-0929-4752-8eda-713366384713/function-dungeon-finnish))
 
 ### Original Version
 
